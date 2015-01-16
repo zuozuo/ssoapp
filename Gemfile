@@ -36,7 +36,7 @@ gem 'zeroclipboard-rails'
 # gem 'phone'
 # gem 'phony_rails'
 
-gem 'prawn'
+# gem 'prawn'
 
 # gem 'rack-cors', :require => 'rack/cors'
 gem 'rack-utf8_sanitizer'
@@ -70,7 +70,7 @@ gem "paperclip", "~> 4.1"
 # gem "paperclip", "= 3.0.4"
 # gem "cocaine", "= 0.3.2" 
 
-gem "select2-rails"
+# gem "select2-rails"
 
 gem "paranoia", "~> 2.0"
 
