@@ -94,10 +94,10 @@ gem 'whenever'
 
 # gem 'activeadmin', github: 'activeadmin'
 
-gem 'quiet_assets', group: :development
-
 group :development, :test do
+  gem 'html2slim'
   gem 'ffaker'
+  gem 'quiet_assets'
   gem 'thin'
   gem 'letter_opener'
   gem 'rspec-rails', '~> 3.0.0'
@@ -132,4 +132,3 @@ gem 'weibo_2'
 # gem 'omniauth-facebook'
 gem 'omniauth-linkedin-oauth2'
 # gem 'omniauth-twitter'
-

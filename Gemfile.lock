@@ -123,6 +123,9 @@ GEM
     hashie (2.0.5)
     hike (1.2.3)
     hirb (0.7.2)
+    hpricot (0.8.6)
+    html2slim (0.1.0)
+      hpricot
     i18n (0.7.0)
     jbuilder (2.2.6)
       activesupport (>= 3.0.0, < 5)
@@ -358,6 +361,7 @@ DEPENDENCIES
   ffaker
   font-awesome-rails
   hirb
+  html2slim
   jbuilder
   jquery-fileupload-rails
   jquery-rails
