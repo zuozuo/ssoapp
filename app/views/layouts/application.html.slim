@@ -3,22 +3,16 @@ html ng-app=""
   head
     title
       | Baozheng
-    = stylesheet_link_tag    'application', media: 'all'
+    = stylesheet_link_tag 'application', media: 'all'
     = javascript_include_tag "application", controller_name
     = csrf_meta_tags
   body
     .nav.navbar.navbar-fixed-top.navbar-default.navbar-lg.top-nav-bar.large role="navigation"
       .navbar-header
-        button.navbar-toggle[type="button" data-toggle="collapse" data-target="#navbar-collapse-01"]
-          span.sr-only
-            | Toggle navigation
-        a.navbar-brand[href="#"]
-          | Flat UI
+        = link_to image_tag('logo-brand.png', size: '76x35'), root_path, class: 'navbar-brand'
       #navbar-collapse-01.collapse.navbar-collapse
         ul.nav.navbar-nav.cl-effect-17
-          li
-            a[href="#fakelink"]
-              | Products
+          li= link_to "订单", root_path
           li
             a[href="#fakelink"]
               | Features
