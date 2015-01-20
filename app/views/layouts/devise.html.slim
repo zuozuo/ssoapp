@@ -1,0 +1,15 @@
+doctype html
+html
+  head
+    title
+      | Baozheng
+    = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true
+    = javascript_include_tag 'application', 'data-turbolinks-track' => true
+    = csrf_meta_tags
+  body.devise
+    .body-container
+      .content.center-block
+        .left.pull-left style='width: 20%'
+          = image_tag 'ss/sss.png'
+        .well.pull-right  style='width: 80%'
+          = yield

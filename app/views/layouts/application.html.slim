@@ -1,10 +1,80 @@
 doctype html
-html
+html ng-app=""
   head
     title
       | Baozheng
-    = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true
-    = javascript_include_tag 'application', 'data-turbolinks-track' => true
+    = stylesheet_link_tag    'application', media: 'all'
+    = javascript_include_tag 'application'
     = csrf_meta_tags
   body
-    = yield
+    /#home.container
+      .header
+        a.menu-icon[href="#"]
+          i.fui-list-columned
+        ul.side-menu
+          h2.title
+            | Menu
+          li.link
+            a[href="#"]
+              | Google
+          li.link
+            a[href="#"]
+              | Twitter
+          li.link
+            a[href="#"]
+              | Facebook
+          li.link
+            a[href="#"]
+              | GitHub
+          li.link
+            a[href="#"]
+              | Reddit
+          li.link
+            a[href="#"]
+              | Tumblr
+    .nav.navbar.navbar-default.navbar-lg.top-nav-bar[role="navigation"]
+      .navbar-header
+        button.navbar-toggle[type="button" data-toggle="collapse" data-target="#navbar-collapse-01"]
+          span.sr-only
+            | Toggle navigation
+        a.navbar-brand[href="#"]
+          | Flat UI
+      #navbar-collapse-01.collapse.navbar-collapse
+        ul.nav.navbar-nav.cl-effect-17
+          li
+            a[href="#fakelink"]
+              | Products
+          li
+            a[href="#fakelink"]
+              | Features
+          li.active
+            a[href="#fakelink"]
+              | Users
+          li
+            a[href="#fakelink"]
+              | Pictures
+        form.navbar-form.navbar-right[action="#" role="search"]
+          .form-group
+            .input-group
+              input#navbarInput-01.form-control[type="search" placeholder="Search"]
+              span.input-group-btn
+                button.btn[type="submit"]
+                  span.fui-search
+    .body-container
+      = yield
+    .bottom-menu
+      .container
+        .row
+          .col-md-2.col-sm-2
+            = image_tag 'flat/bag.svg', size: '45x45', style: 'margin-top: -10px;opacity: 0.7'
+          .col-md-8.col-sm-8
+            ul.bottom-menu-list
+              li= link_to '关于我们', '#'
+              li= link_to '联系我们', '#'
+              li= link_to '服务条款', '#'
+              li= link_to '隐私条款', '#'
+              li= link_to '加入我们', '#'
+          .col-md-2.col-sm-2
+            .bottom-menu-iconic-list
+              li= link_to content_tag(:span, '', class: 'fui-facebook').html_safe, '#'
+              li= link_to content_tag(:span, '', class: 'fui-twitter').html_safe, '#'

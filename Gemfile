@@ -110,8 +110,10 @@ group :development, :test do
   gem 'awesome_print'
 end
 
-gem "font-awesome-rails"
 gem 'rails_config'
+
+# gem 'angularjs-rails-resource', '~> 1.1.1'
+# gem 'angularjs-rails'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
