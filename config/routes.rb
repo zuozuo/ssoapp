@@ -1,4 +1,10 @@
 Rails.application.routes.draw do
+  resources :workers
+
+  resources :customers
+
+  resources :orders
+
   get 'main/index'
   devise_for :users
   root 'main#index'
