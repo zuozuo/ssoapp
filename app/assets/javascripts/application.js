@@ -12,7 +12,8 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require underscore
 //= require twitter/bootstrap
 //= require turbolinks
 //= require flat-ui-pro
-//= require_tree .
+//= require angular

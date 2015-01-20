@@ -4,35 +4,10 @@ html ng-app=""
     title
       | Baozheng
     = stylesheet_link_tag    'application', media: 'all'
-    = javascript_include_tag 'application'
+    = javascript_include_tag "application", controller_name
     = csrf_meta_tags
   body
-    /#home.container
-      .header
-        a.menu-icon[href="#"]
-          i.fui-list-columned
-        ul.side-menu
-          h2.title
-            | Menu
-          li.link
-            a[href="#"]
-              | Google
-          li.link
-            a[href="#"]
-              | Twitter
-          li.link
-            a[href="#"]
-              | Facebook
-          li.link
-            a[href="#"]
-              | GitHub
-          li.link
-            a[href="#"]
-              | Reddit
-          li.link
-            a[href="#"]
-              | Tumblr
-    .nav.navbar.navbar-default.navbar-lg.top-nav-bar[role="navigation"]
+    .nav.navbar.navbar-fixed-top.navbar-default.navbar-lg.top-nav-bar[role="navigation"]
       .navbar-header
         button.navbar-toggle[type="button" data-toggle="collapse" data-target="#navbar-collapse-01"]
           span.sr-only
