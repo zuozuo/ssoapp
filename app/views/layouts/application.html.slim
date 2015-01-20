@@ -7,7 +7,7 @@ html ng-app=""
     = javascript_include_tag "application", controller_name
     = csrf_meta_tags
   body
-    .nav.navbar.navbar-fixed-top.navbar-default.navbar-lg.top-nav-bar[role="navigation"]
+    .nav.navbar.navbar-fixed-top.navbar-default.navbar-lg.top-nav-bar.large role="navigation"
       .navbar-header
         button.navbar-toggle[type="button" data-toggle="collapse" data-target="#navbar-collapse-01"]
           span.sr-only
@@ -53,3 +53,13 @@ html ng-app=""
             .bottom-menu-iconic-list
               li= link_to content_tag(:span, '', class: 'fui-facebook').html_safe, '#'
               li= link_to content_tag(:span, '', class: 'fui-twitter').html_safe, '#'
+    javascript:
+      $(document).on("scroll",function(){
+        if($(document).scrollTop()>100){ 
+          $(".top-nav-bar").removeClass("navbar-lg").addClass("navbar-sm");
+          }
+        else{
+          $(".top-nav-bar").removeClass("navbar-sm").addClass("navbar-lg");
+          }
+        });
+        
