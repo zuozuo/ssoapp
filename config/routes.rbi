@@ -1,8 +1,4 @@
 Rails.application.routes.draw do
-  resources :addresses
-
-  resources :stores
-
   resources :solutionists
 
   resources :workers

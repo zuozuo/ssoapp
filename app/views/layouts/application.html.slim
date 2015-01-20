@@ -12,16 +12,18 @@ html ng-app=""
         = link_to image_tag('logo-brand.png', size: '76x35'), root_path, class: 'navbar-brand'
       #navbar-collapse-01.collapse.navbar-collapse
         ul.nav.navbar-nav.cl-effect-17
-          li= link_to "订单", root_path
-          li
-            a[href="#fakelink"]
-              | Features
-          li.active
-            a[href="#fakelink"]
-              | Users
-          li
-            a[href="#fakelink"]
-              | Pictures
+          li class=active_class('main')
+            = link_to "首页", root_path
+          li class=active_class('orders')
+            = link_to "订单", orders_path
+          li class=active_class('customers')
+            = link_to "会员", customers_path
+          li class=active_class('solutionists')
+            = link_to "方案", solutionists_path
+          li class=active_class('workers')
+            = link_to "工人", workers_path
+          li class=active_class('finances')
+            = link_to "财务统计", finances_path
         form.navbar-form.navbar-right[action="#" role="search"]
           .form-group
             .input-group

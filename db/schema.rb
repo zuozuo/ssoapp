@@ -11,7 +11,19 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150120093035) do
+ActiveRecord::Schema.define(version: 20150120101902) do
+
+  create_table "addresses", force: :cascade do |t|
+    t.integer  "addressable_id",   limit: 4
+    t.string   "addressable_type", limit: 255
+    t.string   "country",          limit: 255, default: ""
+    t.string   "province",         limit: 255, default: ""
+    t.string   "city",             limit: 255, default: ""
+    t.string   "district",         limit: 255, default: ""
+    t.string   "details",          limit: 255, default: ""
+    t.datetime "created_at",                                null: false
+    t.datetime "updated_at",                                null: false
+  end
 
   create_table "customers", force: :cascade do |t|
     t.datetime "created_at", null: false
@@ -21,6 +33,12 @@ ActiveRecord::Schema.define(version: 20150120093035) do
   create_table "orders", force: :cascade do |t|
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+  end
+
+  create_table "stores", force: :cascade do |t|
+    t.string   "name",       limit: 255, default: ""
+    t.datetime "created_at",                          null: false
+    t.datetime "updated_at",                          null: false
   end
 
   create_table "users", force: :cascade do |t|
