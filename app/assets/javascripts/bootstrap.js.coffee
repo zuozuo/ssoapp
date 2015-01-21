@@ -7,3 +7,11 @@ jQuery ->
 
   $(".input-group input.form-control").focusout ->
     $(this).parent().removeClass('focus')
+
+  $('.navbar-dropdown').hover ->
+    $(this).find('.navbar-avatar').addClass('border-bottom-zero');
+    $('#dropdown-menu').stop().slideDown('fast')
+  , ->
+    $(this).find('.navbar-avatar').removeClass('border-bottom-zero');
+    $('#dropdown-menu').stop().slideUp('fast')
+

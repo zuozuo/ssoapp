@@ -17,3 +17,7 @@
 //= require flat-ui-pro
 //= require bootstrap
 //= require angular
+//= require_tree ./services/global
+//= require_tree ./filters/global
+//= require_tree ./controllers/global
+//= require_tree ./directives/global

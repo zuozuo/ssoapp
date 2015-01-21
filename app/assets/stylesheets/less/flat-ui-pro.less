@@ -148,6 +148,35 @@ body.devise {
 	transform: translateY(0px);
 }
 
+.border-bottom-zero {
+  .border-bottom-radius(0px);
+}
+
+.navbar-dropdown {
+  .navbar-avatar {
+    padding: 13px 20px;
+    margin-right: 20px;
+    span.caret {
+      color: #fff;  
+    }
+  }
+  ul.dropdown-menu {
+    min-width: 138px;
+    margin-right: 20px;
+    .border-top-radius(0px);
+    border: 1px solid @gray-light;
+    border-top-width: 0px;
+    margin-top: 0px;
+    li {
+      a {
+        &:hover {
+          padding-left: 25px;
+        }
+      }
+    }
+  }
+}
+
 .navbar-form {
 	.form-group {
 		.input-group.focus {
@@ -157,4 +186,80 @@ body.devise {
 			}
 		}
 	}
+}
+
+li {
+  a {
+    span.glyph {
+      position: relative;
+      top: 2px;
+      margin-right: 3px;
+    }
+  }  
+}
+
+.main-content {
+  padding-top: 0px;
+  #sidebar {
+    background-color: @brand-primary;
+    position: absolute;
+    height: 100%;
+    left: 0;
+    width: 207px;
+    overflow: auto;
+    ul {
+      background: inherit;
+      padding-top: 7px;
+      li.nav-header {
+        border-bottom: 2px solid @asbestos;
+        color: @inverse;
+        padding: 20px;
+      }
+      li.active {
+        a {
+          color: @navbar-bg;
+          background: @midnight-blue;
+          &:hover {
+            background: @inverse;
+          }
+        }
+      }
+      li {
+        margin-bottom: 0px;
+        a {
+          border-bottom: 2px solid @midnight-blue;
+          color: #fff;
+          padding: 20px;
+          &:hover {
+            color: @navbar-bg;  
+            opacity: .8;
+            padding-left: 28px;
+          }
+        }  
+      }
+    }
+  }
+
+  #content {
+    position: absolute;
+    padding-top: 40px;
+    top: 35px;
+    bottom: 0;
+    left: 208px /* 200 + 6*/;
+    right: 0;
+    overflow: hidden;
+    color: #FFF;
+  }
+
+  #sidebar-resizer {
+    background-color: #666;
+    height: 100%;
+    position: absolute;
+    left: 207px;
+    width: 1px;
+    cursor: e-resize;
+  }
+  #sidebar-resizer:hover, #preview-resizer:hover {
+    background-color: #AAA;
+  }
 }

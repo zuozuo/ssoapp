@@ -1,19 +1,26 @@
-h1 Listing orders
+.main-content ng-controller="OrdersController as orders"
+  #sidebar
+    ul.nav.nav-list.nav-list-vivid
+      li.active
+        a[href="#"]
+          div
+            span.fui-list-bulleted.glyph
+            span.text 订单列表
+      li
+        a[href="#"]
+          div
+            span.glyphicon.glyphicon-import.glyph
+            span.text 取货提醒
+      li
+        a[href="#"]
+          div
+            span.glyphicon.glyphicon-export.glyph
+            span.text 送货提醒
+      li
+        a[href="#"]
+          div
+            span.glyphicon.glyphicon-gift.glyph
+            span.text 物品分类
+  #content
 
-table
-  thead
-    tr
-      th
-      th
-      th
-
-  tbody
-    - @orders.each do |order|
-      tr
-        td = link_to 'Show', order
-        td = link_to 'Edit', edit_order_path(order)
-        td = link_to 'Destroy', order, data: {:confirm => 'Are you sure?'}, :method => :delete
-
-br
-
-= link_to 'New Order', new_order_path
+  #sidebar-resizer resizer="vertical" resizer-width="2" resizer-left="#sidebar" resizer-right="#content" resizer-max="400"

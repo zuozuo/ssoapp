@@ -1,12 +1,12 @@
-.container[ng-controller="IndexCtrl"]
+.container[ng-controller="IndexCtrl as main"]
   h1.text-center
     | My blog
-  .row[ng-repeat="post in data.posts"]
+  .row[ng-repeat="post in main.data.posts"]
     h2
       | {{post.title}}
     p
       | {{post.contents}}
-  .row[ng-repeat="post in data.posts"]
+  .row[ng-repeat="post in main.data.posts"]
     h2
       | {{post.title}}
     p
