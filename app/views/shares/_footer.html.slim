@@ -13,8 +13,11 @@
           li= link_to '加入我们', '#'
       .col-md-2.col-sm-2
         .bottom-menu-iconic-list
-          li= link_to content_tag(:span, '', class: 'fui-facebook').html_safe, '#'
-          li= link_to content_tag(:span, '', class: 'fui-twitter').html_safe, '#'
+          li= link_to image_tag('wechat_icon.png', size: '30x30', style: 'opacity: 0.5'), '#'
+          li= link_to image_tag('weibo_icon.png', size: '30x30', style: 'opacity: 0.5'), '#'
+
+
+
 /javascript:
   $(document).on("scroll",function(){
     if($(document).scrollTop()>0){ 

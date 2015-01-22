@@ -12,6 +12,7 @@
  *
  *= require bootstrap_and_overrides
  *= require less/flat-ui-pro
+ *= require animate
  *= require_self
  */
 
@@ -123,4 +124,13 @@ ul.side-menu li a {
   margin: 0;
   height: inherit;
   line-height: inherit;
+}
+
+.pulse {
+  animation-name: pulse;
+  -webkit-animation-name: pulse;
+  animation-duration: 2.5s;
+  -webkit-animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
 }
