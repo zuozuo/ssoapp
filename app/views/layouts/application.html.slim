@@ -9,13 +9,13 @@ html ng-app=controller_name
   body
     .nav.navbar.navbar-fixed-top.navbar-default.navbar-lg.top-nav-bar.large role="navigation"
       .navbar-header
-        = link_to image_tag('logo-brand.png', size: '76x35'), root_path, class: 'navbar-brand'
+        = link_to image_tag('logo-white-all.png', size: '100x55'), root_path, class: 'navbar-brand'
       #navbar-collapse-01.collapse.navbar-collapse
         ul.nav.navbar-nav.cl-effect-17
           li class=active_class('orders')
             = link_to "订单", orders_path
           li class=active_class('customers')
-            = link_to "会员", customers_path
+            = link_to "顾客", customers_path
           li class=active_class('solutionists')
             = link_to "方案", solutionists_path
           li class=active_class('workers')
@@ -37,6 +37,11 @@ html ng-app=controller_name
                 div
                   span.fui-gear.glyph
                   span.text  账号设置
+              li
+                = link_to '#'
+                  div
+                    span.fui-windows.glyph
+                    span.text 历史订单
               li.divider
               li= link_to sign_out_path do
                 div
@@ -51,3 +56,4 @@ html ng-app=controller_name
                   span.fui-search
     .body-container
       = yield
+    = render 'shares/footer'

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150121064516) do
+ActiveRecord::Schema.define(version: 20150122022832) do
 
   create_table "addresses", force: :cascade do |t|
     t.integer  "addressable_id",   limit: 4
@@ -67,6 +67,7 @@ ActiveRecord::Schema.define(version: 20150121064516) do
     t.datetime "avatar_updated_at"
     t.integer  "store_id",               limit: 4
     t.boolean  "gender",                 limit: 1,   default: false
+    t.string   "weixin",                 limit: 255, default: ""
   end
 
   add_index "users", ["email"], name: "index_users_on_email", unique: true, using: :btree

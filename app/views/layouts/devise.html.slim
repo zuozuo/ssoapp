@@ -9,7 +9,9 @@ html
   body.devise
     .body-container
       .content.center-block
-        .left.pull-left style='width: 20%'
-          = image_tag 'ss/sss.png'
-        .well.pull-right  style='width: 80%'
+        .left.pull-left.text-center
+          = link_to image_tag('logo-white-all.png', size: '150x83'), root_path
+          h6 欢迎来到包拯
+        .right.well.pull-right  style='width: 70%'
           = yield
+    = render 'shares/footer'

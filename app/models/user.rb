@@ -8,4 +8,12 @@ class User < ActiveRecord::Base
   validates_attachment_content_type :avatar, :content_type => /\Aimage\/.*\Z/
 
   belongs_to :store
+
+  def admin?
+    type == 'Admin'
+  end
+
+  def show_gender
+    gender ? "男" : "女"
+  end
 end

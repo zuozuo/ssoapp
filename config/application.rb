@@ -18,6 +18,14 @@ module Baozheng
 
     # The default locale is :en and all translations from config/locales/*.rb,yml are auto loaded.
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
-    # config.i18n.default_locale = :de
+    # config.i18n.default_locale = 'zh-cn'
+    config.time_zone = 'Beijing'
+    config.active_record.default_timezone = :local
+    config.autoload_paths << Rails.root.join('lib')
+    
+    # The default locale is :en and all translations from config/locales/*.rb,yml are auto loaded.
+    config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
+    config.i18n.default_locale = 'zh-cn'
+
   end
 end
