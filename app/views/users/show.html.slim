@@ -21,13 +21,13 @@
           div
             span.fui-lock.glyph
             span.text 修改密码
-      li ng-click='value=!value'
+      li
         = link_to '#'
           div
             span.fui-mail.glyph
             span.text 邮件通知
-  #content ng-init='value=true'
-    .user-info-block.well.center-block.bounce-in-left ng-if='value'
+  #content
+    .user-info-block.well.center-block
       .left.pull-left.avatar
         = user_avatar(@user, size: '120x120')
       .right.pull-left.user-info

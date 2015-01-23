@@ -18,6 +18,7 @@
 //= require bootstrap
 //= require angular
 //= require angular-animate
+//= require angular-route
 //= require_tree ./services/global
 //= require_tree ./filters/global
 //= require_tree ./controllers/global

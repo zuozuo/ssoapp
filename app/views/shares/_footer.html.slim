@@ -11,12 +11,15 @@
           li= link_to '服务条款', '#'
           li= link_to '隐私条款', '#'
           li= link_to '加入我们', '#'
-      .col-md-2.col-sm-2
+      .col-md-2.col-sm-2 ng-init="wechat=false"
         .bottom-menu-iconic-list
-          li= link_to image_tag('wechat_icon.png', size: '30x30', style: 'opacity: 0.5'), '#'
-          li= link_to image_tag('weibo_icon.png', size: '30x30', style: 'opacity: 0.5'), '#'
-
-
+          .left.pull-right
+            li ng-mouseover='wechat=true' ng-mouseleave='wechat=false'
+              = link_to image_tag('wechat_icon.png'), '#'
+          .right.pull-right
+            li= link_to image_tag('weibo_icon.png'), 'http://www.weibo.com/u/3304382227', target: '_blank', title: '点击关注包拯官方微博', class: 'has-tooltip'
+      .wechat-qrcode.bounce-in ng-if="wechat"
+        = image_tag 'qrcode.png', size: '150x150'
 
 /javascript:
   $(document).on("scroll",function(){
@@ -27,4 +30,3 @@
       $(".top-nav-bar").removeClass("navbar-sm").addClass("navbar-lg");
       }
     });
-

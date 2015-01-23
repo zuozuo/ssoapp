@@ -79,4 +79,10 @@ Rails.application.configure do
 
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
+
+
+  # Of course you can also download the files and put them somewhere in app/assets/javascripts/. 
+  # Unfortunately the asset pipeline may break some of your AngularJS code due to renaming. 
+  # To prevent that, put the following line into your config/environments/production.rb
+  config.assets.js_compressor = Uglifier.new(mangle: false)
 end

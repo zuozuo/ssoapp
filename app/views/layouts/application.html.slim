@@ -1,10 +1,10 @@
 doctype html
-html ng-app=controller_name
+html ng-app='baozheng'
   head
     title
       | Baozheng
     = stylesheet_link_tag 'application', media: 'all'
-    = javascript_include_tag "application", controller_name
+    = javascript_include_tag "application", 'app', controller_name
     = csrf_meta_tags
   body
     .nav.navbar.navbar-fixed-top.navbar-default.navbar-lg.top-nav-bar.large role="navigation"

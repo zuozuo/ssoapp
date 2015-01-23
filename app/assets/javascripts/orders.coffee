@@ -1,4 +1,2 @@
-orders = angular.module('orders', ['resizer'])
-
-orders.controller('OrdersController', ->
+app.controller('OrdersController', ->
 )
