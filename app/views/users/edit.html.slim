@@ -27,13 +27,12 @@
             span.fui-mail.glyph
             span.text 邮件通知
   #content ng-init='value=true'
-    .user-info-block.well.center-block
-      = simple_form_for(@user, url: user_path(@user)) do |f|
-        .form-inputs
-          /= f.error_notification
-          = f.input :name
-          = f.input :email
-
-        .form-actions
-          = f.button :submit
+    .user-info-block.well.center-block[ng-view]
+       = simple_form_for(@user, url: user_path(@user)) do |f|
+         .form-inputs
+           /= f.error_notification
+           = f.input :name
+           = f.input :email
+         .form-actions
+           = f.button :submit
   #sidebar-resizer resizer="vertical" resizer-width="2" resizer-left="#sidebar" resizer-right="#content" resizer-max="400"

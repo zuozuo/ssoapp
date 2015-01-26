@@ -1,0 +1,18 @@
+//= require_tree ./controllers/users
+
+app = window.app
+
+app.config ($routeProvider, $locationProvider) ->
+  $locationProvider.html5Mode(true)
+  $routeProvider
+    .when("/users/:id",
+      controller: "UsersShowController"
+      templateUrl: "<%= asset_path("users/show.html") %>"
+    ).when("/users/:userId/edit",
+      controller: "UsersEditController"
+      templateUrl: "<%= asset_path('users/form.html')%>"
+    )
+
+app.controller('UsersController', ($scope, $routeParams) ->
+  console.log $routeParams.id
+)

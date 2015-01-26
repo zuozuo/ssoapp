@@ -1,4 +1,4 @@
-.main-content ng-controller="UsersController as users"
+.main-content
   #sidebar
     ul.nav.nav-list.nav-list-vivid
       li
@@ -12,7 +12,7 @@
             span.fui-user.glyph
             span.text 个人信息
       li
-        = link_to '#'
+        = link_to '#edit/1'
           div
             span.fui-photo.glyph
             span.text 上传头像
@@ -26,25 +26,5 @@
           div
             span.fui-mail.glyph
             span.text 邮件通知
-  #content
-    .user-info-block.well.center-block
-      .left.pull-left.avatar
-        = user_avatar(@user, size: '120x120')
-      .right.pull-left.user-info
-        .name
-          = @user.name
-          = @user.show_gender
-          = link_to edit_user_path(@user) do
-            span.glyphicon.glyphicon-edit
-        .contact
-          .email
-            span.desc 邮箱
-            span.content= @user.email
-          .phone
-            span.desc 电话
-            span.content= @user.phone
-          .weixin
-            span.desc 微信
-            span.content= @user.weixin
-      .clearfix
+  #content.page class="{{pageClass}}" ng-view=''
   #sidebar-resizer resizer="vertical" resizer-width="2" resizer-left="#sidebar" resizer-right="#content" resizer-max="400"

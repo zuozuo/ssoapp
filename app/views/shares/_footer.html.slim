@@ -18,7 +18,7 @@
               = link_to image_tag('wechat_icon.png'), '#'
           .right.pull-right
             li= link_to image_tag('weibo_icon.png'), 'http://www.weibo.com/u/3304382227', target: '_blank', title: '点击关注包拯官方微博', class: 'has-tooltip'
-      .wechat-qrcode.bounce-in ng-if="wechat"
+      .wechat-qrcode.animate-pulse ng-if="wechat"
         = image_tag 'qrcode.png', size: '150x150'
 
 /javascript:

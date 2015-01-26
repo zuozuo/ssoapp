@@ -1,7 +1,2 @@
 window.app = angular.module "baozheng", ['resizer', 'ngAnimate', 'ngRoute']
 
-app.config ($routeProvider, $locationProvider) ->
-  $locationProvider.html5Mode(true)
-  $routeProvider
-    .when "/users/:userId",
-      templateUrl: "<%= asset_path("welcome.html") %>"

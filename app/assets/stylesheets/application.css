@@ -13,6 +13,12 @@
  *= require bootstrap_and_overrides
  *= require less/flat-ui-pro
  *= require animate
+ *= require custom-animate
+ *= require devise
+ *= require app
+ *= require footer
+ *= require top-navbar
+ *= require users
  *= require_self
  */
 
@@ -45,6 +51,7 @@ body {
   font-family: 'Montserrat', serif;
 	/* background-color: #00CDAE; */
 }
+
 .header {
   margin-bottom: 40px;
   position: relative;
@@ -104,6 +111,7 @@ ul.side-menu li.row {
   -webkit-transition: none;
   transition: none;
 }
+
 ul.side-menu h2.title {
   text-align: left;
   padding: 0 20px;
@@ -124,13 +132,4 @@ ul.side-menu li a {
   margin: 0;
   height: inherit;
   line-height: inherit;
-}
-
-.pulse {
-  animation-name: pulse;
-  -webkit-animation-name: pulse;
-  animation-duration: 2.5s;
-  -webkit-animation-duration: 2.5s;
-  animation-iteration-count: infinite;
-  -webkit-animation-iteration-count: infinite;
 }

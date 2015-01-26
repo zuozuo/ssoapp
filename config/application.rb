@@ -27,5 +27,8 @@ module Baozheng
     config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
     config.i18n.default_locale = 'zh-cn'
 
+
+    config.less.paths << "#{Rails.root}/lib/less/protractor/stylesheets"
+    config.less.compress = true
   end
 end
