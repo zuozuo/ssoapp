@@ -23,6 +23,8 @@ gem 'jbuilder'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc',          group: :doc
 
+gem 'grape'
+
 gem "browser"
 
 gem 'devise'
@@ -95,6 +97,7 @@ gem 'whenever'
 # gem 'activeadmin', github: 'activeadmin'
 
 group :development, :test do
+  gem 'better_errors'
   gem 'html2slim'
   gem 'ffaker'
   gem 'quiet_assets'
@@ -112,8 +115,12 @@ end
 
 gem 'rails_config'
 
-# gem 'angularjs-rails-resource', '~> 1.1.1'
-# gem 'angularjs-rails'
+gem 'angularjs-rails-resource', '~> 1.1.1'
+
+# source 'https://rails-assets.org' do
+#   gem 'rails-assets-angular'
+# end
+
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'

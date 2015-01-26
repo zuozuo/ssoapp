@@ -16,3 +16,9 @@ app.config ($routeProvider, $locationProvider) ->
 app.controller('UsersController', ($scope, $routeParams) ->
   console.log $routeParams.id
 )
+
+app.factory "User", (railsResourceFactory) ->
+  return railsResourceFactory(
+    url: "/api/v1/users"
+    name: "user"
+  )

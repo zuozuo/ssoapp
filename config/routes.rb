@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+
+  mount API::Root => '/'
+
   resources :addresses
 
   resources :stores
@@ -15,6 +18,7 @@ Rails.application.routes.draw do
 
 
   get 'main/index'
+
   devise_for :users
   resources :users
   root 'orders#index'

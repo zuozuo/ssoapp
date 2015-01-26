@@ -1,3 +1,5 @@
+require 'middleware/turbo_dev'
+
 Rails.application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
 
@@ -43,5 +45,7 @@ Rails.application.configure do
   console do
     ActiveRecord::Base.connection
   end
+  #
+   config.middleware.insert 0, Middleware::TurboDev
 
 end
