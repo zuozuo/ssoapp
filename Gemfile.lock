@@ -88,6 +88,7 @@ GEM
     capistrano-rails (1.1.2)
       capistrano (~> 3.1)
       capistrano-bundler (~> 1.1)
+    chronic (0.10.2)
     climate_control (0.0.3)
       activesupport (>= 3.0)
     cocaine (0.5.5)
@@ -361,6 +362,8 @@ GEM
       multi_json (~> 1)
       oauth2 (~> 0.9.1)
       rest-client (~> 1.6.7)
+    whenever (0.9.4)
+      chronic (>= 0.6.3)
     will_paginate (3.0.7)
     will_paginate-bootstrap (1.0.1)
       will_paginate (>= 3.0.3)
@@ -427,6 +430,7 @@ DEPENDENCIES
   twitter-bootstrap-rails!
   uglifier
   weibo_2
+  whenever
   will_paginate (~> 3.0.6)
   will_paginate-bootstrap
   zeroclipboard-rails
