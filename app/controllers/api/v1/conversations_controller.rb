@@ -1,5 +1,5 @@
 class Api::V1::ConversationsController < Api::V1::BaseController
-  doorkeeper_for :all
+  before_action :doorkeeper_authorize!
 
   respond_to :json
 

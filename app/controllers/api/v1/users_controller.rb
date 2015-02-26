@@ -1,7 +1,7 @@
 class Api::V1::UsersController < Api::V1::BaseController
-  doorkeeper_for :all
 
   skip_before_action :authenticate_user!
+  before_action :doorkeeper_authorize!
   
   respond_to :json
 

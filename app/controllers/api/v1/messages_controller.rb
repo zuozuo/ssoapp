@@ -1,7 +1,7 @@
 class Api::V1::MessagesController < Api::V1::BaseController
   before_filter :_conversation
 
-  doorkeeper_for :all
+  before_action :doorkeeper_authorize!
 
   respond_to :json
 
