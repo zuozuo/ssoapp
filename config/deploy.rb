@@ -31,8 +31,8 @@ set :linked_files, %w{config/database.yml config/secrets.yml}
 # Default value for linked_dirs is []
 set :linked_dirs, %w{bin log tmp/pids tmp/cache tmp/sockets vendor/bundle public/system}
 
-set :delayed_job_server_role, :app
-set :delayed_job_args, "-n 1"
+# set :delayed_job_server_role, :app
+# set :delayed_job_args, "-n 1"
 
 
 # Default value for default_env is {}
@@ -54,10 +54,10 @@ namespace :deploy do
   desc 'Restart application'
   task :restart do
     on roles(:app), in: :sequence, wait: 5 do
-      invoke 'delayed_job:restart'
+      # invoke 'delayed_job:restart'
       # Your restart mechanism here, for example:
       execute :touch, release_path.join('tmp/restart.txt')
-      invoke 'delayed_job:restart'
+      # invoke 'delayed_job:restart'
     end
   end
 
@@ -68,7 +68,7 @@ namespace :deploy do
   after :restart, :clear_cache do
     on roles(:web), in: :groups, limit: 3, wait: 10 do
       # Here we can do anything such as:
-      invoke 'delayed_job:restart'                                                
+      # invoke 'delayed_job:restart'                                                
 
       within release_path do
         # execute :rake, 'cache:clear'
