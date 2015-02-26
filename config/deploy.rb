@@ -1,15 +1,15 @@
 # config valid only for Capistrano 3.1
 lock '3.1.0'
 
-set :application, 'linkedCHN'
-set :repo_url, 'git@github.com:rongzq08/LinkedChn_Code.git'
+set :application, 'ssoapp'
+set :repo_url, 'git@github.com:zuozuo/ssoapp.git'
 # set :branch, fetch(:branch, "master")
 
 # Default branch is :master
 ask :branch, proc { `git rev-parse --abbrev-ref HEAD`.chomp }
 
 # Default deploy_to directory is /var/www/my_app
-set :deploy_to, '/home/ubuntu/linkedCHN'
+set :deploy_to, '/home/deploy/ssoapp'
 
 set :whenever_identifier, ->{ "#{fetch(:application)}_#{fetch(:stage)}" }
 
