@@ -1,0 +1,23 @@
+- if @users.blank?
+  .well
+    h4 没有搜索到相关用户
+- else
+  table.table.table-bordered
+    thead
+      tr
+        th
+          | Id
+        th
+          | 姓名
+        th
+          | 电话
+        th
+          | 邮箱
+    tbody
+      - @users.each_with_index do |user, i|
+        tr class="#{%w(success danger warning info)[i%4]}"
+          td= user.id
+          td= user.name
+          td= user.phone
+          td= user.email
+  = will_paginate(@users)

@@ -1,35 +1,29 @@
 doctype html
-html ng-app='baozheng'
+html
   head
     title
-      | Baozheng
+      | xxxxx
     = stylesheet_link_tag 'application', media: 'all'
     = javascript_include_tag "application", 'app', controller_name
     = csrf_meta_tags
   body
     .nav.navbar.navbar-fixed-top.navbar-default.navbar-lg.top-nav-bar.large role="navigation"
-      .navbar-header
-        = link_to image_tag('logo-white-all.png', size: '100x55'), root_path, class: 'navbar-brand'
+      /.navbar-header
+        /= link_to image_tag('logo-white-all.png', size: '100x55'), root_path, class: 'navbar-brand'
       #navbar-collapse-01.collapse.navbar-collapse
         ul.nav.navbar-nav.cl-effect-17
-          li class=active_class('orders')
-            = link_to "订单", orders_path
-          li class=active_class('customers')
-            = link_to "顾客", customers_path
-          li class=active_class('solutionists')
-            = link_to "方案", solutionists_path
-          li class=active_class('workers')
-            = link_to "工人", workers_path
-          li class=active_class('finances')
-            = link_to "财务统计", finances_path
+          - if current_user.try(:admin?)
+            li class=active_class('users')
+              = link_to "用户", users_path
         - if current_user
           .dropdown.pull-right.navbar-dropdown
             .navbar-avatar.btn.btn-warning
               = user_link(current_user, size: '50x50')
               /= link_to image_tag(current_user.avatar.url(:thumb), size: '50x50'), user_path(current_user)
               strong.mlx= current_user.name
+
             ul.dropdown-menu#dropdown-menu[role="menu"]
-              li= link_to user_path(current_user) do
+              /li= link_to user_path(current_user) do
                 div
                   span.fui-user.glyph
                   span.text  个人信息
@@ -37,20 +31,15 @@ html ng-app='baozheng'
                 div
                   span.fui-gear.glyph
                   span.text  账号设置
-              li
-                = link_to '#'
-                  div
-                    span.fui-windows.glyph
-                    span.text 历史订单
               li.divider
               li= link_to sign_out_path do
                 div
                   span.fui-power.glyph
                   span.text  退出该账号
-        form.navbar-form.navbar-right[action="#" role="search"]
+        form.navbar-form.navbar-right[action=search_users_path role="search"]
           .form-group
             .input-group
-              input#navbarInput-01.form-control[type="search" placeholder="Search"]
+              input#navbarInput-01.form-control[type="search" placeholder="输入用户姓名或邮箱搜索" name='q']
               span.input-group-btn
                 button.btn[type="submit"]
                   span.fui-search

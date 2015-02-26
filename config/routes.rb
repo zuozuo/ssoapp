@@ -1,6 +1,16 @@
 Rails.application.routes.draw do
 
-  mount API::Root => '/'
+  use_doorkeeper
+
+  namespace :api do
+    namespace :v1 do
+      resources :users do
+        get 'me', on: :collection
+      end
+
+      get '/me' => "credentials#me"
+    end
+  end
 
   resources :addresses
 
@@ -20,8 +30,11 @@ Rails.application.routes.draw do
   get 'main/index'
 
   devise_for :users
-  resources :users
-  root 'orders#index'
+  resources :users do
+    get :search, on: :collection
+  end
+
+  root 'users#index'
 
   devise_scope :user do
     get "sign_in", to: "devise/sessions#new"
