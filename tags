@@ -888,6 +888,7 @@ version.full	app/assets/javascripts/lib/angularjs/angular.js	/^  full: '1.2.28',
 version.major	app/assets/javascripts/lib/angularjs/angular.js	/^  major: 1,    \/\/ package task$/;"	p
 version.minor	app/assets/javascripts/lib/angularjs/angular.js	/^  minor: 2,$/;"	p
 warden	lib/api/v1/users.rb	/^    def warden; env['warden']; end$/;"	f	class:API
+window.timeCounter	app/assets/javascripts/application.js	/^window.timeCounter = function($el, n, counterEnd) {$/;"	f
 worker_params	app/controllers/workers_controller.rb	/^    def worker_params$/;"	f	class:WorkersController
 wrapMap.option	app/assets/javascripts/lib/angularjs/angular.js	/^  'option': [1, '<select multiple="multiple">', '<\/select>'],$/;"	p
 xhr.onreadystatechange	app/assets/javascripts/lib/angularjs/angular.js	/^      xhr.onreadystatechange = function() {$/;"	f

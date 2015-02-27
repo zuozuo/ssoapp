@@ -5,6 +5,7 @@
     = f.error_notification
     .form-inputs
       = f.input :email, required: true, autofocus: true, label: false, placeholder: "邮箱"
+      = f.input :phone, required: true, label: false, placeholder: "电话", input_html: { value: params[:phone], disabled: true, style: 'color: #333;' }
       = f.input :password, required: true, label: false, placeholder: "密码"
       = f.input :password_confirmation, required: true, label: false, placeholder: "重新输入密码"
     .form-actions

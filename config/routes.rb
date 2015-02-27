@@ -12,6 +12,15 @@ Rails.application.routes.draw do
     end
   end
 
+  resources :phones do
+    collection do
+      get 'verify'
+      post 'verify'
+      post 'create_code'
+      post 'submit_code'
+    end
+  end
+
   resources :addresses
 
   resources :stores
@@ -29,7 +38,8 @@ Rails.application.routes.draw do
 
   get 'main/index'
 
-  devise_for :users
+  devise_for :users, :controllers => {registrations: "registrations"}
+
   resources :users do
     get :search, on: :collection
   end

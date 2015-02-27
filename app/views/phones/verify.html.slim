@@ -1,0 +1,29 @@
+.login
+  .header
+    | 请先验证手机号码
+  br
+  = simple_form_for(@pm, url: submit_code_phones_path, wrapper: :v_no_label) do |f|
+    = f.error_notification
+    .form-inputs
+      /= f.input :phone, required: true, autofocus: true, label: false, placeholder: "输入手机号码"
+      .input-group
+        input.form-control#phone_number type="text" placeholder="请输入手机号码" name="phone_number[phone]" autofocus='autofocus' value=params[:phone]
+        span.input-group-btn
+          button.btn.btn-default#create_phone_code type="button"
+            | 发送验证码
+      br
+      = f.input :verify_code, required: true, label: false, placeholder: "输入收到手机验证码"
+      p style='margin-top: -10px; color: #d9534f; font-size: 13px;'
+        = flash.alert
+
+      /.input-group
+        input type="text" class="form-control" placeholder="输入手机验证码"
+        /span.input-group-btn
+          button class="btn btn-default" type="button"
+            | 验证手机号
+    .form-actions 
+      /style='margin-top: 45px;'
+      = f.button :submit, "验证手机号", class: 'btn btn-success btn-lg btn-block'
+  .other-links.center-block
+    - if controller_name != 'sessions'
+      = link_to "已有账号，登陆网站", new_session_path(:user)

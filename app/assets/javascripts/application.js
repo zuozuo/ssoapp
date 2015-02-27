@@ -15,3 +15,15 @@
 //= require twitter/bootstrap
 //= require flat-ui-pro
 //= require bootstrap
+
+
+window.timeCounter = function($el, n, counterEnd) {
+  (function loop() {
+    $el.html(n);
+    if (n--) {
+      setTimeout(loop, 1000);
+    } else {
+      counterEnd()  
+    }
+  })();
+}
