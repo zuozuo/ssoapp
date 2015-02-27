@@ -16,7 +16,7 @@ class PhonesController < ApplicationController
     if @pm.is_valid?
       redirect_to sign_up_path(phone: params[:phone_number][:phone])
     else
-      redirect_to verify_phones_path(phone: @pm.phone), alert: "所输入的验证码错误"
+      redirect_to verify_phones_path(phone: @pm.phone), notice: "所输入的验证码错误"
     end
   end
 
