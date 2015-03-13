@@ -18,7 +18,13 @@ class Api::V1::UsersController < Api::V1::BaseController
   end
 
   def create
-    @user = User.create!(params[:user])
+    @user = User.create!(user_params)
     respond_with @user, location: nil
   end
+
+  private
+
+    def user_params
+      params.require(:user).permit(:name, :phone, :email, :password, :password_confirmation)
+    end
 end

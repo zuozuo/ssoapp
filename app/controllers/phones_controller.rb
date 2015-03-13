@@ -7,7 +7,9 @@ class PhonesController < ApplicationController
   end
 
   def create_code
-    pm = PhoneNumber.create_code(params[:phone])
+    pm = PhoneNumber.new(phone: params[:phone])
+    pm.send_message_code
+    pm.save!
     render :json => pm
   end
 
