@@ -8,10 +8,10 @@ html  ng-app='baozheng'
     = csrf_meta_tags
   body.devise
     .body-container
-      .content.center-block
-        .left.pull-left.text-center
+      .content.center-block.row
+        .left.text-center.col-md-4
           = link_to image_tag('logo.jpg', size: '150x150', class: 'pulse'), root_path
           h6 欢迎来到坤元财富
-        .right.well.pull-right  style='width: 70%'
+        .right.well.col-md-8
           = yield
     = render 'shares/footer'
