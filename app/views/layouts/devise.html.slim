@@ -2,7 +2,7 @@ doctype html
 html  ng-app='baozheng'
   head
     title
-      | xxxxxx
+      | 坤元财富
     = stylesheet_link_tag    'application', media: 'all'
     = javascript_include_tag 'application', 'app'
     = csrf_meta_tags
@@ -10,8 +10,7 @@ html  ng-app='baozheng'
     .body-container
       .content.center-block.row
         .left.text-center.col-md-4
-          = link_to image_tag('logo.jpg', size: '150x150', class: 'pulse'), root_path
-          h6 欢迎来到坤元财富
+          = link_to image_tag('logo.png', size: '150x150', class: 'pulse'), root_path
         .right.well.col-md-8
           = yield
     = render 'shares/footer'
