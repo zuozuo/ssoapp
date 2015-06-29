@@ -1,13 +1,15 @@
 class PhoneNumber < ActiveRecord::Base
 
+  validates :phone, format: { with: /\A1\d{10}\z/ }, presence: true
+
   # def self.create_code(phone)
   #   self.create!(phone: phone, verify_code: 1111)
   # end
 
-  def is_valid?
-    pm = PhoneNumber.where(phone: self.phone).last
-    pm or return false
-    pm.verify_code == self.verify_code
+  def validate!
+    if Time.now - self.created_at < 1800
+      self.update_attribute(:verified, true)
+    end
   end
 
   def send_message_code

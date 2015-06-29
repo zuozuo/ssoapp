@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150227032057) do
+ActiveRecord::Schema.define(version: 20150629020220) do
 
   create_table "addresses", force: :cascade do |t|
     t.integer  "addressable_id",   limit: 4
@@ -193,6 +193,7 @@ ActiveRecord::Schema.define(version: 20150227032057) do
     t.integer  "verify_code", limit: 4
     t.datetime "created_at",              null: false
     t.datetime "updated_at",              null: false
+    t.boolean  "verified",    limit: 1
   end
 
   add_index "phone_numbers", ["phone"], name: "index_phone_numbers_on_phone", using: :btree

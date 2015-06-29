@@ -10,6 +10,10 @@ class Ability
       can :read, :all
     end
 
+    can :manage, User do |u|
+      u.id == user.id
+    end
+
     #
     # The first argument to `can` is the action you are giving the user
     # permission to do.

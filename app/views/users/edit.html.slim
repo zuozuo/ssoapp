@@ -3,8 +3,19 @@
     .user-info-block.well.center-block[ng-view]
        = simple_form_for(@user, url: user_path(@user)) do |f|
          .form-inputs
-           /= f.error_notification
-           = f.input :name
-           = f.input :email
-         .form-actions
-           = f.button :submit
+           = f.input :name, required: true
+           = f.input :phone, required: true
+           .form-group style='display:none'
+             = f.input :avatar, input_html: { style: 'width: 80%;float: left' }, label_html: { style: "width: 20%; float: left" }
+
+           .form-group
+             .inline-label.col-md-2
+               label class="file optional control-label" for="user_avatar"
+                 abbr title="required"
+                  | *
+                 | 头像
+             .inline-input.col-md-10
+               input class="file optional form-control" type="file" name="user[avatar]" id="user_avatar"
+
+         .form-actions.text-center
+           = f.button :submit, value: "更新用户信息", :style => 'margin-top: 20px'

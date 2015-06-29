@@ -43,6 +43,13 @@ html
               span.input-group-btn
                 button.btn[type="submit"]
                   span.fui-search
+    - unless flash.blank?
+      div class="alert alert-success text-center"
+        button class="close fui-cross" data-dismiss="alert"
+        h6
+          - flash.each do |k, msg|
+            = msg
+        
     .body-container
       = yield
     = render 'shares/footer'

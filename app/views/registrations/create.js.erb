@@ -1,0 +1,5 @@
+<% if @mgs.nil? %>
+  $(location).attr('href', '<%= root_path %>');
+<% else %>
+  alert('<%= @msg %>')
+<% end %>

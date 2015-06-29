@@ -2,8 +2,8 @@
   .header
     | 请先验证手机号码
   br
-  = simple_form_for(@pm, url: submit_code_phones_path, wrapper: :v_no_label) do |f|
-    = f.error_notification
+  = simple_form_for(@pm, url: submit_code_phones_path, wrapper: :v_no_label, remote: true) do |f|
+    /= f.error_notification
     .form-inputs
       /= f.input :phone, required: true, autofocus: true, label: false, placeholder: "输入手机号码"
       .input-group
@@ -21,7 +21,7 @@
         /span.input-group-btn
           button class="btn btn-default" type="button"
             | 验证手机号
-    .form-actions 
+    .form-actions
       /style='margin-top: 45px;'
       = f.button :submit, "验证手机号", class: 'btn btn-success btn-lg btn-block'
   .other-links.center-block

@@ -7,19 +7,20 @@ class PhonesController < ApplicationController
   end
 
   def create_code
-    pm = PhoneNumber.new(phone: params[:phone])
-    pm.send_message_code
-    pm.save!
-    render :json => pm
+    if params[:phone].blank?
+      redirect_to :back, alert: "电话号码不能为空"
+    elsif User.where(phone: params[:phone]).exists?
+      render :json => "电话号码：#{params[:phone]} 已经存在,请使用该电话号码直接登陆金顾问网站，如果忘记密码请找回密码。"
+    else
+      pm = PhoneNumber.create!(phone: params[:phone])
+      pm.send_message_code
+      pm.save!
+      render json: "验证码已发送至手机#{params[:phone]}"
+    end
   end
 
   def submit_code
-    @pm = PhoneNumber.new(phone_params)
-    if @pm.is_valid?
-      redirect_to sign_up_path(phone: params[:phone_number][:phone])
-    else
-      redirect_to verify_phones_path(phone: @pm.phone), notice: "所输入的验证码错误"
-    end
+    @pm = PhoneNumber.where(phone_params).first
   end
 
   private

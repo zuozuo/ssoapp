@@ -10,6 +10,12 @@ class UsersController < ApplicationController
   def edit
   end
 
+  def update
+    @user = User.find(params[:id])
+    @user.update_attributes!(user_params)
+    redirect_to :back, notice: "用户信息更新成功"
+  end
+
   def search
     @users = User.order('created_at desc').where(
       "name like ? or email like ?", "%#{params[:q]}%", "%#{params[:q]}%"
@@ -23,7 +29,11 @@ class UsersController < ApplicationController
   private
 
   def redirect_back
-    current_user.try(:admin?) or redirect_to main_index_path
+    (current_user.try(:admin?) || can?(:manage, @user)) or redirect_to main_index_path
+  end
+
+  def user_params
+    params.require(:user).permit(:phone, :password, :password_confirmation, :name, :avatar)
   end
 
 end
