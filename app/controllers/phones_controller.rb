@@ -20,7 +20,25 @@ class PhonesController < ApplicationController
   end
 
   def submit_code
-    @pm = PhoneNumber.where(phone_params).first
+    @pm = PhoneNumber.where(phone_params).last
+  end
+
+  def create_password_code
+    if params[:phone].blank?
+      redirect_to :back, alert: "电话号码不能为空"
+    elsif !User.where(phone: params[:phone]).exists?
+      render :json => "电话号码：#{params[:phone]} 不存在，请检查所输入的电话号码是否正确，或注册新用户登陆"
+    else
+      pm = PhoneNumber.create!(phone: params[:phone])
+      pm.send_message_code
+      pm.save!
+      # @user = User.where(phone: params[:phone]).first
+      render json: "验证码已发送至手机#{params[:phone]}"
+    end
+  end
+
+  def password_code
+    @pm = PhoneNumber.where(phone_params).last
   end
 
   private

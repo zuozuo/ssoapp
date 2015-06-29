@@ -18,6 +18,8 @@ Rails.application.routes.draw do
       post 'verify'
       post 'create_code'
       post 'submit_code'
+      post 'create_password_code'
+      post 'password_code'
     end
   end
 
@@ -38,10 +40,12 @@ Rails.application.routes.draw do
 
   get 'main/index'
 
-  devise_for :users, :controllers => {registrations: "registrations"}
+  devise_for :users, :controllers => {registrations: "registrations", sessions: 'sessions'}
 
   resources :users do
     get :search, on: :collection
+    get :edit_password, on: :collection
+    put :update_password
   end
 
   root 'users#index'
