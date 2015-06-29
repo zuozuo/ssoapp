@@ -9,6 +9,10 @@ class RegistrationsController < Devise::RegistrationsController
     end
   end
 
+  def edit
+    render :edit, layout: 'application'
+  end
+
   private
 
   def after_sign_up_path_for(resource)
