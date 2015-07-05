@@ -4,462 +4,402 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
-$$AsyncCallbackProvider	app/assets/javascripts/lib/angularjs/angular.js	/^function $$AsyncCallbackProvider(){$/;"	c
-$$UMFP	app/assets/javascripts/lib/angularjs/angular-ui-router.js	/^var $$UMFP; \/\/ reference to $UrlMatcherFactoryProvider$/;"	v
-$.fn.radiocheck.noConflict	app/assets/javascripts/lib/radiocheck.js	/^  $.fn.radiocheck.noConflict = function () {$/;"	f
-$AnchorScrollProvider	app/assets/javascripts/lib/angularjs/angular.js	/^function $AnchorScrollProvider() {$/;"	c
-$AnchorScrollProvider.disableAutoScrolling	app/assets/javascripts/lib/angularjs/angular.js	/^  this.disableAutoScrolling = function() {$/;"	m
-$AnchorScrollProvider.function.getFirstAnchor	app/assets/javascripts/lib/angularjs/angular.js	/^    function getFirstAnchor(list) {$/;"	f
-$AnchorScrollProvider.function.scroll	app/assets/javascripts/lib/angularjs/angular.js	/^    function scroll() {$/;"	f
-$BrowserProvider	app/assets/javascripts/lib/angularjs/angular.js	/^function $BrowserProvider(){$/;"	c
-$CacheFactoryProvider	app/assets/javascripts/lib/angularjs/angular.js	/^function $CacheFactoryProvider() {$/;"	c
-$CacheFactoryProvider.$CacheFactoryProvider.$get.cacheFactory	app/assets/javascripts/lib/angularjs/angular.js	/^    function cacheFactory(cacheId, options) {$/;"	f
-$CacheFactoryProvider.$get	app/assets/javascripts/lib/angularjs/angular.js	/^  this.$get = function() {$/;"	m
-$CacheFactoryProvider.cacheFactory.info	app/assets/javascripts/lib/angularjs/angular.js	/^    cacheFactory.info = function() {$/;"	f
-$CompileProvider	app/assets/javascripts/lib/angularjs/angular.js	/^function $CompileProvider($provide, $$sanitizeUriProvider) {$/;"	c
-$CompileProvider.aHrefSanitizationWhitelist	app/assets/javascripts/lib/angularjs/angular.js	/^  this.aHrefSanitizationWhitelist = function(regexp) {$/;"	m
-$CompileProvider.collectDirectives	app/assets/javascripts/lib/angularjs/angular.js	/^    function collectDirectives(node, directives, attrs, maxPriority, ignoreDirective) {$/;"	f
-$CompileProvider.compileNodes	app/assets/javascripts/lib/angularjs/angular.js	/^    function compileNodes(nodeList, transcludeFn, $rootElement, maxPriority, ignoreDirective,$/;"	f
-$CompileProvider.createBoundTranscludeFn	app/assets/javascripts/lib/angularjs/angular.js	/^    function createBoundTranscludeFn(scope, transcludeFn, previousBoundTranscludeFn) {$/;"	f
-$CompileProvider.createBoundTranscludeFn.boundTranscludeFn	app/assets/javascripts/lib/angularjs/angular.js	/^      var boundTranscludeFn = function(transcludedScope, cloneFn, controllers) {$/;"	f
-$CompileProvider.directive	app/assets/javascripts/lib/angularjs/angular.js	/^   this.directive = function registerDirective(name, directiveFactory) {$/;"	m
-$CompileProvider.imgSrcSanitizationWhitelist	app/assets/javascripts/lib/angularjs/angular.js	/^  this.imgSrcSanitizationWhitelist = function(regexp) {$/;"	m
-$CompileProvider.registerDirective	app/assets/javascripts/lib/angularjs/angular.js	/^   this.directive = function registerDirective(name, directiveFactory) {$/;"	f
-$CompileProvider.safeAddClass	app/assets/javascripts/lib/angularjs/angular.js	/^    function safeAddClass($element, className) {$/;"	f
-$CompileProvider.var.Attributes	app/assets/javascripts/lib/angularjs/angular.js	/^    var Attributes = function(element, attr) {$/;"	c
-$ControllerProvider	app/assets/javascripts/lib/angularjs/angular.js	/^function $ControllerProvider() {$/;"	c
-$ControllerProvider.register	app/assets/javascripts/lib/angularjs/angular.js	/^  this.register = function(name, constructor) {$/;"	m
-$DocumentProvider	app/assets/javascripts/lib/angularjs/angular.js	/^function $DocumentProvider(){$/;"	c
-$ExceptionHandlerProvider	app/assets/javascripts/lib/angularjs/angular.js	/^function $ExceptionHandlerProvider() {$/;"	c
-$HttpBackendProvider	app/assets/javascripts/lib/angularjs/angular.js	/^function $HttpBackendProvider() {$/;"	c
-$HttpProvider	app/assets/javascripts/lib/angularjs/angular.js	/^function $HttpProvider() {$/;"	c
-$HttpProvider.buildUrl	app/assets/javascripts/lib/angularjs/angular.js	/^    function buildUrl(url, params) {$/;"	f
-$HttpProvider.createShortMethods	app/assets/javascripts/lib/angularjs/angular.js	/^    function createShortMethods(names) {$/;"	f
-$HttpProvider.createShortMethodsWithData	app/assets/javascripts/lib/angularjs/angular.js	/^    function createShortMethodsWithData(name) {$/;"	f
-$HttpProvider.sendReq	app/assets/javascripts/lib/angularjs/angular.js	/^    function sendReq(config, reqData, reqHeaders) {$/;"	f
-$InterpolateProvider	app/assets/javascripts/lib/angularjs/angular.js	/^function $InterpolateProvider() {$/;"	c
-$InterpolateProvider.endSymbol	app/assets/javascripts/lib/angularjs/angular.js	/^  this.endSymbol = function(value){$/;"	m
-$InterpolateProvider.function.$interpolate	app/assets/javascripts/lib/angularjs/angular.js	/^    function $interpolate(text, mustHaveExpression, trustedContext) {$/;"	f
-$InterpolateProvider.startSymbol	app/assets/javascripts/lib/angularjs/angular.js	/^  this.startSymbol = function(value){$/;"	m
-$IntervalProvider	app/assets/javascripts/lib/angularjs/angular.js	/^function $IntervalProvider() {$/;"	c
-$IntervalProvider.function.interval	app/assets/javascripts/lib/angularjs/angular.js	/^    function interval(fn, delay, count, invokeApply) {$/;"	f
-$IntervalProvider.interval.cancel	app/assets/javascripts/lib/angularjs/angular.js	/^    interval.cancel = function(promise) {$/;"	f
-$LocaleProvider	app/assets/javascripts/lib/angularjs/angular.js	/^function $LocaleProvider(){$/;"	c
-$LocaleProvider.$get	app/assets/javascripts/lib/angularjs/angular.js	/^  this.$get = function() {$/;"	m
-$LocationProvider	app/assets/javascripts/lib/angularjs/angular.js	/^function $LocationProvider(){$/;"	c
-$LocationProvider.hashPrefix	app/assets/javascripts/lib/angularjs/angular.js	/^  this.hashPrefix = function(prefix) {$/;"	m
-$LocationProvider.html5Mode	app/assets/javascripts/lib/angularjs/angular.js	/^  this.html5Mode = function(mode) {$/;"	m
-$LogProvider	app/assets/javascripts/lib/angularjs/angular.js	/^function $LogProvider(){$/;"	c
-$LogProvider.consoleLog	app/assets/javascripts/lib/angularjs/angular.js	/^    function consoleLog(type) {$/;"	f
-$LogProvider.debugEnabled	app/assets/javascripts/lib/angularjs/angular.js	/^  this.debugEnabled = function(flag) {$/;"	m
-$LogProvider.formatError	app/assets/javascripts/lib/angularjs/angular.js	/^    function formatError(arg) {$/;"	f
-$Resolve	app/assets/javascripts/lib/angularjs/angular-ui-router.js	/^function $Resolve(  $q,    $injector) {$/;"	c
-$Resolve.done	app/assets/javascripts/lib/angularjs/angular-ui-router.js	/^      function done() {$/;"	f
-$Resolve.fail	app/assets/javascripts/lib/angularjs/angular-ui-router.js	/^      function fail(reason) {$/;"	f
-$Resolve.invoke	app/assets/javascripts/lib/angularjs/angular-ui-router.js	/^      function invoke(key, invocable, params) {$/;"	f
-$Resolve.invoke.onfailure	app/assets/javascripts/lib/angularjs/angular-ui-router.js	/^        function onfailure(reason) {$/;"	f
-$Resolve.study	app/assets/javascripts/lib/angularjs/angular-ui-router.js	/^  this.study = function (invocables) {$/;"	m
-$Resolve.study.isResolve	app/assets/javascripts/lib/angularjs/angular-ui-router.js	/^    function isResolve(value) {$/;"	f
-$Resolve.study.visit	app/assets/javascripts/lib/angularjs/angular-ui-router.js	/^    function visit(value, key) {$/;"	f
-$TemplateCacheProvider	app/assets/javascripts/lib/angularjs/angular.js	/^function $TemplateCacheProvider() {$/;"	c
-$TemplateFactory	app/assets/javascripts/lib/angularjs/angular-ui-router.js	/^function $TemplateFactory(  $http,   $templateCache,   $injector) {$/;"	c
-$TemplateFactory.fromConfig	app/assets/javascripts/lib/angularjs/angular-ui-router.js	/^  this.fromConfig = function (config, params, locals) {$/;"	m
-$TemplateFactory.fromProvider	app/assets/javascripts/lib/angularjs/angular-ui-router.js	/^  this.fromProvider = function (provider, params, locals) {$/;"	m
-$TemplateFactory.fromString	app/assets/javascripts/lib/angularjs/angular-ui-router.js	/^  this.fromString = function (template, params) {$/;"	m
-$TemplateFactory.fromUrl	app/assets/javascripts/lib/angularjs/angular-ui-router.js	/^  this.fromUrl = function (url, params) {$/;"	m
-$http.execHeaders	app/assets/javascripts/lib/angularjs/angular.js	/^        function execHeaders(headers) {$/;"	f
-$http.mergeHeaders	app/assets/javascripts/lib/angularjs/angular.js	/^      function mergeHeaders(config) {$/;"	f
-$http.serverRequest	app/assets/javascripts/lib/angularjs/angular.js	/^      var serverRequest = function(config) {$/;"	f
-$http.transformResponse	app/assets/javascripts/lib/angularjs/angular.js	/^      function transformResponse(response) {$/;"	f
-$interpolate.endSymbol	app/assets/javascripts/lib/angularjs/angular.js	/^    $interpolate.endSymbol = function() {$/;"	f
-$interpolate.startSymbol	app/assets/javascripts/lib/angularjs/angular.js	/^    $interpolate.startSymbol = function() {$/;"	f
+$$AsyncCallbackProvider	app/assets/javascripts/angular.js	/^function $$AsyncCallbackProvider(){$/;"	c
+$AnchorScrollProvider	app/assets/javascripts/angular.js	/^function $AnchorScrollProvider() {$/;"	c
+$AnchorScrollProvider.disableAutoScrolling	app/assets/javascripts/angular.js	/^  this.disableAutoScrolling = function() {$/;"	m
+$AnchorScrollProvider.function.getFirstAnchor	app/assets/javascripts/angular.js	/^    function getFirstAnchor(list) {$/;"	f
+$AnchorScrollProvider.function.scroll	app/assets/javascripts/angular.js	/^    function scroll() {$/;"	f
+$BrowserProvider	app/assets/javascripts/angular.js	/^function $BrowserProvider(){$/;"	c
+$CacheFactoryProvider	app/assets/javascripts/angular.js	/^function $CacheFactoryProvider() {$/;"	c
+$CacheFactoryProvider.$CacheFactoryProvider.$get.cacheFactory	app/assets/javascripts/angular.js	/^    function cacheFactory(cacheId, options) {$/;"	f
+$CacheFactoryProvider.$get	app/assets/javascripts/angular.js	/^  this.$get = function() {$/;"	m
+$CacheFactoryProvider.cacheFactory.info	app/assets/javascripts/angular.js	/^    cacheFactory.info = function() {$/;"	f
+$CompileProvider	app/assets/javascripts/angular.js	/^function $CompileProvider($provide, $$sanitizeUriProvider) {$/;"	c
+$CompileProvider.aHrefSanitizationWhitelist	app/assets/javascripts/angular.js	/^  this.aHrefSanitizationWhitelist = function(regexp) {$/;"	m
+$CompileProvider.collectDirectives	app/assets/javascripts/angular.js	/^    function collectDirectives(node, directives, attrs, maxPriority, ignoreDirective) {$/;"	f
+$CompileProvider.compileNodes	app/assets/javascripts/angular.js	/^    function compileNodes(nodeList, transcludeFn, $rootElement, maxPriority, ignoreDirective,$/;"	f
+$CompileProvider.createBoundTranscludeFn	app/assets/javascripts/angular.js	/^    function createBoundTranscludeFn(scope, transcludeFn, previousBoundTranscludeFn) {$/;"	f
+$CompileProvider.createBoundTranscludeFn.boundTranscludeFn	app/assets/javascripts/angular.js	/^      var boundTranscludeFn = function(transcludedScope, cloneFn, controllers) {$/;"	f
+$CompileProvider.directive	app/assets/javascripts/angular.js	/^   this.directive = function registerDirective(name, directiveFactory) {$/;"	m
+$CompileProvider.imgSrcSanitizationWhitelist	app/assets/javascripts/angular.js	/^  this.imgSrcSanitizationWhitelist = function(regexp) {$/;"	m
+$CompileProvider.registerDirective	app/assets/javascripts/angular.js	/^   this.directive = function registerDirective(name, directiveFactory) {$/;"	f
+$CompileProvider.safeAddClass	app/assets/javascripts/angular.js	/^    function safeAddClass($element, className) {$/;"	f
+$CompileProvider.var.Attributes	app/assets/javascripts/angular.js	/^    var Attributes = function(element, attr) {$/;"	c
+$ControllerProvider	app/assets/javascripts/angular.js	/^function $ControllerProvider() {$/;"	c
+$ControllerProvider.register	app/assets/javascripts/angular.js	/^  this.register = function(name, constructor) {$/;"	m
+$DocumentProvider	app/assets/javascripts/angular.js	/^function $DocumentProvider(){$/;"	c
+$ExceptionHandlerProvider	app/assets/javascripts/angular.js	/^function $ExceptionHandlerProvider() {$/;"	c
+$HttpBackendProvider	app/assets/javascripts/angular.js	/^function $HttpBackendProvider() {$/;"	c
+$HttpProvider	app/assets/javascripts/angular.js	/^function $HttpProvider() {$/;"	c
+$HttpProvider.buildUrl	app/assets/javascripts/angular.js	/^    function buildUrl(url, params) {$/;"	f
+$HttpProvider.createShortMethods	app/assets/javascripts/angular.js	/^    function createShortMethods(names) {$/;"	f
+$HttpProvider.createShortMethodsWithData	app/assets/javascripts/angular.js	/^    function createShortMethodsWithData(name) {$/;"	f
+$HttpProvider.sendReq	app/assets/javascripts/angular.js	/^    function sendReq(config, reqData, reqHeaders) {$/;"	f
+$InterpolateProvider	app/assets/javascripts/angular.js	/^function $InterpolateProvider() {$/;"	c
+$InterpolateProvider.endSymbol	app/assets/javascripts/angular.js	/^  this.endSymbol = function(value){$/;"	m
+$InterpolateProvider.function.$interpolate	app/assets/javascripts/angular.js	/^    function $interpolate(text, mustHaveExpression, trustedContext) {$/;"	f
+$InterpolateProvider.startSymbol	app/assets/javascripts/angular.js	/^  this.startSymbol = function(value){$/;"	m
+$IntervalProvider	app/assets/javascripts/angular.js	/^function $IntervalProvider() {$/;"	c
+$IntervalProvider.function.interval	app/assets/javascripts/angular.js	/^    function interval(fn, delay, count, invokeApply) {$/;"	f
+$IntervalProvider.interval.cancel	app/assets/javascripts/angular.js	/^    interval.cancel = function(promise) {$/;"	f
+$LocaleProvider	app/assets/javascripts/angular.js	/^function $LocaleProvider(){$/;"	c
+$LocaleProvider.$get	app/assets/javascripts/angular.js	/^  this.$get = function() {$/;"	m
+$LocationProvider	app/assets/javascripts/angular.js	/^function $LocationProvider(){$/;"	c
+$LocationProvider.hashPrefix	app/assets/javascripts/angular.js	/^  this.hashPrefix = function(prefix) {$/;"	m
+$LocationProvider.html5Mode	app/assets/javascripts/angular.js	/^  this.html5Mode = function(mode) {$/;"	m
+$LogProvider	app/assets/javascripts/angular.js	/^function $LogProvider(){$/;"	c
+$LogProvider.consoleLog	app/assets/javascripts/angular.js	/^    function consoleLog(type) {$/;"	f
+$LogProvider.debugEnabled	app/assets/javascripts/angular.js	/^  this.debugEnabled = function(flag) {$/;"	m
+$LogProvider.formatError	app/assets/javascripts/angular.js	/^    function formatError(arg) {$/;"	f
+$RouteParamsProvider	app/assets/javascripts/angular-route.js	/^function $RouteParamsProvider() {$/;"	c
+$RouteParamsProvider.$get	app/assets/javascripts/angular-route.js	/^  this.$get = function() { return {}; };$/;"	m
+$RouteProvider	app/assets/javascripts/angular-route.js	/^function $RouteProvider(){$/;"	c
+$RouteProvider.inherit	app/assets/javascripts/angular-route.js	/^  function inherit(parent, extra) {$/;"	f
+$RouteProvider.otherwise	app/assets/javascripts/angular-route.js	/^  this.otherwise = function(params) {$/;"	m
+$RouteProvider.pathRegExp	app/assets/javascripts/angular-route.js	/^  function pathRegExp(path, opts) {$/;"	f
+$RouteProvider.switchRouteMatcher	app/assets/javascripts/angular-route.js	/^    function switchRouteMatcher(on, route) {$/;"	f
+$RouteProvider.when	app/assets/javascripts/angular-route.js	/^  this.when = function(path, route) {$/;"	m
+$TemplateCacheProvider	app/assets/javascripts/angular.js	/^function $TemplateCacheProvider() {$/;"	c
+$http.execHeaders	app/assets/javascripts/angular.js	/^        function execHeaders(headers) {$/;"	f
+$http.mergeHeaders	app/assets/javascripts/angular.js	/^      function mergeHeaders(config) {$/;"	f
+$http.serverRequest	app/assets/javascripts/angular.js	/^      var serverRequest = function(config) {$/;"	f
+$http.transformResponse	app/assets/javascripts/angular.js	/^      function transformResponse(response) {$/;"	f
+$interpolate.endSymbol	app/assets/javascripts/angular.js	/^    $interpolate.endSymbol = function() {$/;"	f
+$interpolate.startSymbol	app/assets/javascripts/angular.js	/^    $interpolate.startSymbol = function() {$/;"	f
 API	lib/api/error_formatter.rb	/^module API$/;"	m
 API	lib/api/root.rb	/^module API$/;"	m
-API	lib/api/v1/consumption_records.rb	/^class API::V1::ConsumptionRecords < Grape::API$/;"	c
-API	lib/api/v1/customers.rb	/^class API::V1::Customers < Grape::API$/;"	c
-API	lib/api/v1/helpers.rb	/^module API::V1::Helpers$/;"	m
-API	lib/api/v1/orders.rb	/^class API::V1::Orders < Grape::API$/;"	c
 API	lib/api/v1/root.rb	/^module API$/;"	m
-API	lib/api/v1/services.rb	/^class API::V1::Services < Grape::API$/;"	c
 API	lib/api/v1/users.rb	/^class API::V1::Users < Grape::API$/;"	c
 Ability	app/models/ability.rb	/^class Ability$/;"	c
-ActiveRecord	lib/dirty.rb	/^class ActiveRecord::Base$/;"	c
+ActionView	config/initializers/asset_tag_helper.rb	/^module ActionView$/;"	m
 ActiveSupport	test/test_helper.rb	/^class ActiveSupport::TestCase$/;"	c
-AddAddressIdToOrders	db/migrate/20150127120918_add_address_id_to_orders.rb	/^class AddAddressIdToOrders < ActiveRecord::Migration$/;"	c
-AddAttachmentToOrders	db/migrate/20150203093347_add_attachment_to_orders.rb	/^class AddAttachmentToOrders < ActiveRecord::Migration$/;"	c
 AddAvatarToUsers	db/migrate/20150120084317_add_avatar_to_users.rb	/^class AddAvatarToUsers < ActiveRecord::Migration$/;"	c
-AddBadnessToOrders	db/migrate/20150127133420_add_badness_to_orders.rb	/^class AddBadnessToOrders < ActiveRecord::Migration$/;"	c
-AddColorToOrders	db/migrate/20150206121127_add_color_to_orders.rb	/^class AddColorToOrders < ActiveRecord::Migration$/;"	c
-AddConsumptionRecordIdToOrders	db/migrate/20150204092331_add_consumption_record_id_to_orders.rb	/^class AddConsumptionRecordIdToOrders < ActiveRecord::Migration$/;"	c
-AddDeletedAtToAddress	db/migrate/20150127125320_add_deleted_at_to_address.rb	/^class AddDeletedAtToAddress < ActiveRecord::Migration$/;"	c
-AddDeletedAtToBadnesses	db/migrate/20150127132713_add_deleted_at_to_badnesses.rb	/^class AddDeletedAtToBadnesses < ActiveRecord::Migration$/;"	c
-AddDeletedAtToFlaws	db/migrate/20150127132723_add_deleted_at_to_flaws.rb	/^class AddDeletedAtToFlaws < ActiveRecord::Migration$/;"	c
-AddDeletedAtToItems	db/migrate/20150127125302_add_deleted_at_to_items.rb	/^class AddDeletedAtToItems < ActiveRecord::Migration$/;"	c
-AddDeletedAtToMaintainPart	db/migrate/20150127132754_add_deleted_at_to_maintain_part.rb	/^class AddDeletedAtToMaintainPart < ActiveRecord::Migration$/;"	c
-AddDeletedAtToOrder	db/migrate/20150127125428_add_deleted_at_to_order.rb	/^class AddDeletedAtToOrder < ActiveRecord::Migration$/;"	c
-AddDeletedAtToService	db/migrate/20150127132733_add_deleted_at_to_service.rb	/^class AddDeletedAtToService < ActiveRecord::Migration$/;"	c
-AddDeletedAtToStore	db/migrate/20150127125451_add_deleted_at_to_store.rb	/^class AddDeletedAtToStore < ActiveRecord::Migration$/;"	c
-AddDeletedAtToUsers	db/migrate/20150127125248_add_deleted_at_to_users.rb	/^class AddDeletedAtToUsers < ActiveRecord::Migration$/;"	c
-AddDiscountToCustomer	db/migrate/20150206034657_add_discount_to_customer.rb	/^class AddDiscountToCustomer < ActiveRecord::Migration$/;"	c
-AddFlawToOrders	db/migrate/20150127133342_add_flaw_to_orders.rb	/^class AddFlawToOrders < ActiveRecord::Migration$/;"	c
 AddGenderToUsers	db/migrate/20150121064516_add_gender_to_users.rb	/^class AddGenderToUsers < ActiveRecord::Migration$/;"	c
-AddItemIdToOrders	db/migrate/20150127133855_add_item_id_to_orders.rb	/^class AddItemIdToOrders < ActiveRecord::Migration$/;"	c
-AddMaintainPartToOrders	db/migrate/20150127133307_add_maintain_part_to_orders.rb	/^class AddMaintainPartToOrders < ActiveRecord::Migration$/;"	c
-AddRawAmountToConsumptionRecords	db/migrate/20150206030928_add_raw_amount_to_consumption_records.rb	/^class AddRawAmountToConsumptionRecords < ActiveRecord::Migration$/;"	c
-AddRawBalanceToUsers	db/migrate/20150206030847_add_raw_balance_to_users.rb	/^class AddRawBalanceToUsers < ActiveRecord::Migration$/;"	c
-AddRemarkToConsumptionRecords	db/migrate/20150205163612_add_remark_to_consumption_records.rb	/^class AddRemarkToConsumptionRecords < ActiveRecord::Migration$/;"	c
-AddScopesToOauthApplications	db/migrate/20150211101741_add_scopes_to_oauth_applications.rb	/^class AddScopesToOauthApplications < ActiveRecord::Migration$/;"	c
-AddServiceIdsToOrders	db/migrate/20150206122305_add_service_ids_to_orders.rb	/^class AddServiceIdsToOrders < ActiveRecord::Migration$/;"	c
-AddServiceToOrders	db/migrate/20150127133323_add_service_to_orders.rb	/^class AddServiceToOrders < ActiveRecord::Migration$/;"	c
-AddStatusToOrder	db/migrate/20150127131432_add_status_to_order.rb	/^class AddStatusToOrder < ActiveRecord::Migration$/;"	c
 AddStoreIdToUsers	db/migrate/20150120103656_add_store_id_to_users.rb	/^class AddStoreIdToUsers < ActiveRecord::Migration$/;"	c
-AddTypeIndexToUsers	db/migrate/20150127123841_add_type_index_to_users.rb	/^class AddTypeIndexToUsers < ActiveRecord::Migration$/;"	c
-AddUrgentToOrders	db/migrate/20150128111603_add_urgent_to_orders.rb	/^class AddUrgentToOrders < ActiveRecord::Migration$/;"	c
+AddVerifiedToPhoneNumber	db/migrate/20150629020220_add_verified_to_phone_number.rb	/^class AddVerifiedToPhoneNumber < ActiveRecord::Migration$/;"	c
 AddWeixinToUsers	db/migrate/20150122022832_add_weixin_to_users.rb	/^class AddWeixinToUsers < ActiveRecord::Migration$/;"	c
-AddZipCodeToAddress	db/migrate/20150127120019_add_zip_code_to_address.rb	/^class AddZipCodeToAddress < ActiveRecord::Migration$/;"	c
 Address	app/models/address.rb	/^class Address < ActiveRecord::Base$/;"	c
+AddressBookMail	config/initializers/submail.rb	/^class AddressBookMail$/;"	c
+AddressBookMail	lib/submail.rb	/^class AddressBookMail$/;"	c
+AddressBookMessage	config/initializers/submail.rb	/^class AddressBookMessage$/;"	c
+AddressBookMessage	lib/submail.rb	/^class AddressBookMessage$/;"	c
 AddressesController	app/controllers/addresses_controller.rb	/^class AddressesController < ApplicationController$/;"	c
 AddressesHelper	app/helpers/addresses_helper.rb	/^module AddressesHelper$/;"	m
 Admin	app/models/admin.rb	/^class Admin < User$/;"	c
+Api	app/controllers/api/v1/base_controller.rb	/^class Api::V1::BaseController < ApplicationController$/;"	c
+Api	app/controllers/api/v1/conversations_controller.rb	/^class Api::V1::ConversationsController < Api::V1::BaseController$/;"	c
+Api	app/controllers/api/v1/messages_controller.rb	/^class Api::V1::MessagesController < Api::V1::BaseController$/;"	c
+Api	app/controllers/api/v1/users_controller.rb	/^class Api::V1::UsersController < Api::V1::BaseController$/;"	c
 Application	config/application.rb	/^  class Application < Rails::Application$/;"	c	class:Baozheng
 ApplicationController	app/controllers/application_controller.rb	/^class ApplicationController < ActionController::Base$/;"	c
 ApplicationHelper	app/helpers/application_helper.rb	/^module ApplicationHelper$/;"	m
-ArrayProto	app/assets/javascripts/lib/underscore.js	/^  var ArrayProto = Array.prototype, ObjProto = Object.prototype, FuncProto = Function.prototype;$/;"	v
-AssetsHelper	app/helpers/assets_helper.rb	/^module AssetsHelper$/;"	m
-Attributes	app/assets/javascripts/lib/angularjs/angular.js	/^    Attributes.prototype = {$/;"	c
-Attributes.$addClass	app/assets/javascripts/lib/angularjs/angular.js	/^      $addClass : function(classVal) {$/;"	m
-Attributes.$normalize	app/assets/javascripts/lib/angularjs/angular.js	/^      $normalize: directiveNormalize,$/;"	p
-Attributes.$observe	app/assets/javascripts/lib/angularjs/angular.js	/^      $observe: function(key, fn) {$/;"	m
-Attributes.$removeClass	app/assets/javascripts/lib/angularjs/angular.js	/^      $removeClass : function(classVal) {$/;"	m
-Attributes.$set	app/assets/javascripts/lib/angularjs/angular.js	/^      $set: function(key, value, writeAttr, attrName) {$/;"	m
-Attributes.$updateClass	app/assets/javascripts/lib/angularjs/angular.js	/^      $updateClass : function(newClasses, oldClasses) {$/;"	m
-Badness	app/models/badness.rb	/^class Badness < ActiveRecord::Base$/;"	c
-Bag	app/models/bag.rb	/^class Bag < Item$/;"	c
+ArrayProto	app/assets/javascripts/underscore.js	/^  var ArrayProto = Array.prototype, ObjProto = Object.prototype, FuncProto = Function.prototype;$/;"	v
+AssetTagHelper	config/initializers/asset_tag_helper.rb	/^    module AssetTagHelper$/;"	m	class:ActionView.Helpers
+Attributes	app/assets/javascripts/angular.js	/^    Attributes.prototype = {$/;"	c
+Attributes.$addClass	app/assets/javascripts/angular.js	/^      $addClass : function(classVal) {$/;"	m
+Attributes.$normalize	app/assets/javascripts/angular.js	/^      $normalize: directiveNormalize,$/;"	p
+Attributes.$observe	app/assets/javascripts/angular.js	/^      $observe: function(key, fn) {$/;"	m
+Attributes.$removeClass	app/assets/javascripts/angular.js	/^      $removeClass : function(classVal) {$/;"	m
+Attributes.$set	app/assets/javascripts/angular.js	/^      $set: function(key, value, writeAttr, attrName) {$/;"	m
+Attributes.$updateClass	app/assets/javascripts/angular.js	/^      $updateClass : function(newClasses, oldClasses) {$/;"	m
 Baozheng	config/application.rb	/^module Baozheng$/;"	m
-Belt	app/models/belt.rb	/^class Belt < Item$/;"	c
-Browser	app/assets/javascripts/lib/angularjs/angular.js	/^function Browser(window, document, $log, $sniffer) {$/;"	f
-Browser.completeOutstandingRequest	app/assets/javascripts/lib/angularjs/angular.js	/^  function completeOutstandingRequest(fn) {$/;"	f
-Browser.startPoller	app/assets/javascripts/lib/angularjs/angular.js	/^  function startPoller(interval, setTimeout) {$/;"	f
-ChangeColomnsInOrders	db/migrate/20150203092816_change_colomns_in_orders.rb	/^class ChangeColomnsInOrders < ActiveRecord::Migration$/;"	c
-ChangeColomnsInOrders	db/migrate/20150203092816_change_colomns_in_orders.rb	/^class ChangeColomnsInOrders < ActiveRecord::Migration$/;"	c	class:ChangeColomnsInOrders.change
-ChangeColorIdInItems	db/migrate/20150206122400_change_color_id_in_items.rb	/^class ChangeColorIdInItems < ActiveRecord::Migration$/;"	c
-ChangeColorInItems	db/migrate/20150128011920_change_color_in_items.rb	/^class ChangeColorInItems < ActiveRecord::Migration$/;"	c
-ChangeCustomerIdNotNullInOrders	db/migrate/20150127134130_change_customer_id_not_null_in_orders.rb	/^class ChangeCustomerIdNotNullInOrders < ActiveRecord::Migration$/;"	c
-ChangeItemIdNotNullInOrders	db/migrate/20150127134044_change_item_id_not_null_in_orders.rb	/^class ChangeItemIdNotNullInOrders < ActiveRecord::Migration$/;"	c
-ChangeStoreIdNotNullInOrders	db/migrate/20150127134157_change_store_id_not_null_in_orders.rb	/^class ChangeStoreIdNotNullInOrders < ActiveRecord::Migration$/;"	c
-Clothing	app/models/clothing.rb	/^class Clothing < Item$/;"	c
-Color	app/models/color.rb	/^class Color < ActiveRecord::Base$/;"	c
-Constructor	app/assets/javascripts/lib/angularjs/angular.js	/^      Constructor.prototype = (isArray(Type) ? Type[Type.length - 1] : Type).prototype;$/;"	c
-ConsumptionRecord	app/models/consumption_record.rb	/^class ConsumptionRecord < ActiveRecord::Base$/;"	c
+Browser	app/assets/javascripts/angular.js	/^function Browser(window, document, $log, $sniffer) {$/;"	f
+Browser.completeOutstandingRequest	app/assets/javascripts/angular.js	/^  function completeOutstandingRequest(fn) {$/;"	f
+Browser.startPoller	app/assets/javascripts/angular.js	/^  function startPoller(interval, setTimeout) {$/;"	f
+Constructor	app/assets/javascripts/angular.js	/^      Constructor.prototype = (isArray(Type) ? Type[Type.length - 1] : Type).prototype;$/;"	c
 CreateAddresses	db/migrate/20150120103139_create_addresses.rb	/^class CreateAddresses < ActiveRecord::Migration$/;"	c
-CreateBadnesses	db/migrate/20150127132113_create_badnesses.rb	/^class CreateBadnesses < ActiveRecord::Migration$/;"	c
-CreateColors	db/migrate/20150128012128_create_colors.rb	/^class CreateColors < ActiveRecord::Migration$/;"	c
-CreateConsumptionRecords	db/migrate/20150204092101_create_consumption_records.rb	/^class CreateConsumptionRecords < ActiveRecord::Migration$/;"	c
-CreateDoorkeeperTables	db/migrate/20150211055825_create_doorkeeper_tables.rb	/^class CreateDoorkeeperTables < ActiveRecord::Migration$/;"	c
-CreateFlaws	db/migrate/20150127132036_create_flaws.rb	/^class CreateFlaws < ActiveRecord::Migration$/;"	c
-CreateItems	db/migrate/20150127123613_create_items.rb	/^class CreateItems < ActiveRecord::Migration$/;"	c
-CreateMaintainParts	db/migrate/20150127132008_create_maintain_parts.rb	/^class CreateMaintainParts < ActiveRecord::Migration$/;"	c
-CreateOrderStatuses	db/migrate/20150201080244_create_order_statuses.rb	/^class CreateOrderStatuses < ActiveRecord::Migration$/;"	c
-CreateOrders	db/migrate/20150126150101_create_orders.rb	/^class CreateOrders < ActiveRecord::Migration$/;"	c
-CreateServices	db/migrate/20150127131856_create_services.rb	/^class CreateServices < ActiveRecord::Migration$/;"	c
+CreateDoorkeeperTables	db/migrate/20150225062120_create_doorkeeper_tables.rb	/^class CreateDoorkeeperTables < ActiveRecord::Migration$/;"	c
+CreatePhoneNumbers	db/migrate/20150227032057_create_phone_numbers.rb	/^class CreatePhoneNumbers < ActiveRecord::Migration$/;"	c
 CreateStores	db/migrate/20150120101747_create_stores.rb	/^class CreateStores < ActiveRecord::Migration$/;"	c
-Ctor	app/assets/javascripts/lib/underscore.js	/^      Ctor.prototype = null;$/;"	c
-Ctor	app/assets/javascripts/lib/underscore.js	/^  var Ctor = function(){};$/;"	f
+Ctor	app/assets/javascripts/underscore.js	/^      Ctor.prototype = null;$/;"	c
+Ctor	app/assets/javascripts/underscore.js	/^  var Ctor = function(){};$/;"	f
 Customer	app/models/customer.rb	/^class Customer < User$/;"	c
 CustomersController	app/controllers/customers_controller.rb	/^class CustomersController < ApplicationController$/;"	c
 CustomersHelper	app/helpers/customers_helper.rb	/^module CustomersHelper$/;"	m
 DeviseCreateUsers	db/migrate/20150116063919_devise_create_users.rb	/^class DeviseCreateUsers < ActiveRecord::Migration$/;"	c
-ESCAPE."	app/assets/javascripts/lib/angularjs/angular.js	/^var ESCAPE = {"n":"\\n", "f":"\\f", "r":"\\r", "t":"\\t", "v":"\\v", "'":"'", '"':'"'};$/;"	p
-ESCAPE.'	app/assets/javascripts/lib/angularjs/angular.js	/^var ESCAPE = {"n":"\\n", "f":"\\f", "r":"\\r", "t":"\\t", "v":"\\v", "'":"'", '"':'"'};$/;"	p
-ESCAPE.f	app/assets/javascripts/lib/angularjs/angular.js	/^var ESCAPE = {"n":"\\n", "f":"\\f", "r":"\\r", "t":"\\t", "v":"\\v", "'":"'", '"':'"'};$/;"	p
-ESCAPE.n	app/assets/javascripts/lib/angularjs/angular.js	/^var ESCAPE = {"n":"\\n", "f":"\\f", "r":"\\r", "t":"\\t", "v":"\\v", "'":"'", '"':'"'};$/;"	p
-ESCAPE.r	app/assets/javascripts/lib/angularjs/angular.js	/^var ESCAPE = {"n":"\\n", "f":"\\f", "r":"\\r", "t":"\\t", "v":"\\v", "'":"'", '"':'"'};$/;"	p
-ESCAPE.t	app/assets/javascripts/lib/angularjs/angular.js	/^var ESCAPE = {"n":"\\n", "f":"\\f", "r":"\\r", "t":"\\t", "v":"\\v", "'":"'", '"':'"'};$/;"	p
-ESCAPE.v	app/assets/javascripts/lib/angularjs/angular.js	/^var ESCAPE = {"n":"\\n", "f":"\\f", "r":"\\r", "t":"\\t", "v":"\\v", "'":"'", '"':'"'};$/;"	p
+ESCAPE."	app/assets/javascripts/angular.js	/^var ESCAPE = {"n":"\\n", "f":"\\f", "r":"\\r", "t":"\\t", "v":"\\v", "'":"'", '"':'"'};$/;"	p
+ESCAPE.'	app/assets/javascripts/angular.js	/^var ESCAPE = {"n":"\\n", "f":"\\f", "r":"\\r", "t":"\\t", "v":"\\v", "'":"'", '"':'"'};$/;"	p
+ESCAPE.f	app/assets/javascripts/angular.js	/^var ESCAPE = {"n":"\\n", "f":"\\f", "r":"\\r", "t":"\\t", "v":"\\v", "'":"'", '"':'"'};$/;"	p
+ESCAPE.n	app/assets/javascripts/angular.js	/^var ESCAPE = {"n":"\\n", "f":"\\f", "r":"\\r", "t":"\\t", "v":"\\v", "'":"'", '"':'"'};$/;"	p
+ESCAPE.r	app/assets/javascripts/angular.js	/^var ESCAPE = {"n":"\\n", "f":"\\f", "r":"\\r", "t":"\\t", "v":"\\v", "'":"'", '"':'"'};$/;"	p
+ESCAPE.t	app/assets/javascripts/angular.js	/^var ESCAPE = {"n":"\\n", "f":"\\f", "r":"\\r", "t":"\\t", "v":"\\v", "'":"'", '"':'"'};$/;"	p
+ESCAPE.v	app/assets/javascripts/angular.js	/^var ESCAPE = {"n":"\\n", "f":"\\f", "r":"\\r", "t":"\\t", "v":"\\v", "'":"'", '"':'"'};$/;"	p
 ErrorFormatter	lib/api/error_formatter.rb	/^  module ErrorFormatter$/;"	m	class:API
-FN_ARG	app/assets/javascripts/lib/angularjs/angular.js	/^var FN_ARG = \/^\\s*(_?)(\\S+?)\\1\\s*$\/;$/;"	v
-FN_ARGS	app/assets/javascripts/lib/angularjs/angular.js	/^var FN_ARGS = \/^function\\s*[^\\(]*\\(\\s*([^\\)]*)\\)\/m;$/;"	v
-FN_ARG_SPLIT	app/assets/javascripts/lib/angularjs/angular.js	/^var FN_ARG_SPLIT = \/,\/;$/;"	v
+FN_ARG	app/assets/javascripts/angular.js	/^var FN_ARG = \/^\\s*(_?)(\\S+?)\\1\\s*$\/;$/;"	v
+FN_ARGS	app/assets/javascripts/angular.js	/^var FN_ARGS = \/^function\\s*[^\\(]*\\(\\s*([^\\)]*)\\)\/m;$/;"	v
+FN_ARG_SPLIT	app/assets/javascripts/angular.js	/^var FN_ARG_SPLIT = \/,\/;$/;"	v
 FinancesController	app/controllers/finances_controller.rb	/^class FinancesController < ApplicationController$/;"	c
 FinancesHelper	app/helpers/finances_helper.rb	/^module FinancesHelper$/;"	m
-Flaw	app/models/flaw.rb	/^class Flaw < ActiveRecord::Base$/;"	c
 FrontDesker	app/models/front_desker.rb	/^class FrontDesker < User$/;"	c
-Glove	app/models/glove.rb	/^class Glove < Item$/;"	c
-HTML_REGEXP	app/assets/javascripts/lib/angularjs/angular.js	/^var HTML_REGEXP = \/<|&#?\\w+;\/;$/;"	v
-HashMap	app/assets/javascripts/lib/angularjs/angular.js	/^HashMap.prototype = {$/;"	c
-HashMap	app/assets/javascripts/lib/angularjs/angular.js	/^function HashMap(array, isolatedUid) {$/;"	f
-HashMap.get	app/assets/javascripts/lib/angularjs/angular.js	/^  get: function(key) {$/;"	m
-HashMap.put	app/assets/javascripts/lib/angularjs/angular.js	/^  put: function(key, value) {$/;"	m
-HashMap.remove	app/assets/javascripts/lib/angularjs/angular.js	/^  remove: function(key) {$/;"	m
-HomeController	app/controllers/home_controller.rb	/^class HomeController < ApplicationController$/;"	c
-HomeHelper	app/helpers/home_helper.rb	/^module HomeHelper$/;"	m
-Item	app/models/item.rb	/^class Item < ActiveRecord::Base$/;"	c
-JQLite	app/assets/javascripts/lib/angularjs/angular.js	/^function JQLite(element) {$/;"	f
-JsEnv	app/controllers/concerns/js_env.rb	/^module JsEnv$/;"	m
-Lexer	app/assets/javascripts/lib/angularjs/angular.js	/^var Lexer = function (options) {$/;"	c
-Lexer.constructor	app/assets/javascripts/lib/angularjs/angular.js	/^  constructor: Lexer,$/;"	p
-Lexer.is	app/assets/javascripts/lib/angularjs/angular.js	/^  is: function(chars) {$/;"	m
-Lexer.isExpOperator	app/assets/javascripts/lib/angularjs/angular.js	/^  isExpOperator: function(ch) {$/;"	m
-Lexer.isIdent	app/assets/javascripts/lib/angularjs/angular.js	/^  isIdent: function(ch) {$/;"	m
-Lexer.isNumber	app/assets/javascripts/lib/angularjs/angular.js	/^  isNumber: function(ch) {$/;"	m
-Lexer.isWhitespace	app/assets/javascripts/lib/angularjs/angular.js	/^  isWhitespace: function(ch) {$/;"	m
-Lexer.lex	app/assets/javascripts/lib/angularjs/angular.js	/^  lex: function (text) {$/;"	m
-Lexer.peek	app/assets/javascripts/lib/angularjs/angular.js	/^  peek: function(i) {$/;"	m
-Lexer.readIdent	app/assets/javascripts/lib/angularjs/angular.js	/^  readIdent: function() {$/;"	m
-Lexer.readIdent.token.index	app/assets/javascripts/lib/angularjs/angular.js	/^      index: start,$/;"	p
-Lexer.readIdent.token.text	app/assets/javascripts/lib/angularjs/angular.js	/^      text: ident$/;"	p
-Lexer.readNumber	app/assets/javascripts/lib/angularjs/angular.js	/^  readNumber: function() {$/;"	m
-Lexer.readString	app/assets/javascripts/lib/angularjs/angular.js	/^  readString: function(quote) {$/;"	m
-Lexer.throwError	app/assets/javascripts/lib/angularjs/angular.js	/^  throwError: function(error, start, end) {$/;"	m
-Lexer.was	app/assets/javascripts/lib/angularjs/angular.js	/^  was: function(chars) {$/;"	m
-LocationHashbangInHtml5Url	app/assets/javascripts/lib/angularjs/angular.js	/^function LocationHashbangInHtml5Url(appBase, hashPrefix) {$/;"	c
-LocationHashbangInHtml5Url.$$compose	app/assets/javascripts/lib/angularjs/angular.js	/^  this.$$compose = function() {$/;"	m
-LocationHashbangInHtml5Url.$$html5	app/assets/javascripts/lib/angularjs/angular.js	/^  $$html5: false,$/;"	p
-LocationHashbangInHtml5Url.$$parseLinkUrl	app/assets/javascripts/lib/angularjs/angular.js	/^  this.$$parseLinkUrl = function(url, relHref) {$/;"	m
-LocationHashbangInHtml5Url.$$replace	app/assets/javascripts/lib/angularjs/angular.js	/^  $$replace: false,$/;"	p
-LocationHashbangInHtml5Url.absUrl	app/assets/javascripts/lib/angularjs/angular.js	/^  absUrl: locationGetter('$$absUrl'),$/;"	p
-LocationHashbangUrl	app/assets/javascripts/lib/angularjs/angular.js	/^function LocationHashbangUrl(appBase, hashPrefix) {$/;"	c
-LocationHashbangUrl.$$compose	app/assets/javascripts/lib/angularjs/angular.js	/^  this.$$compose = function() {$/;"	m
-LocationHashbangUrl.$$parse	app/assets/javascripts/lib/angularjs/angular.js	/^  this.$$parse = function(url) {$/;"	m
-LocationHashbangUrl.$$parse.removeWindowsDriveName	app/assets/javascripts/lib/angularjs/angular.js	/^    function removeWindowsDriveName (path, url, base) {$/;"	f
-LocationHashbangUrl.$$parseLinkUrl	app/assets/javascripts/lib/angularjs/angular.js	/^  this.$$parseLinkUrl = function(url, relHref) {$/;"	m
-LocationHtml5Url	app/assets/javascripts/lib/angularjs/angular.js	/^function LocationHtml5Url(appBase, basePrefix) {$/;"	c
-LocationHtml5Url.$$compose	app/assets/javascripts/lib/angularjs/angular.js	/^  this.$$compose = function() {$/;"	m
-LocationHtml5Url.$$parse	app/assets/javascripts/lib/angularjs/angular.js	/^  this.$$parse = function(url) {$/;"	m
-LocationHtml5Url.$$parseLinkUrl	app/assets/javascripts/lib/angularjs/angular.js	/^  this.$$parseLinkUrl = function(url, relHref) {$/;"	m
-MOZ_HACK_REGEXP	app/assets/javascripts/lib/angularjs/angular.js	/^var MOZ_HACK_REGEXP = \/^moz([A-Z])\/;$/;"	v
+HTML_REGEXP	app/assets/javascripts/angular.js	/^var HTML_REGEXP = \/<|&#?\\w+;\/;$/;"	v
+HashMap	app/assets/javascripts/angular.js	/^HashMap.prototype = {$/;"	c
+HashMap	app/assets/javascripts/angular.js	/^function HashMap(array, isolatedUid) {$/;"	f
+HashMap.get	app/assets/javascripts/angular.js	/^  get: function(key) {$/;"	m
+HashMap.put	app/assets/javascripts/angular.js	/^  put: function(key, value) {$/;"	m
+HashMap.remove	app/assets/javascripts/angular.js	/^  remove: function(key) {$/;"	m
+Helpers	config/initializers/asset_tag_helper.rb	/^  module Helpers$/;"	m	class:ActionView
+JQLite	app/assets/javascripts/angular.js	/^function JQLite(element) {$/;"	f
+Lexer	app/assets/javascripts/angular.js	/^var Lexer = function (options) {$/;"	c
+Lexer.constructor	app/assets/javascripts/angular.js	/^  constructor: Lexer,$/;"	p
+Lexer.is	app/assets/javascripts/angular.js	/^  is: function(chars) {$/;"	m
+Lexer.isExpOperator	app/assets/javascripts/angular.js	/^  isExpOperator: function(ch) {$/;"	m
+Lexer.isIdent	app/assets/javascripts/angular.js	/^  isIdent: function(ch) {$/;"	m
+Lexer.isNumber	app/assets/javascripts/angular.js	/^  isNumber: function(ch) {$/;"	m
+Lexer.isWhitespace	app/assets/javascripts/angular.js	/^  isWhitespace: function(ch) {$/;"	m
+Lexer.lex	app/assets/javascripts/angular.js	/^  lex: function (text) {$/;"	m
+Lexer.peek	app/assets/javascripts/angular.js	/^  peek: function(i) {$/;"	m
+Lexer.readIdent	app/assets/javascripts/angular.js	/^  readIdent: function() {$/;"	m
+Lexer.readIdent.token.index	app/assets/javascripts/angular.js	/^      index: start,$/;"	p
+Lexer.readIdent.token.text	app/assets/javascripts/angular.js	/^      text: ident$/;"	p
+Lexer.readNumber	app/assets/javascripts/angular.js	/^  readNumber: function() {$/;"	m
+Lexer.readString	app/assets/javascripts/angular.js	/^  readString: function(quote) {$/;"	m
+Lexer.throwError	app/assets/javascripts/angular.js	/^  throwError: function(error, start, end) {$/;"	m
+Lexer.was	app/assets/javascripts/angular.js	/^  was: function(chars) {$/;"	m
+LocationHashbangInHtml5Url	app/assets/javascripts/angular.js	/^function LocationHashbangInHtml5Url(appBase, hashPrefix) {$/;"	c
+LocationHashbangInHtml5Url.$$compose	app/assets/javascripts/angular.js	/^  this.$$compose = function() {$/;"	m
+LocationHashbangInHtml5Url.$$html5	app/assets/javascripts/angular.js	/^  $$html5: false,$/;"	p
+LocationHashbangInHtml5Url.$$parseLinkUrl	app/assets/javascripts/angular.js	/^  this.$$parseLinkUrl = function(url, relHref) {$/;"	m
+LocationHashbangInHtml5Url.$$replace	app/assets/javascripts/angular.js	/^  $$replace: false,$/;"	p
+LocationHashbangInHtml5Url.absUrl	app/assets/javascripts/angular.js	/^  absUrl: locationGetter('$$absUrl'),$/;"	p
+LocationHashbangUrl	app/assets/javascripts/angular.js	/^function LocationHashbangUrl(appBase, hashPrefix) {$/;"	c
+LocationHashbangUrl.$$compose	app/assets/javascripts/angular.js	/^  this.$$compose = function() {$/;"	m
+LocationHashbangUrl.$$parse	app/assets/javascripts/angular.js	/^  this.$$parse = function(url) {$/;"	m
+LocationHashbangUrl.$$parse.removeWindowsDriveName	app/assets/javascripts/angular.js	/^    function removeWindowsDriveName (path, url, base) {$/;"	f
+LocationHashbangUrl.$$parseLinkUrl	app/assets/javascripts/angular.js	/^  this.$$parseLinkUrl = function(url, relHref) {$/;"	m
+LocationHtml5Url	app/assets/javascripts/angular.js	/^function LocationHtml5Url(appBase, basePrefix) {$/;"	c
+LocationHtml5Url.$$compose	app/assets/javascripts/angular.js	/^  this.$$compose = function() {$/;"	m
+LocationHtml5Url.$$parse	app/assets/javascripts/angular.js	/^  this.$$parse = function(url) {$/;"	m
+LocationHtml5Url.$$parseLinkUrl	app/assets/javascripts/angular.js	/^  this.$$parseLinkUrl = function(url, relHref) {$/;"	m
+MOZ_HACK_REGEXP	app/assets/javascripts/angular.js	/^var MOZ_HACK_REGEXP = \/^moz([A-Z])\/;$/;"	v
+MailSend	config/initializers/submail.rb	/^class MailSend$/;"	c
+MailSend	lib/submail.rb	/^class MailSend$/;"	c
+MailXSend	config/initializers/submail.rb	/^class MailXSend$/;"	c
+MailXSend	lib/submail.rb	/^class MailXSend$/;"	c
+MainController	app/controllers/main_controller.rb	/^class MainController < ApplicationController$/;"	c
 MainHelper	app/helpers/main_helper.rb	/^module MainHelper$/;"	m
-MaintainPart	app/models/maintain_part.rb	/^class MaintainPart < ActiveRecord::Base$/;"	c
 Manager	app/models/manager.rb	/^class Manager < User$/;"	c
+MessageXSend	config/initializers/submail.rb	/^class MessageXSend$/;"	c
+MessageXSend	lib/submail.rb	/^class MessageXSend$/;"	c
 Middleware	lib/middleware/turbo_dev.rb	/^module Middleware$/;"	m
-OPERATORS.!	app/assets/javascripts/lib/angularjs/angular.js	/^    '!':function(self, locals, a){return !a(self, locals);}$/;"	m
-OPERATORS.!=	app/assets/javascripts/lib/angularjs/angular.js	/^    '!=':function(self, locals, a,b){return a(self, locals)!=b(self, locals);},$/;"	m
-OPERATORS.!==	app/assets/javascripts/lib/angularjs/angular.js	/^    '!==':function(self, locals, a, b){return a(self, locals)!==b(self, locals);},$/;"	m
-OPERATORS.%	app/assets/javascripts/lib/angularjs/angular.js	/^    '%':function(self, locals, a,b){return a(self, locals)%b(self, locals);},$/;"	m
-OPERATORS.&	app/assets/javascripts/lib/angularjs/angular.js	/^    '&':function(self, locals, a,b){return a(self, locals)&b(self, locals);},$/;"	m
-OPERATORS.&&	app/assets/javascripts/lib/angularjs/angular.js	/^    '&&':function(self, locals, a,b){return a(self, locals)&&b(self, locals);},$/;"	m
-OPERATORS.*	app/assets/javascripts/lib/angularjs/angular.js	/^    '*':function(self, locals, a,b){return a(self, locals)*b(self, locals);},$/;"	m
-OPERATORS.+	app/assets/javascripts/lib/angularjs/angular.js	/^    '+':function(self, locals, a,b){$/;"	m
-OPERATORS.-	app/assets/javascripts/lib/angularjs/angular.js	/^    '-':function(self, locals, a,b){$/;"	m
-OPERATORS./	app/assets/javascripts/lib/angularjs/angular.js	/^    '\/':function(self, locals, a,b){return a(self, locals)\/b(self, locals);},$/;"	m
-OPERATORS.<	app/assets/javascripts/lib/angularjs/angular.js	/^    '<':function(self, locals, a,b){return a(self, locals)<b(self, locals);},$/;"	m
-OPERATORS.<=	app/assets/javascripts/lib/angularjs/angular.js	/^    '<=':function(self, locals, a,b){return a(self, locals)<=b(self, locals);},$/;"	m
-OPERATORS.=	app/assets/javascripts/lib/angularjs/angular.js	/^    '=':noop,$/;"	p
-OPERATORS.==	app/assets/javascripts/lib/angularjs/angular.js	/^    '==':function(self, locals, a,b){return a(self, locals)==b(self, locals);},$/;"	m
-OPERATORS.===	app/assets/javascripts/lib/angularjs/angular.js	/^    '===':function(self, locals, a, b){return a(self, locals)===b(self, locals);},$/;"	m
-OPERATORS.>	app/assets/javascripts/lib/angularjs/angular.js	/^    '>':function(self, locals, a,b){return a(self, locals)>b(self, locals);},$/;"	m
-OPERATORS.>=	app/assets/javascripts/lib/angularjs/angular.js	/^    '>=':function(self, locals, a,b){return a(self, locals)>=b(self, locals);},$/;"	m
-OPERATORS.^	app/assets/javascripts/lib/angularjs/angular.js	/^    '^':function(self, locals, a,b){return a(self, locals)^b(self, locals);},$/;"	m
-OPERATORS.false	app/assets/javascripts/lib/angularjs/angular.js	/^    'false':function(){return false;},$/;"	m
-OPERATORS.null	app/assets/javascripts/lib/angularjs/angular.js	/^    'null':function(){return null;},$/;"	m
-OPERATORS.true	app/assets/javascripts/lib/angularjs/angular.js	/^    'true':function(){return true;},$/;"	m
-OPERATORS.undefined	app/assets/javascripts/lib/angularjs/angular.js	/^    undefined:noop,$/;"	p
-OPERATORS.|	app/assets/javascripts/lib/angularjs/angular.js	/^    '|':function(self, locals, a,b){return b(self, locals)(self, locals, a(self, locals));},$/;"	m
-OPERATORS.||	app/assets/javascripts/lib/angularjs/angular.js	/^    '||':function(self, locals, a,b){return a(self, locals)||b(self, locals);},$/;"	m
-Order	app/models/order.rb	/^class Order < ActiveRecord::Base$/;"	c
-OrderStatus	app/models/order_status.rb	/^class OrderStatus < ActiveRecord::Base$/;"	c
+OPERATORS.!	app/assets/javascripts/angular.js	/^    '!':function(self, locals, a){return !a(self, locals);}$/;"	m
+OPERATORS.!=	app/assets/javascripts/angular.js	/^    '!=':function(self, locals, a,b){return a(self, locals)!=b(self, locals);},$/;"	m
+OPERATORS.!==	app/assets/javascripts/angular.js	/^    '!==':function(self, locals, a, b){return a(self, locals)!==b(self, locals);},$/;"	m
+OPERATORS.%	app/assets/javascripts/angular.js	/^    '%':function(self, locals, a,b){return a(self, locals)%b(self, locals);},$/;"	m
+OPERATORS.&	app/assets/javascripts/angular.js	/^    '&':function(self, locals, a,b){return a(self, locals)&b(self, locals);},$/;"	m
+OPERATORS.&&	app/assets/javascripts/angular.js	/^    '&&':function(self, locals, a,b){return a(self, locals)&&b(self, locals);},$/;"	m
+OPERATORS.*	app/assets/javascripts/angular.js	/^    '*':function(self, locals, a,b){return a(self, locals)*b(self, locals);},$/;"	m
+OPERATORS.+	app/assets/javascripts/angular.js	/^    '+':function(self, locals, a,b){$/;"	m
+OPERATORS.-	app/assets/javascripts/angular.js	/^    '-':function(self, locals, a,b){$/;"	m
+OPERATORS./	app/assets/javascripts/angular.js	/^    '\/':function(self, locals, a,b){return a(self, locals)\/b(self, locals);},$/;"	m
+OPERATORS.<	app/assets/javascripts/angular.js	/^    '<':function(self, locals, a,b){return a(self, locals)<b(self, locals);},$/;"	m
+OPERATORS.<=	app/assets/javascripts/angular.js	/^    '<=':function(self, locals, a,b){return a(self, locals)<=b(self, locals);},$/;"	m
+OPERATORS.=	app/assets/javascripts/angular.js	/^    '=':noop,$/;"	p
+OPERATORS.==	app/assets/javascripts/angular.js	/^    '==':function(self, locals, a,b){return a(self, locals)==b(self, locals);},$/;"	m
+OPERATORS.===	app/assets/javascripts/angular.js	/^    '===':function(self, locals, a, b){return a(self, locals)===b(self, locals);},$/;"	m
+OPERATORS.>	app/assets/javascripts/angular.js	/^    '>':function(self, locals, a,b){return a(self, locals)>b(self, locals);},$/;"	m
+OPERATORS.>=	app/assets/javascripts/angular.js	/^    '>=':function(self, locals, a,b){return a(self, locals)>=b(self, locals);},$/;"	m
+OPERATORS.^	app/assets/javascripts/angular.js	/^    '^':function(self, locals, a,b){return a(self, locals)^b(self, locals);},$/;"	m
+OPERATORS.false	app/assets/javascripts/angular.js	/^    'false':function(){return false;},$/;"	m
+OPERATORS.null	app/assets/javascripts/angular.js	/^    'null':function(){return null;},$/;"	m
+OPERATORS.true	app/assets/javascripts/angular.js	/^    'true':function(){return true;},$/;"	m
+OPERATORS.undefined	app/assets/javascripts/angular.js	/^    undefined:noop,$/;"	p
+OPERATORS.|	app/assets/javascripts/angular.js	/^    '|':function(self, locals, a,b){return b(self, locals)(self, locals, a(self, locals));},$/;"	m
+OPERATORS.||	app/assets/javascripts/angular.js	/^    '||':function(self, locals, a,b){return a(self, locals)||b(self, locals);},$/;"	m
+Order	app/models/order.rb	/^class Order < User$/;"	c
 OrdersController	app/controllers/orders_controller.rb	/^class OrdersController < ApplicationController$/;"	c
 OrdersHelper	app/helpers/orders_helper.rb	/^module OrdersHelper$/;"	m
-PREFIX_REGEXP	app/assets/javascripts/lib/angularjs/angular.js	/^var PREFIX_REGEXP = \/^(x[\\:\\-_]|data[\\:\\-_])\/i;$/;"	v
-Parser	app/assets/javascripts/lib/angularjs/angular.js	/^var Parser = function (lexer, $filter, options) {$/;"	c
-Parser.binaryFn	app/assets/javascripts/lib/angularjs/angular.js	/^  binaryFn: function(left, fn, right) {$/;"	m
-Parser.constructor	app/assets/javascripts/lib/angularjs/angular.js	/^  constructor: Parser,$/;"	p
-Parser.consume	app/assets/javascripts/lib/angularjs/angular.js	/^  consume: function(e1){$/;"	m
-Parser.expect	app/assets/javascripts/lib/angularjs/angular.js	/^  expect: function(e1, e2, e3, e4){$/;"	m
-Parser.parse	app/assets/javascripts/lib/angularjs/angular.js	/^  parse: function (text) {$/;"	m
-Parser.peek	app/assets/javascripts/lib/angularjs/angular.js	/^  peek: function(e1, e2, e3, e4) {$/;"	m
-Parser.peekToken	app/assets/javascripts/lib/angularjs/angular.js	/^  peekToken: function() {$/;"	m
-Parser.primary	app/assets/javascripts/lib/angularjs/angular.js	/^  primary: function () {$/;"	m
-Parser.statements	app/assets/javascripts/lib/angularjs/angular.js	/^  statements: function() {$/;"	m
-Parser.ternaryFn	app/assets/javascripts/lib/angularjs/angular.js	/^  ternaryFn: function(left, middle, right){$/;"	m
-Parser.throwError	app/assets/javascripts/lib/angularjs/angular.js	/^  throwError: function(msg, token) {$/;"	m
-Parser.unaryFn	app/assets/javascripts/lib/angularjs/angular.js	/^  unaryFn: function(fn, right) {$/;"	m
-Plugin	app/assets/javascripts/lib/radiocheck.js	/^  function Plugin(option) {$/;"	f
-Radiocheck	app/assets/javascripts/lib/radiocheck.js	/^  var Radiocheck = function (element, options) {$/;"	c
-Radiocheck.DEFAULTS.checkboxClass	app/assets/javascripts/lib/radiocheck.js	/^    checkboxClass: 'custom-checkbox',$/;"	p
-Radiocheck.DEFAULTS.checkboxTemplate	app/assets/javascripts/lib/radiocheck.js	/^    checkboxTemplate: '<span class="icons"><span class="icon-unchecked"><\/span><span class="icon-checked"><\/span><\/span>',$/;"	p
-Radiocheck.DEFAULTS.radioClass	app/assets/javascripts/lib/radiocheck.js	/^    radioClass: 'custom-radio',$/;"	p
-Radiocheck.DEFAULTS.radioTemplate	app/assets/javascripts/lib/radiocheck.js	/^    radioTemplate: '<span class="icons"><span class="icon-unchecked"><\/span><span class="icon-checked"><\/span><\/span>'$/;"	p
-Radiocheck.check	app/assets/javascripts/lib/radiocheck.js	/^  Radiocheck.prototype.check = function () {$/;"	m
-Radiocheck.init	app/assets/javascripts/lib/radiocheck.js	/^  Radiocheck.prototype.init = function (type, element, options) {$/;"	m
-RemoveAmountFromConsumptionRecords	db/migrate/20150206031309_remove_amount_from_consumption_records.rb	/^class RemoveAmountFromConsumptionRecords < ActiveRecord::Migration$/;"	c
-RemoveBalanceFromUsers	db/migrate/20150206031241_remove_balance_from_users.rb	/^class RemoveBalanceFromUsers < ActiveRecord::Migration$/;"	c
+PREFIX_REGEXP	app/assets/javascripts/angular.js	/^var PREFIX_REGEXP = \/^(x[\\:\\-_]|data[\\:\\-_])\/i;$/;"	v
+Parser	app/assets/javascripts/angular.js	/^var Parser = function (lexer, $filter, options) {$/;"	c
+Parser.binaryFn	app/assets/javascripts/angular.js	/^  binaryFn: function(left, fn, right) {$/;"	m
+Parser.constructor	app/assets/javascripts/angular.js	/^  constructor: Parser,$/;"	p
+Parser.consume	app/assets/javascripts/angular.js	/^  consume: function(e1){$/;"	m
+Parser.expect	app/assets/javascripts/angular.js	/^  expect: function(e1, e2, e3, e4){$/;"	m
+Parser.parse	app/assets/javascripts/angular.js	/^  parse: function (text) {$/;"	m
+Parser.peek	app/assets/javascripts/angular.js	/^  peek: function(e1, e2, e3, e4) {$/;"	m
+Parser.peekToken	app/assets/javascripts/angular.js	/^  peekToken: function() {$/;"	m
+Parser.primary	app/assets/javascripts/angular.js	/^  primary: function () {$/;"	m
+Parser.statements	app/assets/javascripts/angular.js	/^  statements: function() {$/;"	m
+Parser.ternaryFn	app/assets/javascripts/angular.js	/^  ternaryFn: function(left, middle, right){$/;"	m
+Parser.throwError	app/assets/javascripts/angular.js	/^  throwError: function(msg, token) {$/;"	m
+Parser.unaryFn	app/assets/javascripts/angular.js	/^  unaryFn: function(fn, right) {$/;"	m
+PhoneNumber	app/models/phone_number.rb	/^class PhoneNumber < ActiveRecord::Base$/;"	c
+PhonesController	app/controllers/phones_controller.rb	/^class PhonesController < ApplicationController$/;"	c
+PhonesHelper	app/helpers/phones_helper.rb	/^module PhonesHelper$/;"	m
+RegistrationsController	app/controllers/registrations_controller.rb	/^class RegistrationsController < Devise::RegistrationsController$/;"	c
 Root	lib/api/root.rb	/^  class Root < Grape::API$/;"	c	class:API
 Root	lib/api/v1/root.rb	/^    class Root < Grape::API$/;"	c	class:API.V1
-SINGLE_TAG_REGEXP	app/assets/javascripts/lib/angularjs/angular.js	/^var SINGLE_TAG_REGEXP = \/^<(\\w+)\\s*\\\/?>(?:<\\\/\\1>|)$\/;$/;"	v
-SNAKE_CASE_REGEXP	app/assets/javascripts/lib/angularjs/angular.js	/^var SNAKE_CASE_REGEXP = \/[A-Z]\/g;$/;"	v
-SPECIAL_CHARS_REGEXP	app/assets/javascripts/lib/angularjs/angular.js	/^var SPECIAL_CHARS_REGEXP = \/([\\:\\-\\_]+(.))\/g;$/;"	v
-STRIP_COMMENTS	app/assets/javascripts/lib/angularjs/angular.js	/^var STRIP_COMMENTS = \/((\\\/\\\/.*$)|(\\\/\\*[\\s\\S]*?\\*\\\/))\/mg;$/;"	v
-Service	app/models/service.rb	/^class Service < ActiveRecord::Base$/;"	c
-Shoe	app/models/shoe.rb	/^class Shoe < Item$/;"	c
+SINGLE_TAG_REGEXP	app/assets/javascripts/angular.js	/^var SINGLE_TAG_REGE                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 XP = \/^<(\\w+)\\s*\\\/?>(?:<\\\/\\1>|)$\/;$/;"	v
+STRIP_COMMENTS	app/assets/javascripts/angular.js	/^var STRIP_COMMENTS = \/((\\\/\\\/.*$)|(\\\/\\*[\\s\\S]*?\\*\\\/))\/mg;$/;"	v
+SessionsController	app/controllers/sessions_controller.rb	/^class SessionsController < Devise::SessionsController$/;"	c
 Solutionist	app/models/solutionist.rb	/^class Solutionist < User$/;"	c
 SolutionistsController	app/controllers/solutionists_controller.rb	/^class SolutionistsController < ApplicationController$/;"	c
 SolutionistsHelper	app/helpers/solutionists_helper.rb	/^module SolutionistsHelper$/;"	m
 Store	app/models/store.rb	/^class Store < ActiveRecord::Base$/;"	c
 StoresController	app/controllers/stores_controller.rb	/^class StoresController < ApplicationController$/;"	c
 StoresHelper	app/helpers/stores_helper.rb	/^module StoresHelper$/;"	m
-TAG_NAME_REGEXP	app/assets/javascripts/lib/angularjs/angular.js	/^var TAG_NAME_REGEXP = \/<([\\w:]+)\/;$/;"	v
-TemplatesPaths	lib/templates_paths.rb	/^module TemplatesPaths$/;"	m
+TAG_NAME_REGEXP	app/assets/javascripts/angular.js	/^var TAG_NAME_REGEXP = \/<([\\w:]+)\/;$/;"	v
 TurboDev	lib/middleware/turbo_dev.rb	/^  class TurboDev$/;"	c	class:Middleware
-Type	app/assets/javascripts/lib/angularjs/angular-ui-router.js	/^Type.prototype.is = function(val, key) {$/;"	c
-Type	app/assets/javascripts/lib/angularjs/angular-ui-router.js	/^function Type(config) {$/;"	f
-Type.$asArray	app/assets/javascripts/lib/angularjs/angular-ui-router.js	/^Type.prototype.$asArray = function(mode, isSearch) {$/;"	m
-Type.$subPattern	app/assets/javascripts/lib/angularjs/angular-ui-router.js	/^Type.prototype.$subPattern = function() {$/;"	m
-Type.decode	app/assets/javascripts/lib/angularjs/angular-ui-router.js	/^Type.prototype.decode = function(val, key) {$/;"	m
-Type.encode	app/assets/javascripts/lib/angularjs/angular-ui-router.js	/^Type.prototype.encode = function(val, key) {$/;"	m
-Type.equals	app/assets/javascripts/lib/angularjs/angular-ui-router.js	/^Type.prototype.equals = function(a, b) {$/;"	m
-Type.is	app/assets/javascripts/lib/angularjs/angular-ui-router.js	/^Type.prototype.is = function(val, key) {$/;"	m
-Type.pattern	app/assets/javascripts/lib/angularjs/angular-ui-router.js	/^Type.prototype.pattern = \/.*\/;$/;"	m
-Type.toString	app/assets/javascripts/lib/angularjs/angular-ui-router.js	/^Type.prototype.toString = function() { return "{Type:" + this.name + "}"; };$/;"	m
-UrlMatcher	app/assets/javascripts/lib/angularjs/angular-ui-router.js	/^UrlMatcher.prototype.concat = function (pattern, config) {$/;"	c
-UrlMatcher	app/assets/javascripts/lib/angularjs/angular-ui-router.js	/^function UrlMatcher(pattern, config, parentMatcher) {$/;"	f
-UrlMatcher.addParameter	app/assets/javascripts/lib/angularjs/angular-ui-router.js	/^  function addParameter(id, type, config, location) {$/;"	f
-UrlMatcher.concat	app/assets/javascripts/lib/angularjs/angular-ui-router.js	/^UrlMatcher.prototype.concat = function (pattern, config) {$/;"	m
-UrlMatcher.exec	app/assets/javascripts/lib/angularjs/angular-ui-router.js	/^UrlMatcher.prototype.exec = function (path, searchParams) {$/;"	m
-UrlMatcher.format	app/assets/javascripts/lib/angularjs/angular-ui-router.js	/^UrlMatcher.prototype.format = function (values) {$/;"	m
-UrlMatcher.parameters	app/assets/javascripts/lib/angularjs/angular-ui-router.js	/^UrlMatcher.prototype.parameters = function (param) {$/;"	m
-UrlMatcher.quoteRegExp	app/assets/javascripts/lib/angularjs/angular-ui-router.js	/^  function quoteRegExp(string, pattern, squash) {$/;"	f
-UrlMatcher.toString	app/assets/javascripts/lib/angularjs/angular-ui-router.js	/^UrlMatcher.prototype.toString = function () {$/;"	m
-UrlMatcher.validates	app/assets/javascripts/lib/angularjs/angular-ui-router.js	/^UrlMatcher.prototype.validates = function (params) {$/;"	m
-UrlMatcher.var.defaultConfig.caseInsensitive	app/assets/javascripts/lib/angularjs/angular-ui-router.js	/^    caseInsensitive: $$UMFP.caseInsensitive(),$/;"	p
 User	app/models/user.rb	/^class User < ActiveRecord::Base$/;"	c
-UserRepresenter	app/representers/user_representer.rb	/^module UserRepresenter$/;"	m
 UsersController	app/controllers/users_controller.rb	/^class UsersController < ApplicationController$/;"	c
 UsersHelper	app/helpers/users_helper.rb	/^module UsersHelper$/;"	m
 V1	lib/api/v1/root.rb	/^  module V1$/;"	m	class:API
-VALIDITY_STATE_PROPERTY	app/assets/javascripts/lib/angularjs/angular.js	/^var VALIDITY_STATE_PROPERTY = 'validity';$/;"	v
 Worker	app/models/worker.rb	/^class Worker < User$/;"	c
 WorkersController	app/controllers/workers_controller.rb	/^class WorkersController < ApplicationController$/;"	c
 WorkersHelper	app/helpers/workers_helper.rb	/^module WorkersHelper$/;"	m
-XHTML_TAG_REGEXP	app/assets/javascripts/lib/angularjs/angular.js	/^var XHTML_TAG_REGEXP = \/<(?!area|br|col|embed|hr|img|input|link|meta|param)(([\\w:]+)[^>]*)\\\/>\/gi;$/;"	v
-_	app/assets/javascripts/lib/underscore.js	/^  _.object = function(list, values) {$/;"	f
-_	app/assets/javascripts/lib/underscore.js	/^  var _ = function(obj) {$/;"	c
-_.after	app/assets/javascripts/lib/underscore.js	/^  _.after = function(times, func) {$/;"	f
-_.before	app/assets/javascripts/lib/underscore.js	/^  _.before = function(times, func) {$/;"	f
-_.bind	app/assets/javascripts/lib/underscore.js	/^  _.bind = function(func, context) {$/;"	f
-_.bindAll	app/assets/javascripts/lib/underscore.js	/^  _.bindAll = function(obj) {$/;"	f
-_.chain	app/assets/javascripts/lib/underscore.js	/^  _.chain = function(obj) {$/;"	f
-_.clone	app/assets/javascripts/lib/underscore.js	/^  _.clone = function(obj) {$/;"	f
-_.compact	app/assets/javascripts/lib/underscore.js	/^  _.compact = function(array) {$/;"	f
-_.compose	app/assets/javascripts/lib/underscore.js	/^  _.compose = function() {$/;"	f
-_.constant	app/assets/javascripts/lib/underscore.js	/^  _.constant = function(value) {$/;"	f
-_.debounce	app/assets/javascripts/lib/underscore.js	/^  _.debounce = function(func, wait, immediate) {$/;"	f
-_.debounce.later	app/assets/javascripts/lib/underscore.js	/^    var later = function() {$/;"	f
-_.defaults	app/assets/javascripts/lib/underscore.js	/^  _.defaults = function(obj) {$/;"	f
-_.defer	app/assets/javascripts/lib/underscore.js	/^  _.defer = function(func) {$/;"	f
-_.delay	app/assets/javascripts/lib/underscore.js	/^  _.delay = function(func, wait) {$/;"	f
-_.difference	app/assets/javascripts/lib/underscore.js	/^  _.difference = function(array) {$/;"	f
-_.extend	app/assets/javascripts/lib/underscore.js	/^  _.extend = function(obj) {$/;"	f
-_.findWhere	app/assets/javascripts/lib/underscore.js	/^  _.findWhere = function(obj, attrs) {$/;"	f
-_.flatten	app/assets/javascripts/lib/underscore.js	/^  _.flatten = function(array, shallow) {$/;"	f
-_.has	app/assets/javascripts/lib/underscore.js	/^  _.has = function(obj, key) {$/;"	f
-_.identity	app/assets/javascripts/lib/underscore.js	/^  _.identity = function(value) {$/;"	f
-_.indexOf	app/assets/javascripts/lib/underscore.js	/^  _.indexOf = function(array, item, isSorted) {$/;"	f
-_.initial	app/assets/javascripts/lib/underscore.js	/^  _.initial = function(array, n, guard) {$/;"	f
-_.intersection	app/assets/javascripts/lib/underscore.js	/^  _.intersection = function(array) {$/;"	f
-_.invert	app/assets/javascripts/lib/underscore.js	/^  _.invert = function(obj) {$/;"	f
-_.invoke	app/assets/javascripts/lib/underscore.js	/^  _.invoke = function(obj, method) {$/;"	f
-_.isArguments	app/assets/javascripts/lib/underscore.js	/^    _.isArguments = function(obj) {$/;"	f
-_.isBoolean	app/assets/javascripts/lib/underscore.js	/^  _.isBoolean = function(obj) {$/;"	f
-_.isElement	app/assets/javascripts/lib/underscore.js	/^  _.isElement = function(obj) {$/;"	f
-_.isEmpty	app/assets/javascripts/lib/underscore.js	/^  _.isEmpty = function(obj) {$/;"	f
-_.isEqual	app/assets/javascripts/lib/underscore.js	/^  _.isEqual = function(a, b) {$/;"	f
-_.isFinite	app/assets/javascripts/lib/underscore.js	/^  _.isFinite = function(obj) {$/;"	f
-_.isFunction	app/assets/javascripts/lib/underscore.js	/^    _.isFunction = function(obj) {$/;"	f
-_.isNaN	app/assets/javascripts/lib/underscore.js	/^  _.isNaN = function(obj) {$/;"	f
-_.isNull	app/assets/javascripts/lib/underscore.js	/^  _.isNull = function(obj) {$/;"	f
-_.isObject	app/assets/javascripts/lib/underscore.js	/^  _.isObject = function(obj) {$/;"	f
-_.isUndefined	app/assets/javascripts/lib/underscore.js	/^  _.isUndefined = function(obj) {$/;"	f
-_.iteratee	app/assets/javascripts/lib/underscore.js	/^  _.iteratee = function(value, context, argCount) {$/;"	f
-_.keys	app/assets/javascripts/lib/underscore.js	/^  _.keys = function(obj) {$/;"	f
-_.last	app/assets/javascripts/lib/underscore.js	/^  _.last = function(array, n, guard) {$/;"	f
-_.lastIndexOf	app/assets/javascripts/lib/underscore.js	/^  _.lastIndexOf = function(array, item, from) {$/;"	f
-_.matches	app/assets/javascripts/lib/underscore.js	/^  _.matches = function(attrs) {$/;"	f
-_.max	app/assets/javascripts/lib/underscore.js	/^  _.max = function(obj, iteratee, context) {$/;"	f
-_.memoize	app/assets/javascripts/lib/underscore.js	/^  _.memoize = function(func, hasher) {$/;"	f
-_.memoize.memoize	app/assets/javascripts/lib/underscore.js	/^    var memoize = function(key) {$/;"	f
-_.min	app/assets/javascripts/lib/underscore.js	/^  _.min = function(obj, iteratee, context) {$/;"	f
-_.mixin	app/assets/javascripts/lib/underscore.js	/^  _.mixin = function(obj) {$/;"	f
-_.negate	app/assets/javascripts/lib/underscore.js	/^  _.negate = function(predicate) {$/;"	f
-_.noConflict	app/assets/javascripts/lib/underscore.js	/^  _.noConflict = function() {$/;"	f
-_.noop	app/assets/javascripts/lib/underscore.js	/^  _.noop = function(){};$/;"	f
-_.omit	app/assets/javascripts/lib/underscore.js	/^  _.omit = function(obj, iteratee, context) {$/;"	f
-_.pairs	app/assets/javascripts/lib/underscore.js	/^  _.pairs = function(obj) {$/;"	f
-_.partial	app/assets/javascripts/lib/underscore.js	/^  _.partial = function(func) {$/;"	f
-_.partition	app/assets/javascripts/lib/underscore.js	/^  _.partition = function(obj, predicate, context) {$/;"	f
-_.pick	app/assets/javascripts/lib/underscore.js	/^  _.pick = function(obj, iteratee, context) {$/;"	f
-_.pluck	app/assets/javascripts/lib/underscore.js	/^  _.pluck = function(obj, key) {$/;"	f
-_.property	app/assets/javascripts/lib/underscore.js	/^  _.property = function(key) {$/;"	f
-_.random	app/assets/javascripts/lib/underscore.js	/^  _.random = function(min, max) {$/;"	f
-_.range	app/assets/javascripts/lib/underscore.js	/^  _.range = function(start, stop, step) {$/;"	f
-_.reject	app/assets/javascripts/lib/underscore.js	/^  _.reject = function(obj, predicate, context) {$/;"	f
-_.result	app/assets/javascripts/lib/underscore.js	/^  _.result = function(object, property) {$/;"	f
-_.sample	app/assets/javascripts/lib/underscore.js	/^  _.sample = function(obj, n, guard) {$/;"	f
-_.shuffle	app/assets/javascripts/lib/underscore.js	/^  _.shuffle = function(obj) {$/;"	f
-_.size	app/assets/javascripts/lib/underscore.js	/^  _.size = function(obj) {$/;"	f
-_.sortBy	app/assets/javascripts/lib/underscore.js	/^  _.sortBy = function(obj, iteratee, context) {$/;"	f
-_.sortedIndex	app/assets/javascripts/lib/underscore.js	/^  _.sortedIndex = function(array, obj, iteratee, context) {$/;"	f
-_.tap	app/assets/javascripts/lib/underscore.js	/^  _.tap = function(obj, interceptor) {$/;"	f
-_.templateSettings.evaluate	app/assets/javascripts/lib/underscore.js	/^    evaluate    : \/<%([\\s\\S]+?)%>\/g,$/;"	p
-_.throttle	app/assets/javascripts/lib/underscore.js	/^  _.throttle = function(func, wait, options) {$/;"	f
-_.times	app/assets/javascripts/lib/underscore.js	/^  _.times = function(n, iteratee, context) {$/;"	f
-_.toArray	app/assets/javascripts/lib/underscore.js	/^  _.toArray = function(obj) {$/;"	f
-_.union	app/assets/javascripts/lib/underscore.js	/^  _.union = function() {$/;"	f
-_.uniqueId	app/assets/javascripts/lib/underscore.js	/^  _.uniqueId = function(prefix) {$/;"	f
-_.value	app/assets/javascripts/lib/underscore.js	/^  _.prototype.value = function() {$/;"	m
-_.values	app/assets/javascripts/lib/underscore.js	/^  _.values = function(obj) {$/;"	f
-_.where	app/assets/javascripts/lib/underscore.js	/^  _.where = function(obj, attrs) {$/;"	f
-_.without	app/assets/javascripts/lib/underscore.js	/^  _.without = function(array) {$/;"	f
-_.wrap	app/assets/javascripts/lib/underscore.js	/^  _.wrap = function(func, wrapper) {$/;"	f
-_.zip	app/assets/javascripts/lib/underscore.js	/^  _.zip = function(array) {$/;"	f
-_storageFactory	app/assets/javascripts/lib/angularjs/ngStorage.js	/^    function _storageFactory(storageType) {$/;"	f
-aCtor	app/assets/javascripts/lib/underscore.js	/^    var aCtor = a.constructor, bCtor = b.constructor;$/;"	v
-active_class	app/helpers/assets_helper.rb	/^  def active_class(name)$/;"	f	class:AssetsHelper
-addAttrInterpolateDirective	app/assets/javascripts/lib/angularjs/angular.js	/^    function addAttrInterpolateDirective(node, directives, value, name) {$/;"	f
-addDirective	app/assets/javascripts/lib/angularjs/angular.js	/^    function addDirective(tDirectives, name, location, maxPriority, ignoreDirective, startAttrName,$/;"	f
-addElements	app/assets/javascripts/lib/html5shiv.js	/^  function addElements(newElements, ownerDocument) {$/;"	f
-addLinkFns	app/assets/javascripts/lib/angularjs/angular.js	/^      function addLinkFns(pre, post, attrStart, attrEnd) {$/;"	f
-addStyleSheet	app/assets/javascripts/lib/html5shiv.js	/^  function addStyleSheet(ownerDocument, cssText) {$/;"	f
-addTextInterpolateDirective	app/assets/javascripts/lib/angularjs/angular.js	/^      function addTextInterpolateDirective(directives, text) {$/;"	f
+XHTML_TAG_REGEXP	app/assets/javascripts/angular.js	/^var XHTML_TAG_REGEXP = \/<(?!area|br|col|embed|hr|img|input|link|meta|param)(([\\w:]+)[^>]*)\\\/>\/gi;$/;"	v
+_	app/assets/javascripts/underscore.js	/^  _.object = function(list, values) {$/;"	f
+_	app/assets/javascripts/underscore.js	/^  var _ = function(obj) {$/;"	c
+_.after	app/assets/javascripts/underscore.js	/^  _.after = function(times, func) {$/;"	f
+_.before	app/assets/javascripts/underscore.js	/^  _.before = function(times, func) {$/;"	f
+_.bind	app/assets/javascripts/underscore.js	/^  _.bind = function(func, context) {$/;"	f
+_.bindAll	app/assets/javascripts/underscore.js	/^  _.bindAll = function(obj) {$/;"	f
+_.chain	app/assets/javascripts/underscore.js	/^  _.chain = function(obj) {$/;"	f
+_.clone	app/assets/javascripts/underscore.js	/^  _.clone = function(obj) {$/;"	f
+_.compact	app/assets/javascripts/underscore.js	/^  _.compact = function(array) {$/;"	f
+_.compose	app/assets/javascripts/underscore.js	/^  _.compose = function() {$/;"	f
+_.constant	app/assets/javascripts/underscore.js	/^  _.constant = function(value) {$/;"	f
+_.debounce	app/assets/javascripts/underscore.js	/^  _.debounce = function(func, wait, immediate) {$/;"	f
+_.debounce.later	app/assets/javascripts/underscore.js	/^    var later = function() {$/;"	f
+_.defaults	app/assets/javascripts/underscore.js	/^  _.defaults = function(obj) {$/;"	f
+_.defer	app/assets/javascripts/underscore.js	/^  _.defer = function(func) {$/;"	f
+_.delay	app/assets/javascripts/underscore.js	/^  _.delay = function(func, wait) {$/;"	f
+_.difference	app/assets/javascripts/underscore.js	/^  _.difference = function(array) {$/;"	f
+_.extend	app/assets/javascripts/underscore.js	/^  _.extend = function(obj) {$/;"	f
+_.findWhere	app/assets/javascripts/underscore.js	/^  _.findWhere = function(obj, attrs) {$/;"	f
+_.flatten	app/assets/javascripts/underscore.js	/^  _.flatten = function(array, shallow) {$/;"	f
+_.has	app/assets/javascripts/underscore.js	/^  _.has = function(obj, key) {$/;"	f
+_.identity	app/assets/javascripts/underscore.js	/^  _.identity = function(value) {$/;"	f
+_.indexOf	app/assets/javascripts/underscore.js	/^  _.indexOf = function(array, item, isSorted) {$/;"	f
+_.initial	app/assets/javascripts/underscore.js	/^  _.initial = function(array, n, guard) {$/;"	f
+_.intersection	app/assets/javascripts/underscore.js	/^  _.intersection = function(array) {$/;"	f
+_.invert	app/assets/javascripts/underscore.js	/^  _.invert = function(obj) {$/;"	f
+_.invoke	app/assets/javascripts/underscore.js	/^  _.invoke = function(obj, method) {$/;"	f
+_.isArguments	app/assets/javascripts/underscore.js	/^    _.isArguments = function(obj) {$/;"	f
+_.isBoolean	app/assets/javascripts/underscore.js	/^  _.isBoolean = function(obj) {$/;"	f
+_.isElement	app/assets/javascripts/underscore.js	/^  _.isElement = function(obj) {$/;"	f
+_.isEmpty	app/assets/javascripts/underscore.js	/^  _.isEmpty = function(obj) {$/;"	f
+_.isEqual	app/assets/javascripts/underscore.js	/^  _.isEqual = function(a, b) {$/;"	f
+_.isFinite	app/assets/javascripts/underscore.js	/^  _.isFinite = function(obj) {$/;"	f
+_.isFunction	app/assets/javascripts/underscore.js	/^    _.isFunction = function(obj) {$/;"	f
+_.isNaN	app/assets/javascripts/underscore.js	/^  _.isNaN = function(obj) {$/;"	f
+_.isNull	app/assets/javascripts/underscore.js	/^  _.isNull = function(obj) {$/;"	f
+_.isObject	app/assets/javascripts/underscore.js	/^  _.isObject = function(obj) {$/;"	f
+_.isUndefined	app/assets/javascripts/underscore.js	/^  _.isUndefined = function(obj) {$/;"	f
+_.iteratee	app/assets/javascripts/underscore.js	/^  _.iteratee = function(value, context, argCount) {$/;"	f
+_.keys	app/assets/javascripts/underscore.js	/^  _.keys = function(obj) {$/;"	f
+_.last	app/assets/javascripts/underscore.js	/^  _.last = function(array, n, guard) {$/;"	f
+_.lastIndexOf	app/assets/javascripts/underscore.js	/^  _.lastIndexOf = function(array, item, from) {$/;"	f
+_.matches	app/assets/javascripts/underscore.js	/^  _.matches = function(attrs) {$/;"	f
+_.max	app/assets/javascripts/underscore.js	/^  _.max = function(obj, iteratee, context) {$/;"	f
+_.memoize	app/assets/javascripts/underscore.js	/^  _.memoize = function(func, hasher) {$/;"	f
+_.memoize.memoize	app/assets/javascripts/underscore.js	/^    var memoize = function(key) {$/;"	f
+_.min	app/assets/javascripts/underscore.js	/^  _.min = function(obj, iteratee, context) {$/;"	f
+_.mixin	app/assets/javascripts/underscore.js	/^  _.mixin = function(obj) {$/;"	f
+_.negate	app/assets/javascripts/underscore.js	/^  _.negate = function(predicate) {$/;"	f
+_.noConflict	app/assets/javascripts/underscore.js	/^  _.noConflict = function() {$/;"	f
+_.noop	app/assets/javascripts/underscore.js	/^  _.noop = function(){};$/;"	f
+_.omit	app/assets/javascripts/underscore.js	/^  _.omit = function(obj, iteratee, context) {$/;"	f
+_.pairs	app/assets/javascripts/underscore.js	/^  _.pairs = function(obj) {$/;"	f
+_.partial	app/assets/javascripts/underscore.js	/^  _.partial = function(func) {$/;"	f
+_.partition	app/assets/javascripts/underscore.js	/^  _.partition = function(obj, predicate, context) {$/;"	f
+_.pick	app/assets/javascripts/underscore.js	/^  _.pick = function(obj, iteratee, context) {$/;"	f
+_.pluck	app/assets/javascripts/underscore.js	/^  _.pluck = function(obj, key) {$/;"	f
+_.property	app/assets/javascripts/underscore.js	/^  _.property = function(key) {$/;"	f
+_.random	app/assets/javascripts/underscore.js	/^  _.random = function(min, max) {$/;"	f
+_.range	app/assets/javascripts/underscore.js	/^  _.range = function(start, stop, step) {$/;"	f
+_.reject	app/assets/javascripts/underscore.js	/^  _.reject = function(obj, predicate, context) {$/;"	f
+_.result	app/assets/javascripts/underscore.js	/^  _.result = function(object, property) {$/;"	f
+_.sample	app/assets/javascripts/underscore.js	/^  _.sample = function(obj, n, guard) {$/;"	f
+_.shuffle	app/assets/javascripts/underscore.js	/^  _.shuffle = function(obj) {$/;"	f
+_.size	app/assets/javascripts/underscore.js	/^  _.size = function(obj) {$/;"	f
+_.sortBy	app/assets/javascripts/underscore.js	/^  _.sortBy = function(obj, iteratee, context) {$/;"	f
+_.sortedIndex	app/assets/javascripts/underscore.js	/^  _.sortedIndex = function(array, obj, iteratee, context) {$/;"	f
+_.tap	app/assets/javascripts/underscore.js	/^  _.tap = function(obj, interceptor) {$/;"	f
+_.templateSettings.evaluate	app/assets/javascripts/underscore.js	/^    evaluate    : \/<%([\\s\\S]+?)%>\/g,$/;"	p
+_.throttle	app/assets/javascripts/underscore.js	/^  _.throttle = function(func, wait, options) {$/;"	f
+_.times	app/assets/javascripts/underscore.js	/^  _.times = function(n, iteratee, context) {$/;"	f
+_.toArray	app/assets/javascripts/underscore.js	/^  _.toArray = function(obj) {$/;"	f
+_.union	app/assets/javascripts/underscore.js	/^  _.union = function() {$/;"	f
+_.uniqueId	app/assets/javascripts/underscore.js	/^  _.uniqueId = function(prefix) {$/;"	f
+_.value	app/assets/javascripts/underscore.js	/^  _.prototype.value = function() {$/;"	m
+_.values	app/assets/javascripts/underscore.js	/^  _.values = function(obj) {$/;"	f
+_.where	app/assets/javascripts/underscore.js	/^  _.where = function(obj, attrs) {$/;"	f
+_.without	app/assets/javascripts/underscore.js	/^  _.without = function(array) {$/;"	f
+_.wrap	app/assets/javascripts/underscore.js	/^  _.wrap = function(func, wrapper) {$/;"	f
+_.zip	app/assets/javascripts/underscore.js	/^  _.zip = function(array) {$/;"	f
+_conversation	app/controllers/api/v1/messages_controller.rb	/^  def _conversation$/;"	f	class:Api
+aCtor	app/assets/javascripts/underscore.js	/^    var aCtor = a.constructor, bCtor = b.constructor;$/;"	v
+active_class	config/initializers/asset_tag_helper.rb	/^      def active_class(name)$/;"	f	class:ActionView.Helpers.AssetTagHelper
+addAttrInterpolateDirective	app/assets/javascripts/angular.js	/^    function addAttrInterpolateDirective(node, directives, value, name) {$/;"	f
+addDirective	app/assets/javascripts/angular.js	/^    function addDirective(tDirectives, name, location, maxPriority, ignoreDirective, startAttrName,$/;"	f
+addElements	app/assets/javascripts/html5shiv.js	/^  function addElements(newElements, ownerDocument) {$/;"	f
+addLinkFns	app/assets/javascripts/angular.js	/^      function addLinkFns(pre, post, attrStart, attrEnd) {$/;"	f
+addStyleSheet	app/assets/javascripts/html5shiv.js	/^  function addStyleSheet(ownerDocument, cssText) {$/;"	f
+addTextInterpolateDirective	app/assets/javascripts/angular.js	/^      function addTextInterpolateDirective(directives, text) {$/;"	f
+add_addressbook	config/initializers/submail.rb	/^	def add_addressbook(addressbook)$/;"	f	class:MailSend
+add_addressbook	config/initializers/submail.rb	/^	def add_addressbook(addressbook)$/;"	f	class:MailXSend
+add_addressbook	config/initializers/submail.rb	/^	def add_addressbook(addressbook)$/;"	f	class:MessageXSend
+add_addressbook	lib/submail.rb	/^	def add_addressbook(addressbook)$/;"	f	class:MailSend
+add_addressbook	lib/submail.rb	/^	def add_addressbook(addressbook)$/;"	f	class:MailXSend
+add_addressbook	lib/submail.rb	/^	def add_addressbook(addressbook)$/;"	f	class:MessageXSend
+add_bcc	config/initializers/submail.rb	/^	def add_bcc(address, name)$/;"	f	class:MailSend
+add_bcc	config/initializers/submail.rb	/^	def add_bcc(address, name)$/;"	f	class:MailXSend
+add_bcc	lib/submail.rb	/^	def add_bcc(address, name)$/;"	f	class:MailSend
+add_bcc	lib/submail.rb	/^	def add_bcc(address, name)$/;"	f	class:MailXSend
+add_cc	config/initializers/submail.rb	/^	def add_cc(address, name)$/;"	f	class:MailSend
+add_cc	config/initializers/submail.rb	/^	def add_cc(address, name)$/;"	f	class:MailXSend
+add_cc	lib/submail.rb	/^	def add_cc(address, name)$/;"	f	class:MailSend
+add_cc	lib/submail.rb	/^	def add_cc(address, name)$/;"	f	class:MailXSend
+add_header	config/initializers/submail.rb	/^	def add_header(key, value)$/;"	f	class:MailSend
+add_header	config/initializers/submail.rb	/^	def add_header(key, value)$/;"	f	class:MailXSend
+add_header	lib/submail.rb	/^	def add_header(key, value)$/;"	f	class:MailSend
+add_header	lib/submail.rb	/^	def add_header(key, value)$/;"	f	class:MailXSend
+add_link	config/initializers/submail.rb	/^	def add_link(key, value)$/;"	f	class:MailSend
+add_link	config/initializers/submail.rb	/^	def add_link(key, value)$/;"	f	class:MailXSend
+add_link	lib/submail.rb	/^	def add_link(key, value)$/;"	f	class:MailSend
+add_link	lib/submail.rb	/^	def add_link(key, value)$/;"	f	class:MailXSend
+add_to	config/initializers/submail.rb	/^	def add_to(address)$/;"	f	class:MessageXSend
+add_to	config/initializers/submail.rb	/^	def add_to(address, name)$/;"	f	class:MailSend
+add_to	config/initializers/submail.rb	/^	def add_to(address, name)$/;"	f	class:MailXSend
+add_to	lib/submail.rb	/^	def add_to(address)$/;"	f	class:MessageXSend
+add_to	lib/submail.rb	/^	def add_to(address, name)$/;"	f	class:MailSend
+add_to	lib/submail.rb	/^	def add_to(address, name)$/;"	f	class:MailXSend
+add_var	config/initializers/submail.rb	/^	def add_var(key, value)$/;"	f	class:MailSend
+add_var	config/initializers/submail.rb	/^	def add_var(key, value)$/;"	f	class:MailXSend
+add_var	config/initializers/submail.rb	/^	def add_var(key, value)$/;"	f	class:MessageXSend
+add_var	lib/submail.rb	/^	def add_var(key, value)$/;"	f	class:MailSend
+add_var	lib/submail.rb	/^	def add_var(key, value)$/;"	f	class:MailXSend
+add_var	lib/submail.rb	/^	def add_var(key, value)$/;"	f	class:MessageXSend
 address_params	app/controllers/addresses_controller.rb	/^    def address_params$/;"	f	class:AddressesController
 admin?	app/models/user.rb	/^  def admin?$/;"	f	class:User
-allConstant	app/assets/javascripts/lib/angularjs/angular.js	/^    var allConstant = true;$/;"	v
-amount	app/models/consumption_record.rb	/^  def amount$/;"	f	class:ConsumptionRecord
-amount=	app/models/consumption_record.rb	/^  def amount=(value)$/;"	f	class:ConsumptionRecord
-ancestors	app/assets/javascripts/lib/angularjs/angular-ui-router.js	/^function ancestors(first, second) {$/;"	f
-angular.resumeBootstrap	app/assets/javascripts/lib/angularjs/angular.js	/^  angular.resumeBootstrap = function(extraModules) {$/;"	f
-angularInit	app/assets/javascripts/lib/angularjs/angular.js	/^function angularInit(element, bootstrap) {$/;"	f
-angularInit.append	app/assets/javascripts/lib/angularjs/angular.js	/^  function append(element) {$/;"	f
-annotate	app/assets/javascripts/lib/angularjs/angular.js	/^function annotate(fn) {$/;"	f
-app	app/assets/javascripts/controllers/global/left_sidebar.js	/^var app;$/;"	v
-applyDirectivesToNode	app/assets/javascripts/lib/angularjs/angular.js	/^    function applyDirectivesToNode(directives, compileNode, templateAttrs, transcludeFn,$/;"	f
-argsFn	app/assets/javascripts/lib/angularjs/angular.js	/^    var argsFn = [];$/;"	v
-arrayEqualsHandler	app/assets/javascripts/lib/angularjs/angular-ui-router.js	/^    function arrayEqualsHandler(callback) {$/;"	f
-arrayRemove	app/assets/javascripts/lib/angularjs/angular.js	/^function arrayRemove(array, value) {$/;"	f
-assertArg	app/assets/javascripts/lib/angularjs/angular.js	/^function assertArg(arg, name, reason) {$/;"	f
-assertArgFn	app/assets/javascripts/lib/angularjs/angular.js	/^function assertArgFn(arg, name, acceptArrayAnnotation) {$/;"	f
-assertNoDuplicate	app/assets/javascripts/lib/angularjs/angular.js	/^    function assertNoDuplicate(what, previousDirective, directive, element) {$/;"	f
-assertNotHasOwnProperty	app/assets/javascripts/lib/angularjs/angular.js	/^function assertNotHasOwnProperty(name, context) {$/;"	f
-authenticate!	lib/api/v1/helpers.rb	/^      def authenticate!$/;"	f	class:API
-avatar_url	app/models/user.rb	/^  def avatar_url$/;"	f	class:User
-b	app/assets/javascripts/lib/respond.min.js	/^!function(a){"use strict";a.matchMedia=a.matchMedia||function(a){var b,c=a.documentElement,d=c.firstElementChild||c.firstChild,e=a.createElement("body"),f=a.createElement("div");return f.id="mq-test-1",f.style.cssText="position:absolute;top:-100em",e.style.background="none",e.appendChild(f),function(a){return f.innerHTML='&shy;<style media="'+a+'"> #mq-test-1 { width: 42px; }<\/style>',c.insertBefore(e,d),b=42===f.offsetWidth,c.removeChild(e),{matches:b,media:a}}}(a.document)}(this),function(a){"use strict";function b(){u(!0)}var c={};a.respond=c,c.update=function(){};var d=[],e=function(){var b=!1;try{b=new a.XMLHttpRequest}catch(c){b=new a.ActiveXObject("Microsoft.XMLHTTP")}return function(){return b}}(),f=function(a,b){var c=e();c&&(c.open("GET",a,!0),c.onreadystatechange=function(){4!==c.readyState||200!==c.status&&304!==c.status||b(c.responseText)},4!==c.readyState&&c.send(null))};if(c.ajax=f,c.queue=d,c.regex={media:\/@media[^\\{]+\\{([^\\{\\}]*\\{[^\\}\\{]*\\})+\/gi,keyframes:\/@(?:\\-(?:o|moz|webkit)\\-)?keyframes[^\\{]+\\{(?:[^\\{\\}]*\\{[^\\}\\{]*\\})+[^\\}]*\\}\/gi,urls:\/(url\\()['"]?([^\\\/\\)'"][^:\\)'"]+)['"]?(\\))\/g,findStyles:\/@media *([^\\{]+)\\{([\\S\\s]+?)$\/,only:\/(only\\s+)?([a-zA-Z]+)\\s?\/,minw:\/\\([\\s]*min\\-width\\s*:[\\s]*([\\s]*[0-9\\.]+)(px|em)[\\s]*\\)\/,maxw:\/\\([\\s]*max\\-width\\s*:[\\s]*([\\s]*[0-9\\.]+)(px|em)[\\s]*\\)\/},c.mediaQueriesSupported=a.matchMedia&&null!==a.matchMedia("only all")&&a.matchMedia("only all").matches,!c.mediaQueriesSupported){var g,h,i,j=a.document,k=j.documentElement,l=[],m=[],n=[],o={},p=30,q=j.getElementsByTagName("head")[0]||k,r=j.getElementsByTagName("base")[0],s=q.getElementsByTagName("link"),t=function(){var a,b=j.createElement("div"),c=j.body,d=k.style.fontSize,e=c&&c.style.fontSize,f=!1;return b.style.cssText="position:absolute;font-size:1em;width:1em",c||(c=f=j.createElement("body"),c.style.background="none"),k.style.fontSize="100%",c.style.fontSize="100%",c.appendChild(b),f&&k.insertBefore(c,k.firstChild),a=b.offsetWidth,f?k.removeChild(c):c.removeChild(b),k.style.fontSize=d,e&&(c.style.fontSize=e),a=i=parseFloat(a)},u=function(b){var c="clientWidth",d=k[c],e="CSS1Compat"===j.compatMode&&d||j.body[c]||d,f={},o=s[s.length-1],r=(new Date).getTime();if(b&&g&&p>r-g)return a.clearTimeout(h),h=a.setTimeout(u,p),void 0;g=r;for(var v in l)if(l.hasOwnProperty(v)){var w=l[v],x=w.minw,y=w.maxw,z=null===x,A=null===y,B="em";x&&(x=parseFloat(x)*(x.indexOf(B)>-1?i||t():1)),y&&(y=parseFloat(y)*(y.indexOf(B)>-1?i||t():1)),w.hasquery&&(z&&A||!(z||e>=x)||!(A||y>=e))||(f[w.media]||(f[w.media]=[]),f[w.media].push(m[w.rules]))}for(var C in n)n.hasOwnProperty(C)&&n[C]&&n[C].parentNode===q&&q.removeChild(n[C]);n.length=0;for(var D in f)if(f.hasOwnProperty(D)){var E=j.createElement("style"),F=f[D].join("\\n");E.type="text\/css",E.media=D,q.insertBefore(E,o.nextSibling),E.styleSheet?E.styleSheet.cssText=F:E.appendChild(j.createTextNode(F)),n.push(E)}},v=function(a,b,d){var e=a.replace(c.regex.keyframes,"").match(c.regex.media),f=e&&e.length||0;b=b.substring(0,b.lastIndexOf("\/"));var g=function(a){return a.replace(c.regex.urls,"$1"+b+"$2$3")},h=!f&&d;b.length&&(b+="\/"),h&&(f=1);for(var i=0;f>i;i++){var j,k,n,o;h?(j=d,m.push(g(a))):(j=e[i].match(c.regex.findStyles)&&RegExp.$1,m.push(RegExp.$2&&g(RegExp.$2))),n=j.split(","),o=n.length;for(var p=0;o>p;p++)k=n[p],l.push({media:k.split("(")[0].match(c.regex.only)&&RegExp.$2||"all",rules:m.length-1,hasquery:k.indexOf("(")>-1,minw:k.match(c.regex.minw)&&parseFloat(RegExp.$1)+(RegExp.$2||""),maxw:k.match(c.regex.maxw)&&parseFloat(RegExp.$1)+(RegExp.$2||"")})}u()},w=function(){if(d.length){var b=d.shift();f(b.href,function(c){v(c,b.href,b.media),o[b.href]=!0,a.setTimeout(function(){w()},0)})}},x=function(){for(var b=0;b<s.length;b++){var c=s[b],e=c.href,f=c.media,g=c.rel&&"stylesheet"===c.rel.toLowerCase();e&&g&&!o[e]&&(c.styleSheet&&c.styleSheet.rawCssText?(v(c.styleSheet.rawCssText,e,f),o[e]=!0):(!\/^([a-zA-Z:]*\\\/\\\/)\/.test(e)&&!r||e.replace(RegExp.$1,"").split("\/")[0]===a.location.host)&&("\/\/"===e.substring(0,2)&&(e=a.location.protocol+e),d.push({href:e,media:f})))}w()};x(),c.update=x,c.getEmValue=t,a.addEventListener?a.addEventListener("resize",b,!1):a.attachEvent&&a.attachEvent("onresize",b)}}(this);/;"	f
-balance	app/models/customer.rb	/^  def balance$/;"	f	class:Customer
-balance=	app/models/customer.rb	/^  def balance=(value)$/;"	f	class:Customer
-beginsWith	app/assets/javascripts/lib/angularjs/angular.js	/^function beginsWith(begin, whole) {$/;"	f
-bind	app/assets/javascripts/lib/angularjs/angular.js	/^function bind(self, fn) {$/;"	f
-bindJQuery	app/assets/javascripts/lib/angularjs/angular.js	/^function bindJQuery() {$/;"	f
-bootstrap	app/assets/javascripts/lib/angularjs/angular.js	/^function bootstrap(element, modules) {$/;"	f
-bootstrap.doBootstrap	app/assets/javascripts/lib/angularjs/angular.js	/^  var doBootstrap = function() {$/;"	f
-bound	app/assets/javascripts/lib/underscore.js	/^    bound = function() {$/;"	f
-byPriority	app/assets/javascripts/lib/angularjs/angular.js	/^    function byPriority(a, b) {$/;"	f
-cacheFactory.get	app/assets/javascripts/lib/angularjs/angular.js	/^    cacheFactory.get = function(cacheId) {$/;"	f
-cacheFactory.link	app/assets/javascripts/lib/angularjs/angular.js	/^      function link(nextEntry, prevEntry) {$/;"	f
-cacheFactory.refresh	app/assets/javascripts/lib/angularjs/angular.js	/^      function refresh(entry) {$/;"	f
+after_sign_up_path_for	app/controllers/registrations_controller.rb	/^  def after_sign_up_path_for(resource)$/;"	f	class:RegistrationsController
+allConstant	app/assets/javascripts/angular.js	/^    var allConstant = true;$/;"	v
+annotate	app/assets/javascripts/angular.js	/^function annotate(fn) {$/;"	f
+applyDirectivesToNode	app/assets/javascripts/angular.js	/^    function applyDirectivesToNode(directives, compileNode, templateAttrs, transcludeFn,$/;"	f
+argsFn	app/assets/javascripts/angular.js	/^    var argsFn = [];$/;"	v
+assertNoDuplicate	app/assets/javascripts/angular.js	/^    function assertNoDuplicate(what, previousDirective, directive, element) {$/;"	f
+authenticate!	lib/api/v1/root.rb	/^        def authenticate!$/;"	f	class:API.V1.Root
+b	app/assets/javascripts/respond.min.js	/^!function(a){"use strict";a.matchMedia=a.matchMedia||function(a){var b,c=a.documentElement,d=c.firstElementChild||c.firstChild,e=a.createElement("body"),f=a.createElement("div");return f.id="mq-test-1",f.style.cssText="position:absolute;top:-100em",e.style.background="none",e.appendChild(f),function(a){return f.innerHTML='&shy;<style media="'+a+'"> #mq-test-1 { width: 42px; }<\/style>',c.insertBefore(e,d),b=42===f.offsetWidth,c.removeChild(e),{matches:b,media:a}}}(a.document)}(this),function(a){"use strict";function b(){u(!0)}var c={};a.respond=c,c.update=function(){};var d=[],e=function(){var b=!1;try{b=new a.XMLHttpRequest}catch(c){b=new a.ActiveXObject("Microsoft.XMLHTTP")}return function(){return b}}(),f=function(a,b){var c=e();c&&(c.open("GET",a,!0),c.onreadystatechange=function(){4!==c.readyState||200!==c.status&&304!==c.status||b(c.responseText)},4!==c.readyState&&c.send(null))};if(c.ajax=f,c.queue=d,c.regex={media:\/@media[^\\{]+\\{([^\\{\\}]*\\{[^\\}\\{]*\\})+\/gi,keyframes:\/@(?:\\-(?:o|moz|webkit)\\-)?keyframes[^\\{]+\\{(?:[^\\{\\}]*\\{[^\\}\\{]*\\})+[^\\}]*\\}\/gi,urls:\/(url\\()['"]?([^\\\/\\)'"][^:\\)'"]+)['"]?(\\))\/g,findStyles:\/@media *([^\\{]+)\\{([\\S\\s]+?)$\/,only:\/(only\\s+)?([a-zA-Z]+)\\s?\/,minw:\/\\([\\s]*min\\-width\\s*:[\\s]*([\\s]*[0-9\\.]+)(px|em)[\\s]*\\)\/,maxw:\/\\([\\s]*max\\-width\\s*:[\\s]*([\\s]*[0-9\\.]+)(px|em)[\\s]*\\)\/},c.mediaQueriesSupported=a.matchMedia&&null!==a.matchMedia("only all")&&a.matchMedia("only all").matches,!c.mediaQueriesSupported){var g,h,i,j=a.document,k=j.documentElement,l=[],m=[],n=[],o={},p=30,q=j.getElementsByTagName("head")[0]||k,r=j.getElementsByTagName("base")[0],s=q.getElementsByTagName("link"),t=function(){var a,b=j.createElement("div"),c=j.body,d=k.style.fontSize,e=c&&c.style.fontSize,f=!1;return b.style.cssText="position:absolute;font-size:1em;width:1em",c||(c=f=j.createElement("body"),c.style.background="none"),k.style.fontSize="100%",c.style.fontSize="100%",c.appendChild(b),f&&k.insertBefore(c,k.firstChild),a=b.offsetWidth,f?k.removeChild(c):c.removeChild(b),k.style.fontSize=d,e&&(c.style.fontSize=e),a=i=parseFloat(a)},u=function(b){var c="clientWidth",d=k[c],e="CSS1Compat"===j.compatMode&&d||j.body[c]||d,f={},o=s[s.length-1],r=(new Date).getTime();if(b&&g&&p>r-g)return a.clearTimeout(h),h=a.setTimeout(u,p),void 0;g=r;for(var v in l)if(l.hasOwnProperty(v)){var w=l[v],x=w.minw,y=w.maxw,z=null===x,A=null===y,B="em";x&&(x=parseFloat(x)*(x.indexOf(B)>-1?i||t():1)),y&&(y=parseFloat(y)*(y.indexOf(B)>-1?i||t():1)),w.hasquery&&(z&&A||!(z||e>=x)||!(A||y>=e))||(f[w.media]||(f[w.media]=[]),f[w.media].push(m[w.rules]))}for(var C in n)n.hasOwnProperty(C)&&n[C]&&n[C].parentNode===q&&q.removeChild(n[C]);n.length=0;for(var D in f)if(f.hasOwnProperty(D)){var E=j.createElement("style"),F=f[D].join("\\n");E.type="text\/css",E.media=D,q.insertBefore(E,o.nextSibling),E.styleSheet?E.styleSheet.cssText=F:E.appendChild(j.createTextNode(F)),n.push(E)}},v=function(a,b,d){var e=a.replace(c.regex.keyframes,"").match(c.regex.media),f=e&&e.length||0;b=b.substring(0,b.lastIndexOf("\/"));var g=function(a){return a.replace(c.regex.urls,"$1"+b+"$2$3")},h=!f&&d;b.length&&(b+="\/"),h&&(f=1);for(var i=0;f>i;i++){var j,k,n,o;h?(j=d,m.push(g(a))):(j=e[i].match(c.regex.findStyles)&&RegExp.$1,m.push(RegExp.$2&&g(RegExp.$2))),n=j.split(","),o=n.length;for(var p=0;o>p;p++)k=n[p],l.push({media:k.split("(")[0].match(c.regex.only)&&RegExp.$2||"all",rules:m.length-1,hasquery:k.indexOf("(")>-1,minw:k.match(c.regex.minw)&&parseFloat(RegExp.$1)+(RegExp.$2||""),maxw:k.match(c.regex.maxw)&&parseFloat(RegExp.$1)+(RegExp.$2||"")})}u()},w=function(){if(d.length){var b=d.shift();f(b.href,function(c){v(c,b.href,b.media),o[b.href]=!0,a.setTimeout(function(){w()},0)})}},x=function(){for(var b=0;b<s.length;b++){var c=s[b],e=c.href,f=c.media,g=c.rel&&"stylesheet"===c.rel.toLowerCase();e&&g&&!o[e]&&(c.styleSheet&&c.styleSheet.rawCssText?(v(c.styleSheet.rawCssText,e,f),o[e]=!0):(!\/^([a-zA-Z:]*\\\/\\\/)\/.test(e)&&!r||e.replace(RegExp.$1,"").split("\/")[0]===a.location.host)&&("\/\/"===e.substring(0,2)&&(e=a.location.protocol+e),d.push({href:e,media:f})))}w()};x(),c.update=x,c.getEmValue=t,a.addEventListener?a.addEventListener("resize",b,!1):a.attachEvent&&a.attachEvent("onresize",b)}}(this);/;"	f
+beginsWith	app/assets/javascripts/angular.js	/^function beginsWith(begin, whole) {$/;"	f
+bound	app/assets/javascripts/underscore.js	/^    bound = function() {$/;"	f
+build_request	config/initializers/submail.rb	/^	def build_request()$/;"	f	class:AddressBookMail
+build_request	config/initializers/submail.rb	/^	def build_request()$/;"	f	class:AddressBookMessage
+build_request	config/initializers/submail.rb	/^	def build_request()$/;"	f	class:MailSend
+build_request	config/initializers/submail.rb	/^	def build_request()$/;"	f	class:MailXSend
+build_request	config/initializers/submail.rb	/^	def build_request()$/;"	f	class:MessageXSend
+build_request	lib/submail.rb	/^	def build_request()$/;"	f	class:AddressBookMail
+build_request	lib/submail.rb	/^	def build_request()$/;"	f	class:AddressBookMessage
+build_request	lib/submail.rb	/^	def build_request()$/;"	f	class:MailSend
+build_request	lib/submail.rb	/^	def build_request()$/;"	f	class:MailXSend
+build_request	lib/submail.rb	/^	def build_request()$/;"	f	class:MessageXSend
+byPriority	app/assets/javascripts/angular.js	/^    function byPriority(a, b) {$/;"	f
+cacheFactory.get	app/assets/javascripts/angular.js	/^    cacheFactory.get = function(cacheId) {$/;"	f
+cacheFactory.link	app/assets/javascripts/angular.js	/^      function link(nextEntry, prevEntry) {$/;"	f
+cacheFactory.refresh	app/assets/javascripts/angular.js	/^      function refresh(entry) {$/;"	f
 call	lib/api/error_formatter.rb	/^    def self.call message, backtrace, options, env$/;"	F	class:API.ErrorFormatter
 call	lib/middleware/turbo_dev.rb	/^    def call(env)$/;"	f	class:Middleware.TurboDev
-callback	app/assets/javascripts/lib/angularjs/angular.js	/^    callback = function(event) {$/;"	f
-callbacks	app/assets/javascripts/lib/angularjs/angular.js	/^      callbacks[callbackId] = function(data) {$/;"	f
-camelCase	app/assets/javascripts/lib/angularjs/angular.js	/^function camelCase(name) {$/;"	f
+callback	app/assets/javascripts/angular.js	/^    callback = function(event) {$/;"	f
+callbacks	app/assets/javascripts/angular.js	/^      callbacks[callbackId] = function(data) {$/;"	f
 change	db/migrate/20150116063919_devise_create_users.rb	/^  def change$/;"	f	class:DeviseCreateUsers
 change	db/migrate/20150120084317_add_avatar_to_users.rb	/^  def change$/;"	f	class:AddAvatarToUsers
 change	db/migrate/20150120101747_create_stores.rb	/^  def change$/;"	f	class:CreateStores
@@ -467,428 +407,336 @@ change	db/migrate/20150120103139_create_addresses.rb	/^  def change$/;"	f	class:
 change	db/migrate/20150120103656_add_store_id_to_users.rb	/^  def change$/;"	f	class:AddStoreIdToUsers
 change	db/migrate/20150121064516_add_gender_to_users.rb	/^  def change$/;"	f	class:AddGenderToUsers
 change	db/migrate/20150122022832_add_weixin_to_users.rb	/^  def change$/;"	f	class:AddWeixinToUsers
-change	db/migrate/20150126150101_create_orders.rb	/^  def change$/;"	f	class:CreateOrders
-change	db/migrate/20150127120019_add_zip_code_to_address.rb	/^  def change$/;"	f	class:AddZipCodeToAddress
-change	db/migrate/20150127120918_add_address_id_to_orders.rb	/^  def change$/;"	f	class:AddAddressIdToOrders
-change	db/migrate/20150127123613_create_items.rb	/^  def change$/;"	f	class:CreateItems
-change	db/migrate/20150127123841_add_type_index_to_users.rb	/^  def change$/;"	f	class:AddTypeIndexToUsers
-change	db/migrate/20150127125248_add_deleted_at_to_users.rb	/^  def change$/;"	f	class:AddDeletedAtToUsers
-change	db/migrate/20150127125302_add_deleted_at_to_items.rb	/^  def change$/;"	f	class:AddDeletedAtToItems
-change	db/migrate/20150127125320_add_deleted_at_to_address.rb	/^  def change$/;"	f	class:AddDeletedAtToAddress
-change	db/migrate/20150127125428_add_deleted_at_to_order.rb	/^  def change$/;"	f	class:AddDeletedAtToOrder
-change	db/migrate/20150127125451_add_deleted_at_to_store.rb	/^  def change$/;"	f	class:AddDeletedAtToStore
-change	db/migrate/20150127131432_add_status_to_order.rb	/^  def change$/;"	f	class:AddStatusToOrder
-change	db/migrate/20150127131856_create_services.rb	/^  def change$/;"	f	class:CreateServices
-change	db/migrate/20150127132008_create_maintain_parts.rb	/^  def change$/;"	f	class:CreateMaintainParts
-change	db/migrate/20150127132036_create_flaws.rb	/^  def change$/;"	f	class:CreateFlaws
-change	db/migrate/20150127132113_create_badnesses.rb	/^  def change$/;"	f	class:CreateBadnesses
-change	db/migrate/20150127132713_add_deleted_at_to_badnesses.rb	/^  def change$/;"	f	class:AddDeletedAtToBadnesses
-change	db/migrate/20150127132723_add_deleted_at_to_flaws.rb	/^  def change$/;"	f	class:AddDeletedAtToFlaws
-change	db/migrate/20150127132733_add_deleted_at_to_service.rb	/^  def change$/;"	f	class:AddDeletedAtToService
-change	db/migrate/20150127132754_add_deleted_at_to_maintain_part.rb	/^  def change$/;"	f	class:AddDeletedAtToMaintainPart
-change	db/migrate/20150127133307_add_maintain_part_to_orders.rb	/^  def change$/;"	f	class:AddMaintainPartToOrders
-change	db/migrate/20150127133323_add_service_to_orders.rb	/^  def change$/;"	f	class:AddServiceToOrders
-change	db/migrate/20150127133342_add_flaw_to_orders.rb	/^  def change$/;"	f	class:AddFlawToOrders
-change	db/migrate/20150127133420_add_badness_to_orders.rb	/^  def change$/;"	f	class:AddBadnessToOrders
-change	db/migrate/20150127133855_add_item_id_to_orders.rb	/^  def change$/;"	f	class:AddItemIdToOrders
-change	db/migrate/20150127134044_change_item_id_not_null_in_orders.rb	/^  def change$/;"	f	class:ChangeItemIdNotNullInOrders
-change	db/migrate/20150127134130_change_customer_id_not_null_in_orders.rb	/^  def change$/;"	f	class:ChangeCustomerIdNotNullInOrders
-change	db/migrate/20150127134157_change_store_id_not_null_in_orders.rb	/^  def change$/;"	f	class:ChangeStoreIdNotNullInOrders
-change	db/migrate/20150128011920_change_color_in_items.rb	/^  def change$/;"	f	class:ChangeColorInItems
-change	db/migrate/20150128012128_create_colors.rb	/^  def change$/;"	f	class:CreateColors
-change	db/migrate/20150128111603_add_urgent_to_orders.rb	/^  def change$/;"	f	class:AddUrgentToOrders
-change	db/migrate/20150201080244_create_order_statuses.rb	/^  def change$/;"	f	class:CreateOrderStatuses
-change	db/migrate/20150203092816_change_colomns_in_orders.rb	/^  def change$/;"	f	class:ChangeColomnsInOrders
-change	db/migrate/20150203092816_change_colomns_in_orders.rb	/^  def change$/;"	f	class:ChangeColomnsInOrders.change.ChangeColomnsInOrders
-change	db/migrate/20150203093347_add_attachment_to_orders.rb	/^  def change$/;"	f	class:AddAttachmentToOrders
-change	db/migrate/20150204092101_create_consumption_records.rb	/^  def change$/;"	f	class:CreateConsumptionRecords
-change	db/migrate/20150204092331_add_consumption_record_id_to_orders.rb	/^  def change$/;"	f	class:AddConsumptionRecordIdToOrders
-change	db/migrate/20150205163612_add_remark_to_consumption_records.rb	/^  def change$/;"	f	class:AddRemarkToConsumptionRecords
-change	db/migrate/20150206030847_add_raw_balance_to_users.rb	/^  def change$/;"	f	class:AddRawBalanceToUsers
-change	db/migrate/20150206030928_add_raw_amount_to_consumption_records.rb	/^  def change$/;"	f	class:AddRawAmountToConsumptionRecords
-change	db/migrate/20150206031241_remove_balance_from_users.rb	/^  def change$/;"	f	class:RemoveBalanceFromUsers
-change	db/migrate/20150206031309_remove_amount_from_consumption_records.rb	/^  def change$/;"	f	class:RemoveAmountFromConsumptionRecords
-change	db/migrate/20150206034657_add_discount_to_customer.rb	/^  def change$/;"	f	class:AddDiscountToCustomer
-change	db/migrate/20150206121127_add_color_to_orders.rb	/^  def change$/;"	f	class:AddColorToOrders
-change	db/migrate/20150206122305_add_service_ids_to_orders.rb	/^  def change$/;"	f	class:AddServiceIdsToOrders
-change	db/migrate/20150206122400_change_color_id_in_items.rb	/^  def change$/;"	f	class:ChangeColorIdInItems
-change	db/migrate/20150211055825_create_doorkeeper_tables.rb	/^  def change$/;"	f	class:CreateDoorkeeperTables
-change	db/migrate/20150211101741_add_scopes_to_oauth_applications.rb	/^  def change$/;"	f	class:AddScopesToOauthApplications
-cloneAndAnnotateFn	app/assets/javascripts/lib/angularjs/angular.js	/^    function cloneAndAnnotateFn(fn, annotation) {$/;"	f
-colors	app/models/color.rb	/^  def self.colors$/;"	F	class:Color
-compileNodes.compositeLinkFn	app/assets/javascripts/lib/angularjs/angular.js	/^      function compositeLinkFn(scope, nodeList, $rootElement, parentBoundTranscludeFn) {$/;"	f
-compileTemplateUrl	app/assets/javascripts/lib/angularjs/angular.js	/^    function compileTemplateUrl(directives, $compileNode, tAttrs,$/;"	f
-concat	app/assets/javascripts/lib/angularjs/angular.js	/^function concat(array1, array2, index) {$/;"	f
-constant	app/assets/javascripts/lib/angularjs/angular.js	/^  function constant(name, value) {$/;"	f
-consume	app/models/customer.rb	/^  def consume(params)$/;"	f	class:Customer
-consumption	app/models/order.rb	/^  def consumption$/;"	f	class:Order
-context	app/assets/javascripts/lib/angularjs/angular.js	/^      var context = contextGetter ? contextGetter(scope, locals) : scope;$/;"	v
-cookiePath	app/assets/javascripts/lib/angularjs/angular.js	/^  var cookiePath = self.baseHref();$/;"	v
-copy	app/assets/javascripts/lib/angularjs/angular.js	/^function copy(source, destination, stackSource, stackDest) {$/;"	f
+change	db/migrate/20150225062120_create_doorkeeper_tables.rb	/^  def change$/;"	f	class:CreateDoorkeeperTables
+change	db/migrate/20150227032057_create_phone_numbers.rb	/^  def change$/;"	f	class:CreatePhoneNumbers
+change	db/migrate/20150629020220_add_verified_to_phone_number.rb	/^  def change$/;"	f	class:AddVerifiedToPhoneNumber
+cloneAndAnnotateFn	app/assets/javascripts/angular.js	/^    function cloneAndAnnotateFn(fn, annotation) {$/;"	f
+compileNodes.compositeLinkFn	app/assets/javascripts/angular.js	/^      function compositeLinkFn(scope, nodeList, $rootElement, parentBoundTranscludeFn) {$/;"	f
+compileTemplateUrl	app/assets/javascripts/angular.js	/^    function compileTemplateUrl(directives, $compileNode, tAttrs,$/;"	f
+constant	app/assets/javascripts/angular.js	/^  function constant(name, value) {$/;"	f
+context	app/assets/javascripts/angular.js	/^      var context = contextGetter ? contextGetter(scope, locals) : scope;$/;"	v
+cookiePath	app/assets/javascripts/angular.js	/^  var cookiePath = self.baseHref();$/;"	v
 create	app/controllers/addresses_controller.rb	/^  def create$/;"	f	class:AddressesController
+create	app/controllers/api/v1/conversations_controller.rb	/^  def create$/;"	f	class:Api
+create	app/controllers/api/v1/users_controller.rb	/^  def create$/;"	f	class:Api
 create	app/controllers/customers_controller.rb	/^  def create$/;"	f	class:CustomersController
 create	app/controllers/orders_controller.rb	/^  def create$/;"	f	class:OrdersController
+create	app/controllers/registrations_controller.rb	/^  def create$/;"	f	class:RegistrationsController
+create	app/controllers/sessions_controller.rb	/^  def create$/;"	f	class:SessionsController
 create	app/controllers/solutionists_controller.rb	/^  def create$/;"	f	class:SolutionistsController
 create	app/controllers/stores_controller.rb	/^  def create$/;"	f	class:StoresController
 create	app/controllers/workers_controller.rb	/^  def create$/;"	f	class:WorkersController
-createCallback	app/assets/javascripts/lib/underscore.js	/^  var createCallback = function(func, context, argCount) {$/;"	f
-createDocumentFragment	app/assets/javascripts/lib/html5shiv.js	/^  function createDocumentFragment(ownerDocument, data){$/;"	f
-createElement	app/assets/javascripts/lib/html5shiv.js	/^  function createElement(nodeName, ownerDocument, data){$/;"	f
-createEscaper	app/assets/javascripts/lib/underscore.js	/^  var createEscaper = function(map) {$/;"	f
-createEscaper.escaper	app/assets/javascripts/lib/underscore.js	/^    var escaper = function(match) {$/;"	f
-createEventHandler	app/assets/javascripts/lib/angularjs/angular.js	/^function createEventHandler(element, events) {$/;"	f
-createEventHandler.event.preventDefault	app/assets/javascripts/lib/angularjs/angular.js	/^      event.preventDefault = function() {$/;"	f
-createEventHandler.eventHandler	app/assets/javascripts/lib/angularjs/angular.js	/^  var eventHandler = function (event, type) {$/;"	f
-createHttpBackend	app/assets/javascripts/lib/angularjs/angular.js	/^function createHttpBackend($browser, createXhr, $browserDefer, callbacks, rawDocument) {$/;"	f
-createHttpBackend.completeRequest	app/assets/javascripts/lib/angularjs/angular.js	/^    function completeRequest(callback, status, response, headersString, statusText) {$/;"	f
-createHttpBackend.timeoutRequest	app/assets/javascripts/lib/angularjs/angular.js	/^    function timeoutRequest() {$/;"	f
-createInjector	app/assets/javascripts/lib/angularjs/angular.js	/^function createInjector(modulesToLoad) {$/;"	f
-createInternalInjector	app/assets/javascripts/lib/angularjs/angular.js	/^  function createInternalInjector(cache, factory) {$/;"	f
-createInternalInjector.getService	app/assets/javascripts/lib/angularjs/angular.js	/^    function getService(serviceName) {$/;"	f
-createInternalInjector.instantiate	app/assets/javascripts/lib/angularjs/angular.js	/^    function instantiate(Type, locals) {$/;"	f
-createInternalInjector.instantiate.Constructor	app/assets/javascripts/lib/angularjs/angular.js	/^      var Constructor = function() {},$/;"	f
-createInternalInjector.invoke	app/assets/javascripts/lib/angularjs/angular.js	/^    function invoke(fn, self, locals){$/;"	f
-createXhr	app/assets/javascripts/lib/angularjs/angular.js	/^function createXhr(method) {$/;"	f
-csp	app/assets/javascripts/lib/angularjs/angular.js	/^var csp = function() {$/;"	f
-cspSafeGetterFn	app/assets/javascripts/lib/angularjs/angular.js	/^function cspSafeGetterFn(key0, key1, key2, key3, key4, fullExp, options) {$/;"	f
-cspSafeGetterFn.eso	app/assets/javascripts/lib/angularjs/angular.js	/^  var eso = function(o) {$/;"	f
-current_resource_owner	lib/api/v1/users.rb	/^    def current_resource_owner$/;"	f	class:API
-current_token	lib/api/v1/users.rb	/^    def current_token; env['api.token']; end$/;"	f	class:API
-current_user	lib/api/v1/helpers.rb	/^      def current_user$/;"	f	class:API
+createCallback	app/assets/javascripts/underscore.js	/^  var createCallback = function(func, context, argCount) {$/;"	f
+createDocumentFragment	app/assets/javascripts/html5shiv.js	/^  function createDocumentFragment(ownerDocument, data){$/;"	f
+createElement	app/assets/javascripts/html5shiv.js	/^  function createElement(nodeName, ownerDocument, data){$/;"	f
+createEscaper	app/assets/javascripts/underscore.js	/^  var createEscaper = function(map) {$/;"	f
+createEscaper.escaper	app/assets/javascripts/underscore.js	/^    var escaper = function(match) {$/;"	f
+createEventHandler	app/assets/javascripts/angular.js	/^function createEventHandler(element, events) {$/;"	f
+createEventHandler.event.preventDefault	app/assets/javascripts/angular.js	/^      event.preventDefault = function() {$/;"	f
+createEventHandler.eventHandler	app/assets/javascripts/angular.js	/^  var eventHandler = function (event, type) {$/;"	f
+createHttpBackend	app/assets/javascripts/angular.js	/^function createHttpBackend($browser, createXhr, $browserDefer, callbacks, rawDocument) {$/;"	f
+createHttpBackend.completeRequest	app/assets/javascripts/angular.js	/^    function completeRequest(callback, status, response, headersString, statusText) {$/;"	f
+createHttpBackend.timeoutRequest	app/assets/javascripts/angular.js	/^    function timeoutRequest() {$/;"	f
+createInjector	app/assets/javascripts/angular.js	/^function createInjector(modulesToLoad) {$/;"	f
+createInternalInjector	app/assets/javascripts/angular.js	/^  function createInternalInjector(cache, factory) {$/;"	f
+createInternalInjector.getService	app/assets/javascripts/angular.js	/^    function getService(serviceName) {$/;"	f
+createInternalInjector.instantiate	app/assets/javascripts/angular.js	/^    function instantiate(Type, locals) {$/;"	f
+createInternalInjector.instantiate.Constructor	app/assets/javascripts/angular.js	/^      var Constructor = function() {},$/;"	f
+createInternalInjector.invoke	app/assets/javascripts/angular.js	/^    function invoke(fn, self, locals){$/;"	f
+createXhr	app/assets/javascripts/angular.js	/^function createXhr(method) {$/;"	f
+create_code	app/controllers/phones_controller.rb	/^  def create_code$/;"	f	class:PhonesController
+create_password_code	app/controllers/phones_controller.rb	/^  def create_password_code$/;"	f	class:PhonesController
+create_signatrue	config/initializers/submail.rb	/^def create_signatrue(request,config)$/;"	f
+create_signatrue	lib/submail.rb	/^def create_signatrue(request,config)$/;"	f
+cspSafeGetterFn	app/assets/javascripts/angular.js	/^function cspSafeGetterFn(key0, key1, key2, key3, key4, fullExp, options) {$/;"	f
+cspSafeGetterFn.eso	app/assets/javascripts/angular.js	/^  var eso = function(o) {$/;"	f
+current_user	app/controllers/api/v1/base_controller.rb	/^  def current_user$/;"	f	class:Api
+current_user	lib/api/v1/root.rb	/^        def current_user$/;"	f	class:API.V1.Root
 customer_params	app/controllers/customers_controller.rb	/^    def customer_params$/;"	f	class:CustomersController
-decorator	app/assets/javascripts/lib/angularjs/angular.js	/^  function decorator(serviceName, decorFn) {$/;"	f
-destroy	app/assets/javascripts/lib/radiocheck.js	/^  Radiocheck.prototype.destroy = function () {$/;"	m
+decorator	app/assets/javascripts/angular.js	/^  function decorator(serviceName, decorFn) {$/;"	f
 destroy	app/controllers/addresses_controller.rb	/^  def destroy$/;"	f	class:AddressesController
+destroy	app/controllers/api/v1/messages_controller.rb	/^  def destroy$/;"	f	class:Api
 destroy	app/controllers/customers_controller.rb	/^  def destroy$/;"	f	class:CustomersController
 destroy	app/controllers/orders_controller.rb	/^  def destroy$/;"	f	class:OrdersController
 destroy	app/controllers/solutionists_controller.rb	/^  def destroy$/;"	f	class:SolutionistsController
 destroy	app/controllers/stores_controller.rb	/^  def destroy$/;"	f	class:StoresController
 destroy	app/controllers/workers_controller.rb	/^  def destroy$/;"	f	class:WorkersController
-determinate	app/assets/javascripts/lib/radiocheck.js	/^  Radiocheck.prototype.determinate = function () {$/;"	m
-directiveLinkingFn	app/assets/javascripts/lib/angularjs/angular.js	/^function directiveLinkingFn($/;"	f
-directiveNormalize	app/assets/javascripts/lib/angularjs/angular.js	/^function directiveNormalize(name) {$/;"	f
-disable	app/assets/javascripts/lib/radiocheck.js	/^  Radiocheck.prototype.disable = function () {$/;"	m
+directiveLinkingFn	app/assets/javascripts/angular.js	/^function directiveLinkingFn($/;"	f
+directiveNormalize	app/assets/javascripts/angular.js	/^function directiveNormalize(name) {$/;"	f
 edit	app/controllers/addresses_controller.rb	/^  def edit$/;"	f	class:AddressesController
 edit	app/controllers/customers_controller.rb	/^  def edit$/;"	f	class:CustomersController
 edit	app/controllers/orders_controller.rb	/^  def edit$/;"	f	class:OrdersController
+edit	app/controllers/registrations_controller.rb	/^  def edit$/;"	f	class:RegistrationsController
 edit	app/controllers/solutionists_controller.rb	/^  def edit$/;"	f	class:SolutionistsController
 edit	app/controllers/stores_controller.rb	/^  def edit$/;"	f	class:StoresController
 edit	app/controllers/users_controller.rb	/^  def edit$/;"	f	class:UsersController
 edit	app/controllers/workers_controller.rb	/^  def edit$/;"	f	class:WorkersController
-enable	app/assets/javascripts/lib/radiocheck.js	/^  Radiocheck.prototype.enable = function () {$/;"	m
-encodePath	app/assets/javascripts/lib/angularjs/angular.js	/^function encodePath(path) {$/;"	f
-encodeUriQuery	app/assets/javascripts/lib/angularjs/angular.js	/^function encodeUriQuery(val, pctEncodeSpaces) {$/;"	f
-encodeUriSegment	app/assets/javascripts/lib/angularjs/angular.js	/^function encodeUriSegment(val) {$/;"	f
-ensureSafeFunction	app/assets/javascripts/lib/angularjs/angular.js	/^function ensureSafeFunction(obj, fullExpression) {$/;"	f
-ensureSafeMemberName	app/assets/javascripts/lib/angularjs/angular.js	/^function ensureSafeMemberName(name, fullExpression) {$/;"	f
-ensureSafeObject	app/assets/javascripts/lib/angularjs/angular.js	/^function ensureSafeObject(obj, fullExpression) {$/;"	f
-eq	app/assets/javascripts/lib/underscore.js	/^  var eq = function(a, b, aStack, bStack) {$/;"	f
-equalForKeys	app/assets/javascripts/lib/angularjs/angular-ui-router.js	/^function equalForKeys(a, b, keys) {$/;"	f
-equals	app/assets/javascripts/lib/angularjs/angular.js	/^function equals(o1, o2) {$/;"	f
-escapeMap."	app/assets/javascripts/lib/underscore.js	/^    '"': '&quot;',$/;"	p
-escapeMap.&	app/assets/javascripts/lib/underscore.js	/^    '&': '&amp;',$/;"	p
-escapeMap.'	app/assets/javascripts/lib/underscore.js	/^    "'": '&#x27;',$/;"	p
-escapeMap.<	app/assets/javascripts/lib/underscore.js	/^    '<': '&lt;',$/;"	p
-escapeMap.>	app/assets/javascripts/lib/underscore.js	/^    '>': '&gt;',$/;"	p
-escapeMap.`	app/assets/javascripts/lib/underscore.js	/^    '`': '&#x60;'$/;"	p
-escapes.'	app/assets/javascripts/lib/underscore.js	/^    "'":      "'",$/;"	p
-escapes.\	app/assets/javascripts/lib/underscore.js	/^    '\\\\':     '\\\\',$/;"	p
-escapes.n	app/assets/javascripts/lib/underscore.js	/^    '\\n':     'n',$/;"	p
-escapes.r	app/assets/javascripts/lib/underscore.js	/^    '\\r':     'r',$/;"	p
-escapes.u2028	app/assets/javascripts/lib/underscore.js	/^    '\\u2028': 'u2028',$/;"	p
-escapes.u2029	app/assets/javascripts/lib/underscore.js	/^    '\\u2029': 'u2029'$/;"	p
-event.isDefaultPrevented	app/assets/javascripts/lib/angularjs/angular.js	/^    event.isDefaultPrevented = function() {$/;"	f
-event.preventDefault	app/assets/javascripts/lib/angularjs/angular.js	/^      event.preventDefault = function() {$/;"	f
-event.stopPropagation	app/assets/javascripts/lib/angularjs/angular.js	/^      event.stopPropagation = function() {$/;"	f
-event.type	app/assets/javascripts/lib/angularjs/angular.js	/^          event = { type: "error" };$/;"	p
-expanID	app/assets/javascripts/lib/html5shiv.js	/^  var expanID = 0;$/;"	v
-expando	app/assets/javascripts/lib/html5shiv.js	/^  var expando = '_html5shiv';$/;"	v
-extend	app/assets/javascripts/lib/angularjs/angular.js	/^function extend(dst) {$/;"	f
-factory	app/assets/javascripts/lib/angularjs/angular.js	/^  function factory(name, factoryFn) { return provider(name, { $get: factoryFn }); }$/;"	f
-fake_address	db/seeds.rb	/^def fake_address(u)$/;"	f
-fake_order	db/seeds.rb	/^def fake_order(u, address)$/;"	f
-fake_user	db/seeds.rb	/^def fake_user(type='Customer', is_member=false)$/;"	f
-filter	app/assets/javascripts/lib/angularjs/angular-ui-router.js	/^function filter(collection, callback) {$/;"	f
-filterByKeys	app/assets/javascripts/lib/angularjs/angular-ui-router.js	/^function filterByKeys(keys, values) {$/;"	f
-fireUrlChange	app/assets/javascripts/lib/angularjs/angular.js	/^  function fireUrlChange() {$/;"	f
-flatten	app/assets/javascripts/lib/underscore.js	/^  var flatten = function(input, shallow, strict, output) {$/;"	f
-fliter_by_status	app/models/order.rb	/^  def self.fliter_by_status(value)$/;"	F	class:Order
-fn	app/assets/javascripts/lib/angularjs/angular.js	/^        fn = function(context) {$/;"	f
-forEach	app/assets/javascripts/lib/angularjs/angular.js	/^function forEach(obj, iterator, context) {$/;"	f
-forEachSorted	app/assets/javascripts/lib/angularjs/angular.js	/^function forEachSorted(obj, iterator, context) {$/;"	f
-fromJson	app/assets/javascripts/lib/angularjs/angular.js	/^function fromJson(json) {$/;"	f
-function.$http	app/assets/javascripts/lib/angularjs/angular.js	/^    function $http(requestConfig) {$/;"	f
-function.$http.config.method	app/assets/javascripts/lib/angularjs/angular.js	/^        method: 'get',$/;"	p
-function.$http.config.transformRequest	app/assets/javascripts/lib/angularjs/angular.js	/^        transformRequest: defaults.transformRequest,$/;"	p
-function.ArrayType	app/assets/javascripts/lib/angularjs/angular-ui-router.js	/^  function ArrayType(type, mode) {$/;"	f
-function.ArrayType.bindTo	app/assets/javascripts/lib/angularjs/angular-ui-router.js	/^    function bindTo(type, callbackName) {$/;"	f
-function.afterLocationChange	app/assets/javascripts/lib/angularjs/angular.js	/^    function afterLocationChange(oldUrl) {$/;"	f
-function.arrayHandler	app/assets/javascripts/lib/angularjs/angular-ui-router.js	/^    function arrayHandler(callback, allTruthyMode) {$/;"	f
-function.arrayUnwrap	app/assets/javascripts/lib/angularjs/angular-ui-router.js	/^    function arrayUnwrap(val) {$/;"	f
-function.arrayWrap	app/assets/javascripts/lib/angularjs/angular-ui-router.js	/^    function arrayWrap(val) { return isArray(val) ? val : (isDefined(val) ? [ val ] : []); }$/;"	f
-function.compile	app/assets/javascripts/lib/angularjs/angular.js	/^    function compile($compileNodes, transcludeFn, maxPriority, ignoreDirective,$/;"	f
-function.encodeDashes	app/assets/javascripts/lib/angularjs/angular-ui-router.js	/^  function encodeDashes(str) { \/\/ Replace dashes with encoded "\\-"$/;"	f
-function.falsey	app/assets/javascripts/lib/angularjs/angular-ui-router.js	/^    function falsey(val) { return !val; }$/;"	f
-function.trigger	app/assets/javascripts/lib/angularjs/angular.js	/^    function trigger() {$/;"	f
-gender_attr	app/models/user.rb	/^  def gender_attr$/;"	f	class:User
-generate_order_number	app/models/order.rb	/^  def self.generate_order_number$/;"	F	class:Order
-getBlockElements	app/assets/javascripts/lib/angularjs/angular.js	/^function getBlockElements(nodes) {$/;"	f
-getBooleanAttrName	app/assets/javascripts/lib/angularjs/angular.js	/^function getBooleanAttrName(element, name) {$/;"	f
-getControllers	app/assets/javascripts/lib/angularjs/angular.js	/^      function getControllers(directiveName, require, $element, elementControllers) {$/;"	f
-getElements	app/assets/javascripts/lib/html5shiv.js	/^  function getElements() {$/;"	f
-getExpandoData	app/assets/javascripts/lib/html5shiv.js	/^  function getExpandoData(ownerDocument) {$/;"	f
-getTrustedContext	app/assets/javascripts/lib/angularjs/angular.js	/^    function getTrustedContext(node, attrNormalizedName) {$/;"	f
-getter	app/assets/javascripts/lib/angularjs/angular.js	/^    var getter = getterFn(field, this.options, this.text);$/;"	v
-getter	app/assets/javascripts/lib/angularjs/angular.js	/^function getter(obj, path, bindFnToScope) {$/;"	f
-getterFnWithExtraArgs	app/assets/javascripts/lib/angularjs/angular.js	/^function getterFnWithExtraArgs(fn, fullExpression) {$/;"	f
-group	app/assets/javascripts/lib/underscore.js	/^  var group = function(behavior) {$/;"	f
-groupElementsLinkFnWrapper	app/assets/javascripts/lib/angularjs/angular.js	/^    function groupElementsLinkFnWrapper(linkFn, attrStart, attrEnd) {$/;"	f
-groupScan	app/assets/javascripts/lib/angularjs/angular.js	/^    function groupScan(node, attrStart, attrEnd) {$/;"	f
-hashKey	app/assets/javascripts/lib/angularjs/angular.js	/^function hashKey(obj, nextUidFn) {$/;"	f
-headersGetter	app/assets/javascripts/lib/angularjs/angular.js	/^function headersGetter(headers) {$/;"	f
-html5.elements	app/assets/javascripts/lib/html5shiv.js	/^    'elements': options.elements || 'abbr article aside audio bdi canvas data datalist details dialog figcaption figure footer header hgroup main mark meter nav output picture progress section summary template time video',$/;"	p
-i	app/assets/javascripts/lib/angularjs/angular-ui-router.js	/^  var i = segment.indexOf('?');$/;"	v
-idCounter	app/assets/javascripts/lib/underscore.js	/^  var idCounter = 0;$/;"	v
-identity	app/assets/javascripts/lib/angularjs/angular.js	/^function identity($) {return $;}$/;"	f
-indeterminate	app/assets/javascripts/lib/radiocheck.js	/^  Radiocheck.prototype.indeterminate = function () {$/;"	m
+edit_password	app/controllers/users_controller.rb	/^  def edit_password$/;"	f	class:UsersController
+encodePath	app/assets/javascripts/angular.js	/^function encodePath(path) {$/;"	f
+ensureSafeFunction	app/assets/javascripts/angular.js	/^function ensureSafeFunction(obj, fullExpression) {$/;"	f
+ensureSafeMemberName	app/assets/javascripts/angular.js	/^function ensureSafeMemberName(name, fullExpression) {$/;"	f
+ensureSafeObject	app/assets/javascripts/angular.js	/^function ensureSafeObject(obj, fullExpression) {$/;"	f
+eq	app/assets/javascripts/underscore.js	/^  var eq = function(a, b, aStack, bStack) {$/;"	f
+escapeMap."	app/assets/javascripts/underscore.js	/^    '"': '&quot;',$/;"	p
+escapeMap.&	app/assets/javascripts/underscore.js	/^    '&': '&amp;',$/;"	p
+escapeMap.'	app/assets/javascripts/underscore.js	/^    "'": '&#x27;',$/;"	p
+escapeMap.<	app/assets/javascripts/underscore.js	/^    '<': '&lt;',$/;"	p
+escapeMap.>	app/assets/javascripts/underscore.js	/^    '>': '&gt;',$/;"	p
+escapeMap.`	app/assets/javascripts/underscore.js	/^    '`': '&#x60;'$/;"	p
+escapes.'	app/assets/javascripts/underscore.js	/^    "'":      "'",$/;"	p
+escapes.\	app/assets/javascripts/underscore.js	/^    '\\\\':     '\\\\',$/;"	p
+escapes.n	app/assets/javascripts/underscore.js	/^    '\\n':     'n',$/;"	p
+escapes.r	app/assets/javascripts/underscore.js	/^    '\\r':     'r',$/;"	p
+escapes.u2028	app/assets/javascripts/underscore.js	/^    '\\u2028': 'u2028',$/;"	p
+escapes.u2029	app/assets/javascripts/underscore.js	/^    '\\u2029': 'u2029'$/;"	p
+event.isDefaultPrevented	app/assets/javascripts/angular.js	/^    event.isDefaultPrevented = function() {$/;"	f
+event.preventDefault	app/assets/javascripts/angular.js	/^      event.preventDefault = function() {$/;"	f
+event.stopPropagation	app/assets/javascripts/angular.js	/^      event.stopPropagation = function() {$/;"	f
+event.type	app/assets/javascripts/angular.js	/^          event = { type: "error" };$/;"	p
+expanID	app/assets/javascripts/html5shiv.js	/^  var expanID = 0;$/;"	v
+expando	app/assets/javascripts/html5shiv.js	/^  var expando = '_html5shiv';$/;"	v
+factory	app/assets/javascripts/angular.js	/^  function factory(name, factoryFn) { return provider(name, { $get: factoryFn }); }$/;"	f
+fireUrlChange	app/assets/javascripts/angular.js	/^  function fireUrlChange() {$/;"	f
+flatten	app/assets/javascripts/underscore.js	/^  var flatten = function(input, shallow, strict, output) {$/;"	f
+fn	app/assets/javascripts/angular.js	/^        fn = function(context) {$/;"	f
+function.$http	app/assets/javascripts/angular.js	/^    function $http(requestConfig) {$/;"	f
+function.$http.config.method	app/assets/javascripts/angular.js	/^        method: 'get',$/;"	p
+function.$http.config.transformRequest	app/assets/javascripts/angular.js	/^        transformRequest: defaults.transformRequest,$/;"	p
+function.afterLocationChange	app/assets/javascripts/angular.js	/^    function afterLocationChange(oldUrl) {$/;"	f
+function.compile	app/assets/javascripts/angular.js	/^    function compile($compileNodes, transcludeFn, maxPriority, ignoreDirective,$/;"	f
+function.trigger	app/assets/javascripts/angular.js	/^    function trigger() {$/;"	f
+getBooleanAttrName	app/assets/javascripts/angular.js	/^function getBooleanAttrName(element, name) {$/;"	f
+getControllers	app/assets/javascripts/angular.js	/^      function getControllers(directiveName, require, $element, elementControllers) {$/;"	f
+getElements	app/assets/javascripts/html5shiv.js	/^  function getElements() {$/;"	f
+getExpandoData	app/assets/javascripts/html5shiv.js	/^  function getExpandoData(ownerDocument) {$/;"	f
+getTrustedContext	app/assets/javascripts/angular.js	/^    function getTrustedContext(node, attrNormalizedName) {$/;"	f
+get_timestamp	config/initializers/submail.rb	/^def get_timestamp()$/;"	f
+get_timestamp	lib/submail.rb	/^def get_timestamp()$/;"	f
+getter	app/assets/javascripts/angular.js	/^    var getter = getterFn(field, this.options, this.text);$/;"	v
+getterFnWithExtraArgs	app/assets/javascripts/angular.js	/^function getterFnWithExtraArgs(fn, fullExpression) {$/;"	f
+group	app/assets/javascripts/underscore.js	/^  var group = function(behavior) {$/;"	f
+groupElementsLinkFnWrapper	app/assets/javascripts/angular.js	/^    function groupElementsLinkFnWrapper(linkFn, attrStart, attrEnd) {$/;"	f
+groupScan	app/assets/javascripts/angular.js	/^    function groupScan(node, attrStart, attrEnd) {$/;"	f
+hashKey	app/assets/javascripts/angular.js	/^function hashKey(obj, nextUidFn) {$/;"	f
+headersGetter	app/assets/javascripts/angular.js	/^function headersGetter(headers) {$/;"	f
+html5.elements	app/assets/javascripts/html5shiv.js	/^    'elements': options.elements || 'abbr article aside audio bdi canvas data datalist details dialog figcaption figure footer header hgroup main mark meter nav output picture progress section summary template time video',$/;"	p
+http_get	config/initializers/submail.rb	/^def http_get(url)$/;"	f
+http_get	lib/submail.rb	/^def http_get(url)$/;"	f
+http_post	config/initializers/submail.rb	/^def http_post(url,postdata)$/;"	f
+http_post	lib/submail.rb	/^def http_post(url,postdata)$/;"	f
+idCounter	app/assets/javascripts/underscore.js	/^  var idCounter = 0;$/;"	v
 index	app/controllers/addresses_controller.rb	/^  def index$/;"	f	class:AddressesController
+index	app/controllers/api/v1/conversations_controller.rb	/^  def index$/;"	f	class:Api
+index	app/controllers/api/v1/messages_controller.rb	/^  def index$/;"	f	class:Api
+index	app/controllers/api/v1/users_controller.rb	/^  def index$/;"	f	class:Api
 index	app/controllers/customers_controller.rb	/^  def index$/;"	f	class:CustomersController
 index	app/controllers/finances_controller.rb	/^  def index$/;"	f	class:FinancesController
-index	app/controllers/home_controller.rb	/^  def index$/;"	f	class:HomeController
+index	app/controllers/main_controller.rb	/^  def index$/;"	f	class:MainController
 index	app/controllers/orders_controller.rb	/^  def index$/;"	f	class:OrdersController
 index	app/controllers/solutionists_controller.rb	/^  def index$/;"	f	class:SolutionistsController
 index	app/controllers/stores_controller.rb	/^  def index$/;"	f	class:StoresController
+index	app/controllers/users_controller.rb	/^  def index$/;"	f	class:UsersController
 index	app/controllers/workers_controller.rb	/^  def index$/;"	f	class:WorkersController
-indexBy	app/assets/javascripts/lib/angularjs/angular-ui-router.js	/^function indexBy(array, propName) {$/;"	f
-indexOf	app/assets/javascripts/lib/angularjs/angular-ui-router.js	/^function indexOf(array, value) {$/;"	f
-inherit	app/assets/javascripts/lib/angularjs/angular-ui-router.js	/^function inherit(parent, extra) {$/;"	f
-inherit	app/assets/javascripts/lib/angularjs/angular.js	/^function inherit(parent, extra) {$/;"	f
-inheritParams	app/assets/javascripts/lib/angularjs/angular-ui-router.js	/^function inheritParams(currentParams, newParams, $current, $to) {$/;"	f
 initialize	app/models/ability.rb	/^  def initialize(user)$/;"	f	class:Ability
+initialize	config/initializers/submail.rb	/^	def initialize(config)$/;"	f	class:AddressBookMail
+initialize	config/initializers/submail.rb	/^	def initialize(config)$/;"	f	class:AddressBookMessage
+initialize	config/initializers/submail.rb	/^	def initialize(config)$/;"	f	class:MailSend
+initialize	config/initializers/submail.rb	/^	def initialize(config)$/;"	f	class:MailXSend
+initialize	config/initializers/submail.rb	/^	def initialize(config)$/;"	f	class:MessageXSend
 initialize	lib/middleware/turbo_dev.rb	/^    def initialize(app, settings={})$/;"	f	class:Middleware.TurboDev
-int	app/assets/javascripts/lib/angularjs/angular.js	/^function int(str) {$/;"	f
-isArrayLike	app/assets/javascripts/lib/angularjs/angular.js	/^function isArrayLike(obj) {$/;"	f
-isBlob	app/assets/javascripts/lib/angularjs/angular.js	/^function isBlob(obj) {$/;"	f
-isBoolean	app/assets/javascripts/lib/angularjs/angular.js	/^function isBoolean(value) {$/;"	f
-isDate	app/assets/javascripts/lib/angularjs/angular.js	/^function isDate(value) {$/;"	f
-isDefined	app/assets/javascripts/lib/angularjs/angular-ui-router.js	/^var isDefined = angular.isDefined,$/;"	v
-isDefined	app/assets/javascripts/lib/angularjs/angular.js	/^function isDefined(value){return typeof value !== 'undefined';}$/;"	f
-isElement	app/assets/javascripts/lib/angularjs/angular.js	/^function isElement(node) {$/;"	f
-isFile	app/assets/javascripts/lib/angularjs/angular.js	/^function isFile(obj) {$/;"	f
-isFunction	app/assets/javascripts/lib/angularjs/angular.js	/^function isFunction(value){return typeof value === 'function';}$/;"	f
-isLeafNode	app/assets/javascripts/lib/angularjs/angular.js	/^function isLeafNode (node) {$/;"	f
-isNumber	app/assets/javascripts/lib/angularjs/angular.js	/^function isNumber(value){return typeof value === 'number';}$/;"	f
-isObject	app/assets/javascripts/lib/angularjs/angular.js	/^function isObject(value){return value != null && typeof value === 'object';}$/;"	f
-isPossiblyDangerousMemberName	app/assets/javascripts/lib/angularjs/angular.js	/^function isPossiblyDangerousMemberName(name) {$/;"	f
-isPromiseLike	app/assets/javascripts/lib/angularjs/angular.js	/^function isPromiseLike(obj) {$/;"	f
-isRegExp	app/assets/javascripts/lib/angularjs/angular.js	/^function isRegExp(value) {$/;"	f
-isScope	app/assets/javascripts/lib/angularjs/angular.js	/^function isScope(obj) {$/;"	f
-isString	app/assets/javascripts/lib/angularjs/angular.js	/^function isString(value){return typeof value === 'string';}$/;"	f
-isSuccess	app/assets/javascripts/lib/angularjs/angular.js	/^function isSuccess(status) {$/;"	f
-isUndefined	app/assets/javascripts/lib/angularjs/angular.js	/^function isUndefined(value){return typeof value === 'undefined';}$/;"	f
-isWindow	app/assets/javascripts/lib/angularjs/angular.js	/^function isWindow(obj) {$/;"	f
-iteratee	app/assets/javascripts/lib/underscore.js	/^      iteratee = function(value, key) {$/;"	f
-jqLiteAddClass	app/assets/javascripts/lib/angularjs/angular.js	/^function jqLiteAddClass(element, cssClasses) {$/;"	f
-jqLiteAddNodes	app/assets/javascripts/lib/angularjs/angular.js	/^function jqLiteAddNodes(root, elements) {$/;"	f
-jqLiteBuildFragment	app/assets/javascripts/lib/angularjs/angular.js	/^function jqLiteBuildFragment(html, context) {$/;"	f
-jqLiteClone	app/assets/javascripts/lib/angularjs/angular.js	/^function jqLiteClone(element) {$/;"	f
-jqLiteController	app/assets/javascripts/lib/angularjs/angular.js	/^function jqLiteController(element, name) {$/;"	f
-jqLiteData	app/assets/javascripts/lib/angularjs/angular.js	/^function jqLiteData(element, key, value) {$/;"	f
-jqLiteDealoc	app/assets/javascripts/lib/angularjs/angular.js	/^function jqLiteDealoc(element){$/;"	f
-jqLiteEmpty	app/assets/javascripts/lib/angularjs/angular.js	/^function jqLiteEmpty(element) {$/;"	f
-jqLiteExpandoStore	app/assets/javascripts/lib/angularjs/angular.js	/^function jqLiteExpandoStore(element, key, value) {$/;"	f
-jqLiteHasClass	app/assets/javascripts/lib/angularjs/angular.js	/^function jqLiteHasClass(element, selector) {$/;"	f
-jqLiteInheritedData	app/assets/javascripts/lib/angularjs/angular.js	/^function jqLiteInheritedData(element, name, value) {$/;"	f
-jqLiteIsTextNode	app/assets/javascripts/lib/angularjs/angular.js	/^function jqLiteIsTextNode(html) {$/;"	f
-jqLiteOff	app/assets/javascripts/lib/angularjs/angular.js	/^function jqLiteOff(element, type, fn, unsupported) {$/;"	f
-jqLiteParseHTML	app/assets/javascripts/lib/angularjs/angular.js	/^function jqLiteParseHTML(html, context) {$/;"	f
-jqLitePatchJQueryRemove	app/assets/javascripts/lib/angularjs/angular.js	/^function jqLitePatchJQueryRemove(name, dispatchThis, filterElems, getterIfNoArguments) {$/;"	f
-jqLitePatchJQueryRemove.removePatch	app/assets/javascripts/lib/angularjs/angular.js	/^  function removePatch(param) {$/;"	f
-jqLiteRemoveClass	app/assets/javascripts/lib/angularjs/angular.js	/^function jqLiteRemoveClass(element, cssClasses) {$/;"	f
-jqLiteRemoveData	app/assets/javascripts/lib/angularjs/angular.js	/^function jqLiteRemoveData(element, name) {$/;"	f
-jqNextId	app/assets/javascripts/lib/angularjs/angular.js	/^function jqNextId() { return ++jqId; }$/;"	f
-js_env	app/controllers/concerns/js_env.rb	/^  def js_env$/;"	f	class:JsEnv
-jsonpReq	app/assets/javascripts/lib/angularjs/angular.js	/^  function jsonpReq(url, callbackId, done) {$/;"	f
-lastBrowserUrl	app/assets/javascripts/lib/angularjs/angular.js	/^  var lastBrowserUrl = location.href,$/;"	v
-lastCookieString	app/assets/javascripts/lib/angularjs/angular.js	/^  var lastCookieString = '';$/;"	v
-later	app/assets/javascripts/lib/underscore.js	/^    var later = function() {$/;"	f
+initialize	lib/submail.rb	/^	def initialize(config)$/;"	f	class:AddressBookMail
+initialize	lib/submail.rb	/^	def initialize(config)$/;"	f	class:AddressBookMessage
+initialize	lib/submail.rb	/^	def initialize(config)$/;"	f	class:MailSend
+initialize	lib/submail.rb	/^	def initialize(config)$/;"	f	class:MailXSend
+initialize	lib/submail.rb	/^	def initialize(config)$/;"	f	class:MessageXSend
+isPossiblyDangerousMemberName	app/assets/javascripts/angular.js	/^function isPossiblyDangerousMemberName(name) {$/;"	f
+isSuccess	app/assets/javascripts/angular.js	/^function isSuccess(status) {$/;"	f
+iteratee	app/assets/javascripts/underscore.js	/^      iteratee = function(value, key) {$/;"	f
+jqLiteAddClass	app/assets/javascripts/angular.js	/^function jqLiteAddClass(element, cssClasses) {$/;"	f
+jqLiteAddNodes	app/assets/javascripts/angular.js	/^function jqLiteAddNodes(root, elements) {$/;"	f
+jqLiteBuildFragment	app/assets/javascripts/angular.js	/^function jqLiteBuildFragment(html, context) {$/;"	f
+jqLiteClone	app/assets/javascripts/angular.js	/^function jqLiteClone(element) {$/;"	f
+jqLiteController	app/assets/javascripts/angular.js	/^function jqLiteController(element, name) {$/;"	f
+jqLiteData	app/assets/javascripts/angular.js	/^function jqLiteData(element, key, value) {$/;"	f
+jqLiteDealoc	app/assets/javascripts/angular.js	/^function jqLiteDealoc(element){$/;"	f
+jqLiteEmpty	app/assets/javascripts/angular.js	/^function jqLiteEmpty(element) {$/;"	f
+jqLiteExpandoStore	app/assets/javascripts/angular.js	/^function jqLiteExpandoStore(element, key, value) {$/;"	f
+jqLiteHasClass	app/assets/javascripts/angular.js	/^function jqLiteHasClass(element, selector) {$/;"	f
+jqLiteInheritedData	app/assets/javascripts/angular.js	/^function jqLiteInheritedData(element, name, value) {$/;"	f
+jqLiteIsTextNode	app/assets/javascripts/angular.js	/^function jqLiteIsTextNode(html) {$/;"	f
+jqLiteOff	app/assets/javascripts/angular.js	/^function jqLiteOff(element, type, fn, unsupported) {$/;"	f
+jqLiteParseHTML	app/assets/javascripts/angular.js	/^function jqLiteParseHTML(html, context) {$/;"	f
+jqLiteRemoveClass	app/assets/javascripts/angular.js	/^function jqLiteRemoveClass(element, cssClasses) {$/;"	f
+jqLiteRemoveData	app/assets/javascripts/angular.js	/^function jqLiteRemoveData(element, name) {$/;"	f
+jsonpReq	app/assets/javascripts/angular.js	/^  function jsonpReq(url, callbackId, done) {$/;"	f
+lastBrowserUrl	app/assets/javascripts/angular.js	/^  var lastBrowserUrl = location.href,$/;"	v
+lastCookieString	app/assets/javascripts/angular.js	/^  var lastCookieString = '';$/;"	v
+later	app/assets/javascripts/underscore.js	/^    var later = function() {$/;"	f
 layout_by_resource	app/controllers/application_controller.rb	/^  def layout_by_resource$/;"	f	class:ApplicationController
-loadModules	app/assets/javascripts/lib/angularjs/angular.js	/^  function loadModules(modulesToLoad){$/;"	f
-locationGetter	app/assets/javascripts/lib/angularjs/angular.js	/^function locationGetter(property) {$/;"	f
-locationGetterSetter	app/assets/javascripts/lib/angularjs/angular.js	/^function locationGetterSetter(property, preprocess) {$/;"	c
-lowercase	app/assets/javascripts/lib/angularjs/angular.js	/^var lowercase = function(string){return isString(string) ? string.toLowerCase() : string;};$/;"	f
-makeMap	app/assets/javascripts/lib/angularjs/angular.js	/^function makeMap(str) {$/;"	f
-manualLowercase	app/assets/javascripts/lib/angularjs/angular.js	/^var manualLowercase = function(s) {$/;"	f
-manualUppercase	app/assets/javascripts/lib/angularjs/angular.js	/^var manualUppercase = function(s) {$/;"	f
-map	app/assets/javascripts/lib/angularjs/angular-ui-router.js	/^function map(collection, callback) {$/;"	f
-map	app/assets/javascripts/lib/angularjs/angular.js	/^function map(obj, iterator, context) {$/;"	f
-markDirectivesAsIsolate	app/assets/javascripts/lib/angularjs/angular.js	/^    function markDirectivesAsIsolate(directives) {$/;"	f
-matchDetails	app/assets/javascripts/lib/angularjs/angular-ui-router.js	/^  function matchDetails(m, isSearch) {$/;"	f
-merge	app/assets/javascripts/lib/angularjs/angular-ui-router.js	/^function merge(dst) {$/;"	f
-mergeTemplateAttributes	app/assets/javascripts/lib/angularjs/angular.js	/^    function mergeTemplateAttributes(dst, src) {$/;"	f
-middle	app/assets/javascripts/lib/angularjs/angular.js	/^    var middle;$/;"	v
-minErr	app/assets/javascripts/lib/angularjs/angular.js	/^function minErr(module) {$/;"	f
-msie	app/assets/javascripts/lib/angularjs/angular.js	/^    msie,             \/\/ holds major version number for IE, or NaN if UA is not IE.$/;"	v
-nativeIsArray	app/assets/javascripts/lib/underscore.js	/^    nativeIsArray      = Array.isArray,$/;"	v
+loadModules	app/assets/javascripts/angular.js	/^  function loadModules(modulesToLoad){$/;"	f
+locationGetter	app/assets/javascripts/angular.js	/^function locationGetter(property) {$/;"	f
+locationGetterSetter	app/assets/javascripts/angular.js	/^function locationGetterSetter(property, preprocess) {$/;"	c
+mail_send	config/initializers/submail.rb	/^	def mail_send()$/;"	f	class:MailSend
+mail_send	lib/submail.rb	/^	def mail_send()$/;"	f	class:MailSend
+mail_subscribe	config/initializers/submail.rb	/^	def mail_subscribe()$/;"	f	class:AddressBookMail
+mail_subscribe	lib/submail.rb	/^	def mail_subscribe()$/;"	f	class:AddressBookMail
+mail_unsubscribe	config/initializers/submail.rb	/^	def mail_unsubscribe()$/;"	f	class:AddressBookMail
+mail_unsubscribe	lib/submail.rb	/^	def mail_unsubscribe()$/;"	f	class:AddressBookMail
+mail_xsend	config/initializers/submail.rb	/^	def mail_xsend()$/;"	f	class:MailXSend
+mail_xsend	lib/submail.rb	/^	def mail_xsend()$/;"	f	class:MailXSend
+markDirectivesAsIsolate	app/assets/javascripts/angular.js	/^    function markDirectivesAsIsolate(directives) {$/;"	f
+me	app/controllers/api/v1/users_controller.rb	/^  def me$/;"	f	class:Api
+mergeTemplateAttributes	app/assets/javascripts/angular.js	/^    function mergeTemplateAttributes(dst, src) {$/;"	f
+message_subscribe	config/initializers/submail.rb	/^	def message_subscribe()$/;"	f	class:AddressBookMessage
+message_subscribe	lib/submail.rb	/^	def message_subscribe()$/;"	f	class:AddressBookMessage
+message_unsubscribe	config/initializers/submail.rb	/^	def message_unsubscribe()$/;"	f	class:AddressBookMessage
+message_unsubscribe	lib/submail.rb	/^	def message_unsubscribe()$/;"	f	class:AddressBookMessage
+message_xsend	config/initializers/submail.rb	/^	def message_xsend()$/;"	f	class:MessageXSend
+message_xsend	lib/submail.rb	/^	def message_xsend()$/;"	f	class:MessageXSend
+middle	app/assets/javascripts/angular.js	/^    var middle;$/;"	v
+nativeIsArray	app/assets/javascripts/underscore.js	/^    nativeIsArray      = Array.isArray,$/;"	v
 new	app/controllers/addresses_controller.rb	/^  def new$/;"	f	class:AddressesController
 new	app/controllers/customers_controller.rb	/^  def new$/;"	f	class:CustomersController
 new	app/controllers/orders_controller.rb	/^  def new$/;"	f	class:OrdersController
 new	app/controllers/solutionists_controller.rb	/^  def new$/;"	f	class:SolutionistsController
 new	app/controllers/stores_controller.rb	/^  def new$/;"	f	class:StoresController
 new	app/controllers/workers_controller.rb	/^  def new$/;"	f	class:WorkersController
-nextUid	app/assets/javascripts/lib/angularjs/angular.js	/^function nextUid() {$/;"	f
-noMatch	app/assets/javascripts/lib/underscore.js	/^  var noMatch = \/(.)^\/;$/;"	v
-nodeLinkFn	app/assets/javascripts/lib/angularjs/angular.js	/^      function nodeLinkFn(childLinkFn, scope, linkNode, $rootElement, boundTranscludeFn) {$/;"	f
-nodeLinkFn.controllersBoundTransclude	app/assets/javascripts/lib/angularjs/angular.js	/^        function controllersBoundTransclude(scope, cloneAttachFn) {$/;"	f
-nodeName_	app/assets/javascripts/lib/angularjs/angular.js	/^  nodeName_ = function(element) {$/;"	f
-nodesetLinkingFn	app/assets/javascripts/lib/angularjs/angular.js	/^function nodesetLinkingFn($/;"	f
-noop	app/assets/javascripts/lib/angularjs/angular.js	/^function noop() {}$/;"	f
-objectKeys	app/assets/javascripts/lib/angularjs/angular-ui-router.js	/^function objectKeys(object) {$/;"	f
-old	app/assets/javascripts/lib/radiocheck.js	/^  var old = $.fn.radiocheck;$/;"	v
-omit	app/assets/javascripts/lib/angularjs/angular-ui-router.js	/^function omit(obj) {$/;"	f
+noMatch	app/assets/javascripts/underscore.js	/^  var noMatch = \/(.)^\/;$/;"	v
+nodeLinkFn	app/assets/javascripts/angular.js	/^      function nodeLinkFn(childLinkFn, scope, linkNode, $rootElement, boundTranscludeFn) {$/;"	f
+nodeLinkFn.controllersBoundTransclude	app/assets/javascripts/angular.js	/^        function controllersBoundTransclude(scope, cloneAttachFn) {$/;"	f
+nodesetLinkingFn	app/assets/javascripts/angular.js	/^function nodesetLinkingFn($/;"	f
 order_params	app/controllers/orders_controller.rb	/^    def order_params$/;"	f	class:OrdersController
-orders_count	app/models/customer.rb	/^  def orders_count$/;"	f	class:Customer
-origProvider.$get	app/assets/javascripts/lib/angularjs/angular.js	/^    origProvider.$get = function() {$/;"	f
-ownerDocument.createElement	app/assets/javascripts/lib/html5shiv.js	/^    ownerDocument.createElement = function(nodeName) {$/;"	f
-p	app/assets/javascripts/lib/angularjs/angular-ui-router.js	/^  var p, param, segment;$/;"	v
-page	lib/dirty.rb	/^  def self.page(params)$/;"	F	class:ActiveRecord
-parseAbsoluteUrl	app/assets/javascripts/lib/angularjs/angular.js	/^function parseAbsoluteUrl(absoluteUrl, locationObj, appBase) {$/;"	f
-parseAppUrl	app/assets/javascripts/lib/angularjs/angular.js	/^function parseAppUrl(relativeUrl, locationObj, appBase) {$/;"	f
-parseHeaders	app/assets/javascripts/lib/angularjs/angular.js	/^function parseHeaders(headers) {$/;"	f
-parseKeyValue	app/assets/javascripts/lib/angularjs/angular.js	/^function parseKeyValue(\/**string*\/keyValue) {$/;"	f
-permitted_item_params	lib/api/v1/orders.rb	/^    def permitted_item_params$/;"	f	class:API
-permitted_order_params	lib/api/v1/orders.rb	/^    def permitted_order_params$/;"	f	class:API
-permitted_params	lib/api/v1/consumption_records.rb	/^    def permitted_params$/;"	f	class:API
-permitted_params	lib/api/v1/customers.rb	/^    def permitted_params$/;"	f	class:API
-pick	app/assets/javascripts/lib/angularjs/angular-ui-router.js	/^function pick(obj) {$/;"	f
-pluck	app/assets/javascripts/lib/angularjs/angular-ui-router.js	/^function pluck(collection, key) {$/;"	f
-previousUnderscore	app/assets/javascripts/lib/underscore.js	/^  var previousUnderscore = root._;$/;"	v
-promise.error	app/assets/javascripts/lib/angularjs/angular.js	/^      promise.error = function(fn) {$/;"	f
-promise.success	app/assets/javascripts/lib/angularjs/angular.js	/^      promise.success = function(fn) {$/;"	f
-promiseWarning	app/assets/javascripts/lib/angularjs/angular.js	/^var promiseWarning;$/;"	v
-provider	app/assets/javascripts/lib/angularjs/angular.js	/^  function provider(name, provider_) {$/;"	f
-publishExternalAPI	app/assets/javascripts/lib/angularjs/angular.js	/^function publishExternalAPI(angular){$/;"	f
-push	app/assets/javascripts/lib/underscore.js	/^    push             = ArrayProto.push,$/;"	v
-reSkip	app/assets/javascripts/lib/html5shiv.js	/^  var reSkip = \/^<|^(?:button|map|select|textarea|object|iframe|option|optgroup)$\/i;$/;"	v
-recharge	app/models/customer.rb	/^  def recharge(params)$/;"	f	class:Customer
-reduceError	app/assets/javascripts/lib/underscore.js	/^  var reduceError = 'Reduce of empty array with no initial value';$/;"	v
-regional.closeText	app/assets/javascripts/lib/datepicker-zh-CN.js	/^	closeText: '关闭',$/;"	p
-regional.currentText	app/assets/javascripts/lib/datepicker-zh-CN.js	/^	currentText: '今天',$/;"	p
-regional.monthNames	app/assets/javascripts/lib/datepicker-zh-CN.js	/^	monthNames: ['一月','二月','三月','四月','五月','六月',$/;"	p
-regional.nextText	app/assets/javascripts/lib/datepicker-zh-CN.js	/^	nextText: '下月&#x3E;',$/;"	p
-regional.prevText	app/assets/javascripts/lib/datepicker-zh-CN.js	/^	prevText: '&#x3C;上月',$/;"	p
-replaceWith	app/assets/javascripts/lib/angularjs/angular.js	/^    function replaceWith($rootElement, elementsToRemove, newNode) {$/;"	f
-resolve	app/assets/javascripts/lib/angularjs/angular-ui-router.js	/^  this.resolve = function (invocables, locals, parent, self) {$/;"	f
-result	app/assets/javascripts/lib/underscore.js	/^  var result = function(obj) {$/;"	f
-return.destroy	app/assets/javascripts/lib/angularjs/angular.js	/^        destroy: function() {$/;"	m
-return.get	app/assets/javascripts/lib/angularjs/angular.js	/^        get: function(key) {$/;"	m
-return.info	app/assets/javascripts/lib/angularjs/angular.js	/^        info: function() {$/;"	m
-return.put	app/assets/javascripts/lib/angularjs/angular.js	/^        put: function(key, value) {$/;"	m
-return.remove	app/assets/javascripts/lib/angularjs/angular.js	/^        remove: function(key) {$/;"	m
-return.removeAll	app/assets/javascripts/lib/angularjs/angular.js	/^        removeAll: function() {$/;"	m
-reverseParams	app/assets/javascripts/lib/angularjs/angular.js	/^function reverseParams(iteratorFn) {$/;"	f
-right	app/assets/javascripts/lib/angularjs/angular.js	/^    var right;$/;"	v
-saveClones	app/assets/javascripts/lib/html5shiv.js	/^  var saveClones = \/^(?:a|b|code|div|fieldset|h1|h2|h3|h4|h5|h6|i|label|li|ol|p|q|span|strong|style|table|tbody|td|th|tr|ul)$\/i;$/;"	v
-script.onreadystatechange	app/assets/javascripts/lib/angularjs/angular.js	/^      script.onreadystatechange = function() {$/;"	f
-seen	app/assets/javascripts/lib/underscore.js	/^    var seen = [];$/;"	v
-select2_input	app/helpers/assets_helper.rb	/^  def select2_input(name, label=nil, options={})$/;"	f	class:AssetsHelper
-self.$$incOutstandingRequestCount	app/assets/javascripts/lib/angularjs/angular.js	/^  self.$$incOutstandingRequestCount = function() { outstandingRequestCount++; };$/;"	f
-self.addPollFn	app/assets/javascripts/lib/angularjs/angular.js	/^  self.addPollFn = function(fn) {$/;"	f
-self.baseHref	app/assets/javascripts/lib/angularjs/angular.js	/^  self.baseHref = function() {$/;"	f
-self.cookies	app/assets/javascripts/lib/angularjs/angular.js	/^  self.cookies = function(name, value) {$/;"	f
-self.defer	app/assets/javascripts/lib/angularjs/angular.js	/^  self.defer = function(fn, delay) {$/;"	f
-self.defer.cancel	app/assets/javascripts/lib/angularjs/angular.js	/^  self.defer.cancel = function(deferId) {$/;"	f
-self.notifyWhenNoOutstandingRequests	app/assets/javascripts/lib/angularjs/angular.js	/^  self.notifyWhenNoOutstandingRequests = function(callback) {$/;"	f
-self.onUrlChange	app/assets/javascripts/lib/angularjs/angular.js	/^  self.onUrlChange = function(callback) {$/;"	f
-self.url	app/assets/javascripts/lib/angularjs/angular.js	/^  self.url = function(url, replace) {$/;"	f
-sendReq.done	app/assets/javascripts/lib/angularjs/angular.js	/^      function done(status, response, headersString, statusText) {$/;"	f
-sendReq.removePendingReq	app/assets/javascripts/lib/angularjs/angular.js	/^      function removePendingReq() {$/;"	f
-sendReq.resolvePromise	app/assets/javascripts/lib/angularjs/angular.js	/^      function resolvePromise(response, status, headers, statusText) {$/;"	f
-serverBase	app/assets/javascripts/lib/angularjs/angular.js	/^function serverBase(url) {$/;"	f
-service	app/assets/javascripts/lib/angularjs/angular.js	/^  function service(name, constructor) {$/;"	f
-services	app/models/order.rb	/^  def services$/;"	f	class:Order
-setHashKey	app/assets/javascripts/lib/angularjs/angular.js	/^function setHashKey(obj, h) {$/;"	f
+origProvider.$get	app/assets/javascripts/angular.js	/^    origProvider.$get = function() {$/;"	f
+ownerDocument.createElement	app/assets/javascripts/html5shiv.js	/^    ownerDocument.createElement = function(nodeName) {$/;"	f
+parseAbsoluteUrl	app/assets/javascripts/angular.js	/^function parseAbsoluteUrl(absoluteUrl, locationObj, appBase) {$/;"	f
+parseAppUrl	app/assets/javascripts/angular.js	/^function parseAppUrl(relativeUrl, locationObj, appBase) {$/;"	f
+parseHeaders	app/assets/javascripts/angular.js	/^function parseHeaders(headers) {$/;"	f
+password_code	app/controllers/phones_controller.rb	/^  def password_code$/;"	f	class:PhonesController
+phone_params	app/controllers/phones_controller.rb	/^    def phone_params$/;"	f	class:PhonesController
+previousUnderscore	app/assets/javascripts/underscore.js	/^  var previousUnderscore = root._;$/;"	v
+promise.error	app/assets/javascripts/angular.js	/^      promise.error = function(fn) {$/;"	f
+promise.success	app/assets/javascripts/angular.js	/^      promise.success = function(fn) {$/;"	f
+promiseWarning	app/assets/javascripts/angular.js	/^var promiseWarning;$/;"	v
+provider	app/assets/javascripts/angular.js	/^  function provider(name, provider_) {$/;"	f
+push	app/assets/javascripts/underscore.js	/^    push             = ArrayProto.push,$/;"	v
+reSkip	app/assets/javascripts/html5shiv.js	/^  var reSkip = \/^<|^(?:button|map|select|textarea|object|iframe|option|optgroup)$\/i;$/;"	v
+redirect_back	app/controllers/users_controller.rb	/^  def redirect_back$/;"	f	class:UsersController
+reduceError	app/assets/javascripts/underscore.js	/^  var reduceError = 'Reduce of empty array with no initial value';$/;"	v
+replaceWith	app/assets/javascripts/angular.js	/^    function replaceWith($rootElement, elementsToRemove, newNode) {$/;"	f
+result	app/assets/javascripts/underscore.js	/^  var result = function(obj) {$/;"	f
+return.destroy	app/assets/javascripts/angular.js	/^        destroy: function() {$/;"	m
+return.get	app/assets/javascripts/angular.js	/^        get: function(key) {$/;"	m
+return.info	app/assets/javascripts/angular.js	/^        info: function() {$/;"	m
+return.put	app/assets/javascripts/angular.js	/^        put: function(key, value) {$/;"	m
+return.remove	app/assets/javascripts/angular.js	/^        remove: function(key) {$/;"	m
+return.removeAll	app/assets/javascripts/angular.js	/^        removeAll: function() {$/;"	m
+right	app/assets/javascripts/angular.js	/^    var right;$/;"	v
+saveClones	app/assets/javascripts/html5shiv.js	/^  var saveClones = \/^(?:a|b|code|div|fieldset|h1|h2|h3|h4|h5|h6|i|label|li|ol|p|q|span|strong|style|table|tbody|td|th|tr|ul)$\/i;$/;"	v
+script.onreadystatechange	app/assets/javascripts/angular.js	/^      script.onreadystatechange = function() {$/;"	f
+search	app/controllers/users_controller.rb	/^  def search$/;"	f	class:UsersController
+seen	app/assets/javascripts/underscore.js	/^    var seen = [];$/;"	v
+self.$$incOutstandingRequestCount	app/assets/javascripts/angular.js	/^  self.$$incOutstandingRequestCount = function() { outstandingRequestCount++; };$/;"	f
+self.addPollFn	app/assets/javascripts/angular.js	/^  self.addPollFn = function(fn) {$/;"	f
+self.baseHref	app/assets/javascripts/angular.js	/^  self.baseHref = function() {$/;"	f
+self.cookies	app/assets/javascripts/angular.js	/^  self.cookies = function(name, value) {$/;"	f
+self.defer	app/assets/javascripts/angular.js	/^  self.defer = function(fn, delay) {$/;"	f
+self.defer.cancel	app/assets/javascripts/angular.js	/^  self.defer.cancel = function(deferId) {$/;"	f
+self.notifyWhenNoOutstandingRequests	app/assets/javascripts/angular.js	/^  self.notifyWhenNoOutstandingRequests = function(callback) {$/;"	f
+self.onUrlChange	app/assets/javascripts/angular.js	/^  self.onUrlChange = function(callback) {$/;"	f
+self.url	app/assets/javascripts/angular.js	/^  self.url = function(url, replace) {$/;"	f
+sendReq.done	app/assets/javascripts/angular.js	/^      function done(status, response, headersString, statusText) {$/;"	f
+sendReq.removePendingReq	app/assets/javascripts/angular.js	/^      function removePendingReq() {$/;"	f
+sendReq.resolvePromise	app/assets/javascripts/angular.js	/^      function resolvePromise(response, status, headers, statusText) {$/;"	f
+send_message_code	app/models/phone_number.rb	/^  def send_message_code$/;"	f	class:PhoneNumber
+serverBase	app/assets/javascripts/angular.js	/^function serverBase(url) {$/;"	f
+service	app/assets/javascripts/angular.js	/^  function service(name, constructor) {$/;"	f
 set_address	app/controllers/addresses_controller.rb	/^    def set_address$/;"	f	class:AddressesController
+set_address	config/initializers/submail.rb	/^	def set_address(address,name)$/;"	f	class:AddressBookMail
+set_address	config/initializers/submail.rb	/^	def set_address(address,name)$/;"	f	class:AddressBookMessage
+set_address	lib/submail.rb	/^	def set_address(address,name)$/;"	f	class:AddressBookMail
+set_address	lib/submail.rb	/^	def set_address(address,name)$/;"	f	class:AddressBookMessage
+set_addressbook	config/initializers/submail.rb	/^	def set_addressbook(addressbook)$/;"	f	class:AddressBookMail
+set_addressbook	config/initializers/submail.rb	/^	def set_addressbook(addressbook)$/;"	f	class:AddressBookMessage
+set_addressbook	lib/submail.rb	/^	def set_addressbook(addressbook)$/;"	f	class:AddressBookMail
+set_addressbook	lib/submail.rb	/^	def set_addressbook(addressbook)$/;"	f	class:AddressBookMessage
 set_customer	app/controllers/customers_controller.rb	/^    def set_customer$/;"	f	class:CustomersController
+set_html	config/initializers/submail.rb	/^	def set_html(html)$/;"	f	class:MailSend
+set_html	lib/submail.rb	/^	def set_html(html)$/;"	f	class:MailSend
 set_order	app/controllers/orders_controller.rb	/^    def set_order$/;"	f	class:OrdersController
+set_project	config/initializers/submail.rb	/^	def set_project(project)$/;"	f	class:MailXSend
+set_project	config/initializers/submail.rb	/^	def set_project(project)$/;"	f	class:MessageXSend
+set_project	lib/submail.rb	/^	def set_project(project)$/;"	f	class:MailXSend
+set_project	lib/submail.rb	/^	def set_project(project)$/;"	f	class:MessageXSend
+set_reply	config/initializers/submail.rb	/^	def set_reply(reply)$/;"	f	class:MailSend
+set_reply	config/initializers/submail.rb	/^	def set_reply(reply)$/;"	f	class:MailXSend
+set_reply	lib/submail.rb	/^	def set_reply(reply)$/;"	f	class:MailSend
+set_reply	lib/submail.rb	/^	def set_reply(reply)$/;"	f	class:MailXSend
+set_sender	config/initializers/submail.rb	/^	def set_sender(from, fromname)$/;"	f	class:MailSend
+set_sender	config/initializers/submail.rb	/^	def set_sender(from, fromname)$/;"	f	class:MailXSend
+set_sender	lib/submail.rb	/^	def set_sender(from, fromname)$/;"	f	class:MailSend
+set_sender	lib/submail.rb	/^	def set_sender(from, fromname)$/;"	f	class:MailXSend
 set_solutionist	app/controllers/solutionists_controller.rb	/^    def set_solutionist$/;"	f	class:SolutionistsController
 set_store	app/controllers/stores_controller.rb	/^    def set_store$/;"	f	class:StoresController
+set_subject	config/initializers/submail.rb	/^	def set_subject(subject)$/;"	f	class:MailSend
+set_subject	config/initializers/submail.rb	/^	def set_subject(subject)$/;"	f	class:MailXSend
+set_subject	lib/submail.rb	/^	def set_subject(subject)$/;"	f	class:MailSend
+set_subject	lib/submail.rb	/^	def set_subject(subject)$/;"	f	class:MailXSend
+set_text	config/initializers/submail.rb	/^	def set_text(text)$/;"	f	class:MailSend
+set_text	lib/submail.rb	/^	def set_text(text)$/;"	f	class:MailSend
 set_worker	app/controllers/workers_controller.rb	/^    def set_worker$/;"	f	class:WorkersController
-setter	app/assets/javascripts/lib/angularjs/angular.js	/^function setter(obj, path, setValue, fullExp, options) {$/;"	f
-setupModuleLoader	app/assets/javascripts/lib/angularjs/angular.js	/^function setupModuleLoader(window) {$/;"	f
-setupModuleLoader.ensure	app/assets/javascripts/lib/angularjs/angular.js	/^  function ensure(obj, name, factory) {$/;"	f
-shallowCopy	app/assets/javascripts/lib/angularjs/angular.js	/^function shallowCopy(src, dst) {$/;"	f
-shivDocument	app/assets/javascripts/lib/html5shiv.js	/^  function shivDocument(ownerDocument) {$/;"	f
-shivMethods	app/assets/javascripts/lib/html5shiv.js	/^  function shivMethods(ownerDocument, data) {$/;"	f
+setter	app/assets/javascripts/angular.js	/^function setter(obj, path, setValue, fullExp, options) {$/;"	f
+shivDocument	app/assets/javascripts/html5shiv.js	/^  function shivDocument(ownerDocument) {$/;"	f
+shivMethods	app/assets/javascripts/html5shiv.js	/^  function shivMethods(ownerDocument, data) {$/;"	f
 show	app/controllers/addresses_controller.rb	/^  def show$/;"	f	class:AddressesController
+show	app/controllers/api/v1/conversations_controller.rb	/^  def show$/;"	f	class:Api
+show	app/controllers/api/v1/messages_controller.rb	/^  def show$/;"	f	class:Api
+show	app/controllers/api/v1/users_controller.rb	/^  def show$/;"	f	class:Api
 show	app/controllers/customers_controller.rb	/^  def show$/;"	f	class:CustomersController
 show	app/controllers/orders_controller.rb	/^  def show$/;"	f	class:OrdersController
 show	app/controllers/solutionists_controller.rb	/^  def show$/;"	f	class:SolutionistsController
 show	app/controllers/stores_controller.rb	/^  def show$/;"	f	class:StoresController
 show	app/controllers/users_controller.rb	/^  def show$/;"	f	class:UsersController
 show	app/controllers/workers_controller.rb	/^  def show$/;"	f	class:WorkersController
-show_color	app/models/item.rb	/^  def show_color$/;"	f	class:Item
-show_discount	app/models/customer.rb	/^  def show_discount$/;"	f	class:Customer
 show_gender	app/models/user.rb	/^  def show_gender$/;"	f	class:User
-show_status	app/models/order.rb	/^  def show_status$/;"	f	class:Order
-show_status	app/models/order_status.rb	/^  def show_status$/;"	f	class:OrderStatus
-show_type	app/models/item.rb	/^  def show_type$/;"	f	class:Item
-size	app/assets/javascripts/lib/angularjs/angular.js	/^function size(obj, ownPropsOnly) {$/;"	f
-size	app/assets/javascripts/lib/underscore.js	/^    var size, result;$/;"	v
-size.includes	app/assets/javascripts/lib/angularjs/angular.js	/^function includes(array, obj) {$/;"	f
-size.indexOf	app/assets/javascripts/lib/angularjs/angular.js	/^function indexOf(array, obj) {$/;"	f
-sliceArgs	app/assets/javascripts/lib/angularjs/angular.js	/^function sliceArgs(args, startIndex) {$/;"	f
-snake_case	app/assets/javascripts/lib/angularjs/angular.js	/^function snake_case(name, separator) {$/;"	f
+size	app/assets/javascripts/underscore.js	/^    var size, result;$/;"	v
 solutionist_params	app/controllers/solutionists_controller.rb	/^    def solutionist_params$/;"	f	class:SolutionistsController
-sortedKeys	app/assets/javascripts/lib/angularjs/angular.js	/^function sortedKeys(obj) {$/;"	f
-split	app/assets/javascripts/lib/angularjs/angular-ui-router.js	/^    var split = reverseString(string).split(\/-(?!\\\\)\/);$/;"	v
-startingTag	app/assets/javascripts/lib/angularjs/angular.js	/^function startingTag(element) {$/;"	f
 store_params	app/controllers/stores_controller.rb	/^    def store_params$/;"	f	class:StoresController
-stripFile	app/assets/javascripts/lib/angularjs/angular.js	/^function stripFile(url) {$/;"	f
-stripHash	app/assets/javascripts/lib/angularjs/angular.js	/^function stripHash(url) {$/;"	f
-supportObject	app/assets/javascripts/lib/angularjs/angular.js	/^  function supportObject(delegate) {$/;"	f
-supportsHtml5Styles	app/assets/javascripts/lib/html5shiv.js	/^  var supportsHtml5Styles;$/;"	v
-supportsUnknownElements	app/assets/javascripts/lib/html5shiv.js	/^  var supportsUnknownElements;$/;"	v
-templates	lib/templates_paths.rb	/^  def templates$/;"	f	class:TemplatesPaths
-this.classNameFilter	app/assets/javascripts/lib/angularjs/angular.js	/^  this.classNameFilter = function(expression) {$/;"	m
-this.function.async	app/assets/javascripts/lib/angularjs/angular.js	/^    function async(fn) {$/;"	f
-this.nextUid	app/assets/javascripts/lib/angularjs/angular.js	/^    this.nextUid = function() {$/;"	m
-this.register	app/assets/javascripts/lib/angularjs/angular.js	/^  this.register = function(name, factory) {$/;"	m
-toBoolean	app/assets/javascripts/lib/angularjs/angular.js	/^function toBoolean(value) {$/;"	f
-toJson	app/assets/javascripts/lib/angularjs/angular.js	/^function toJson(obj, pretty) {$/;"	f
-toJsonReplacer	app/assets/javascripts/lib/angularjs/angular.js	/^function toJsonReplacer(key, value) {$/;"	f
-toKeyValue	app/assets/javascripts/lib/angularjs/angular.js	/^function toKeyValue(obj) {$/;"	f
-toggle	app/assets/javascripts/lib/radiocheck.js	/^  Radiocheck.prototype.toggle = function () {$/;"	m
-token	app/assets/javascripts/lib/angularjs/angular.js	/^    var token;$/;"	v
-tokenDifference	app/assets/javascripts/lib/angularjs/angular.js	/^function tokenDifference(str1, str2) {$/;"	f
-transformData	app/assets/javascripts/lib/angularjs/angular.js	/^function transformData(data, headers, fns) {$/;"	f
-tryDecodeURIComponent	app/assets/javascripts/lib/angularjs/angular.js	/^function tryDecodeURIComponent(value) {$/;"	f
-types	app/models/service.rb	/^  def self.types$/;"	F	class:Service
-uncheck	app/assets/javascripts/lib/radiocheck.js	/^  Radiocheck.prototype.uncheck = function () {$/;"	m
-unquoteDashes	app/assets/javascripts/lib/angularjs/angular-ui-router.js	/^    function unquoteDashes(str) { return str.replace(\/\\\\-\/, "-"); }$/;"	f
+stripFile	app/assets/javascripts/angular.js	/^function stripFile(url) {$/;"	f
+stripHash	app/assets/javascripts/angular.js	/^function stripHash(url) {$/;"	f
+submit_code	app/controllers/phones_controller.rb	/^  def submit_code$/;"	f	class:PhonesController
+supportObject	app/assets/javascripts/angular.js	/^  function supportObject(delegate) {$/;"	f
+supportsHtml5Styles	app/assets/javascripts/html5shiv.js	/^  var supportsHtml5Styles;$/;"	v
+supportsUnknownElements	app/assets/javascripts/html5shiv.js	/^  var supportsUnknownElements;$/;"	v
+this.classNameFilter	app/assets/javascripts/angular.js	/^  this.classNameFilter = function(expression) {$/;"	m
+this.function.async	app/assets/javascripts/angular.js	/^    function async(fn) {$/;"	f
+this.nextUid	app/assets/javascripts/angular.js	/^    this.nextUid = function() {$/;"	m
+this.register	app/assets/javascripts/angular.js	/^  this.register = function(name, factory) {$/;"	m
+token	app/assets/javascripts/angular.js	/^    var token;$/;"	v
+tokenDifference	app/assets/javascripts/angular.js	/^function tokenDifference(str1, str2) {$/;"	f
+transformData	app/assets/javascripts/angular.js	/^function transformData(data, headers, fns) {$/;"	f
 update	app/controllers/addresses_controller.rb	/^  def update$/;"	f	class:AddressesController
+update	app/controllers/api/v1/messages_controller.rb	/^  def update$/;"	f	class:Api
 update	app/controllers/customers_controller.rb	/^  def update$/;"	f	class:CustomersController
 update	app/controllers/orders_controller.rb	/^  def update$/;"	f	class:OrdersController
 update	app/controllers/solutionists_controller.rb	/^  def update$/;"	f	class:SolutionistsController
 update	app/controllers/stores_controller.rb	/^  def update$/;"	f	class:StoresController
+update	app/controllers/users_controller.rb	/^  def update$/;"	f	class:UsersController
 update	app/controllers/workers_controller.rb	/^  def update$/;"	f	class:WorkersController
-uppercase	app/assets/javascripts/lib/angularjs/angular.js	/^var uppercase = function(string){return isString(string) ? string.toUpperCase() : string;};$/;"	f
-urlChangeListeners	app/assets/javascripts/lib/angularjs/angular.js	/^  var urlChangeListeners = [],$/;"	v
-user_avatar	app/helpers/assets_helper.rb	/^  def user_avatar(user, options={})$/;"	f	class:AssetsHelper
-user_link	app/helpers/assets_helper.rb	/^  def user_link(user, options={})$/;"	f	class:AssetsHelper
-v	app/assets/javascripts/lib/angularjs/angular.js	/^      var v = fnPtr.apply$/;"	v
-value	app/assets/javascripts/lib/angularjs/angular.js	/^  function value(name, val) { return factory(name, valueFn(val)); }$/;"	f
-valueFn	app/assets/javascripts/lib/angularjs/angular.js	/^function valueFn(value) {return function() {return value;};}$/;"	f
-var.fnInvoke	app/assets/javascripts/lib/angularjs/angular.js	/^        var fnInvoke = function(self, locals, input) {$/;"	f
-var.newTemplateAttrs.$attr	app/assets/javascripts/lib/angularjs/angular.js	/^            var newTemplateAttrs = {$attr: {}};$/;"	p
-var.template	app/assets/javascripts/lib/underscore.js	/^    var template = function(data) {$/;"	f
-version.codeName	app/assets/javascripts/lib/angularjs/angular.js	/^  codeName: 'finnish-disembarkation'$/;"	p
-version.dot	app/assets/javascripts/lib/angularjs/angular.js	/^  dot: 28,$/;"	p
-version.full	app/assets/javascripts/lib/angularjs/angular.js	/^  full: '1.2.28',    \/\/ all of these placeholder strings will be replaced by grunt's$/;"	p
-version.major	app/assets/javascripts/lib/angularjs/angular.js	/^  major: 1,    \/\/ package task$/;"	p
-version.minor	app/assets/javascripts/lib/angularjs/angular.js	/^  minor: 2,$/;"	p
-warden	lib/api/v1/users.rb	/^    def warden; env['warden']; end$/;"	f	class:API
+update_password	app/controllers/users_controller.rb	/^  def update_password$/;"	f	class:UsersController
+urlChangeListeners	app/assets/javascripts/angular.js	/^  var urlChangeListeners = [],$/;"	v
+user_avatar	config/initializers/asset_tag_helper.rb	/^      def user_avatar(user, options={})$/;"	f	class:ActionView.Helpers.AssetTagHelper
+user_link	config/initializers/asset_tag_helper.rb	/^      def user_link(user, options={})$/;"	f	class:ActionView.Helpers.AssetTagHelper
+user_params	app/controllers/api/v1/users_controller.rb	/^    def user_params$/;"	f	class:Api
+user_params	app/controllers/registrations_controller.rb	/^  def user_params$/;"	f	class:RegistrationsController
+user_params	app/controllers/users_controller.rb	/^  def user_params$/;"	f	class:UsersController
+v	app/assets/javascripts/angular.js	/^      var v = fnPtr.apply$/;"	v
+validate!	app/models/phone_number.rb	/^  def validate!$/;"	f	class:PhoneNumber
+value	app/assets/javascripts/angular.js	/^  function value(name, val) { return factory(name, valueFn(val)); }$/;"	f
+var.fnInvoke	app/assets/javascripts/angular.js	/^        var fnInvoke = function(self, locals, input) {$/;"	f
+var.newTemplateAttrs.$attr	app/assets/javascripts/angular.js	/^            var newTemplateAttrs = {$attr: {}};$/;"	p
+var.template	app/assets/javascripts/underscore.js	/^    var template = function(data) {$/;"	f
+verify	app/controllers/phones_controller.rb	/^  def verify$/;"	f	class:PhonesController
 window.timeCounter	app/assets/javascripts/application.js	/^window.timeCounter = function($el, n, counterEnd) {$/;"	f
 worker_params	app/controllers/workers_controller.rb	/^    def worker_params$/;"	f	class:WorkersController
-wrapMap.option	app/assets/javascripts/lib/angularjs/angular.js	/^  'option': [1, '<select multiple="multiple">', '<\/select>'],$/;"	p
-xhr.onreadystatechange	app/assets/javascripts/lib/angularjs/angular.js	/^      xhr.onreadystatechange = function() {$/;"	f
+wrapMap.option	app/assets/javascripts/angular.js	/^  'option': [1, '<select multiple="multiple">', '<\/select>'],$/;"	p
+xhr.onreadystatechange	app/assets/javascripts/angular.js	/^      xhr.onreadystatechange = function() {$/;"	f

@@ -18,6 +18,7 @@ class Api::V1::UsersController < Api::V1::BaseController
   end
 
   def create
+    response.headers['X-CSRF-Token'] = form_authenticity_token
     @user = User.create!(user_params)
     respond_with @user, location: nil
   end

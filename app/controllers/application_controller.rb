@@ -4,7 +4,8 @@ class ApplicationController < ActionController::Base
   respond_to :json, :html, :js
 
   # protect_from_forgery with: :exception
-  protect_from_forgery unless: -> { request.format.json? }
+  # protect_from_forgery unless: -> { request.format.json? }
+  protect_from_forgery with: :null_session, if: Proc.new { |c| c.request.format == 'application/json' }
 
   before_action :authenticate_user!
 
