@@ -20,8 +20,12 @@ class Api::V1::UsersController < Api::V1::BaseController
 
   def create
     response.headers['X-CSRF-Token'] = form_authenticity_token
-    @user = User.create!(user_params.merge(email: "#{user_params[:phone]}@jinguwen.com"))
-    respond_with @user, location: nil
+    if User.where(phone: user_params[:phone]).exists?
+      render :json => "user with phone #{user_params[:phone]} already exists"
+    else
+      @user = User.create!(user_params.merge(email: "#{user_params[:phone]}@jinguwen.com"))
+      respond_with @user, location: nil
+    end
   end
 
   private
