@@ -10,7 +10,9 @@ html  ng-app='baozheng'
     .body-container
       - unless flash.blank?
         div class="alert alert-success text-center" style='margin-top: -78px'
-          button class="close fui-cross" data-dismiss="alert"
+          /button class="close fui-cross" data-dismiss="alert"
+          button class="close" data-dismiss="alert"
+            | x
           strong
             - flash.each do |k, msg|
               = msg
