@@ -9,7 +9,7 @@ html
   body
     .nav.navbar.navbar-fixed-top.navbar-default.navbar-lg.top-nav-bar.large role="navigation"
       .navbar-header
-        = link_to image_tag('logo-h.png', size: '190x55'), root_path, class: 'navbar-brand'
+        = link_to image_tag('logo-h.jpg', size: '190x55'), root_path, class: 'navbar-brand'
       #navbar-collapse-01.collapse.navbar-collapse
         ul.nav.navbar-nav.cl-effect-17
           - if current_user.try(:admin?)
@@ -19,7 +19,6 @@ html
           .dropdown.pull-right.navbar-dropdown
             .navbar-avatar.btn.btn-warning
               = user_link(current_user, size: '50x50')
-              /= link_to image_tag(current_user.avatar.url(:thumb), size: '50x50'), user_path(current_user)
               strong.mlx= current_user.name
 
             ul.dropdown-menu#dropdown-menu[role="menu"]
@@ -46,7 +45,7 @@ html
     - unless flash.blank?
       div class="alert alert-success text-center"
         button class="close fui-cross" data-dismiss="alert"
-        h6
+        strong
           - flash.each do |k, msg|
             = msg
         

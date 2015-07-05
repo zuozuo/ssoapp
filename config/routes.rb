@@ -46,6 +46,7 @@ Rails.application.routes.draw do
     get :search, on: :collection
     get :edit_password, on: :collection
     put :update_password
+    put :forbidden
   end
 
   root 'users#index'

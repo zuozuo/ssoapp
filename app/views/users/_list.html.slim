@@ -13,6 +13,8 @@
           | 电话
         th
           | 邮箱
+        th
+          | 禁止登陆
     tbody
       - @users.each_with_index do |user, i|
         tr class="#{%w(success danger warning info)[i%4]}"
@@ -20,4 +22,8 @@
           td= user.name
           td= user.phone
           td= user.email
+          - if user.forbidden
+            td= link_to "取消", user_forbidden_path(user, forbidden: false), method: :put
+          - else
+            td= link_to "禁止", user_forbidden_path(user, forbidden: true), method: :put
   = will_paginate(@users)

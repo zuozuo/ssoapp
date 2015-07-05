@@ -2,6 +2,7 @@ class Api::V1::UsersController < Api::V1::BaseController
 
   skip_before_action :authenticate_user!
   before_action :doorkeeper_authorize!
+  before_action :reject_forbidden_user
   
   respond_to :json
 
@@ -24,6 +25,12 @@ class Api::V1::UsersController < Api::V1::BaseController
   end
 
   private
+
+    def reject_forbidden_user
+      if current_user.try(:forbidden)
+        render :json => "user account forbidden", status: 401
+      end
+    end 
 
     def user_params
       params.require(:user).permit(:name, :phone, :email, :password, :password_confirmation)

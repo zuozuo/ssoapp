@@ -11,6 +11,12 @@ class UsersController < ApplicationController
   def edit
   end
 
+  def forbidden
+    @user = User.find(params[:user_id])
+    @user.update_attributes!(forbidden: params[:forbidden])
+    redirect_to :back, notice: "更新成功!"
+  end
+
   def update_password
     @user = User.find(params[:user_id])
     @user.update_attributes(user_params)
@@ -54,7 +60,7 @@ class UsersController < ApplicationController
   end
 
   def user_params
-    params.require(:user).permit(:phone, :password, :password_confirmation, :name, :avatar)
+    params.require(:user).permit(:phone, :password, :password_confirmation, :name, :avatar, :forbidden)
   end
 
 end
