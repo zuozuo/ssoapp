@@ -18,6 +18,13 @@ class Api::V1::UsersController < Api::V1::BaseController
     respond_with @users = User.all
   end
 
+  # PUT    /users/:id(.:format)                         users#update
+  def update
+    @user = User.find(params[:id])
+    @user.update_attributes!(user_params)
+    render :json => @user
+  end
+
   def create
     response.headers['X-CSRF-Token'] = form_authenticity_token
     if User.where(phone: user_params[:phone]).exists?
