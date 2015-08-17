@@ -8,6 +8,8 @@
         th
           | 注册时间
         th
+          | 来源 
+        th
           | Id
         th
           | 姓名
@@ -21,6 +23,7 @@
       - @users.each_with_index do |user, i|
         tr class="#{%w(success danger warning info)[i%4]}"
           td= user.created_at.strftime("%Y-%m-%d %H:%M")
+          td= user.show_source
           td= user.id
           td= user.name
           td= user.phone

@@ -15,4 +15,8 @@ class User < ActiveRecord::Base
     gender ? "男" : "女"
   end
 
+  def show_source
+    source.zero? ? "Web" : "App"
+  end
+
 end

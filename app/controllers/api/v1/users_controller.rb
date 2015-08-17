@@ -30,7 +30,12 @@ class Api::V1::UsersController < Api::V1::BaseController
     if User.where(phone: user_params[:phone]).exists?
       render :json => "user with phone #{user_params[:phone]} already exists"
     else
-      @user = User.create!(user_params.merge(email: "#{user_params[:phone]}@jinguwen.com"))
+      @user = User.create!(
+        user_params.merge(
+          source: 1,
+          email: "#{user_params[:phone]}@jinguwen.com"
+        )
+      )
       respond_with @user, location: nil
     end
   end
@@ -44,6 +49,6 @@ class Api::V1::UsersController < Api::V1::BaseController
     end 
 
     def user_params
-      params.require(:user).permit(:name, :phone, :email, :password, :password_confirmation)
+      params.require(:user).permit(:name, :phone, :email, :password, :password_confirmation, :source)
     end
 end

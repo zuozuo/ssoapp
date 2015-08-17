@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150705170113) do
+ActiveRecord::Schema.define(version: 20150817030357) do
 
   create_table "addresses", force: :cascade do |t|
     t.integer  "addressable_id",   limit: 4
@@ -246,6 +246,7 @@ ActiveRecord::Schema.define(version: 20150705170113) do
     t.integer  "raw_balance",            limit: 4,   default: 0
     t.float    "discount",               limit: 24,  default: 1.0
     t.boolean  "forbidden",              limit: 1,   default: false
+    t.integer  "source",                 limit: 4,   default: 0
   end
 
   add_index "users", ["deleted_at"], name: "index_users_on_deleted_at", using: :btree
