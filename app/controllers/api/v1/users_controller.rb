@@ -32,7 +32,7 @@ class Api::V1::UsersController < Api::V1::BaseController
     else
       @user = User.create!(
         user_params.merge(
-          source: 1,
+          source: user_source,
           email: "#{user_params[:phone]}@jinguwen.com"
         )
       )
